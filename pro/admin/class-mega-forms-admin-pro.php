@@ -94,6 +94,7 @@ class Mega_Forms_Admin_Pro
 			'title' => __('Integrations', 'megaforms'),
 			'children'   => array(
 				'recaptcha' => __('reCAPTCHA v2', 'megaforms'),
+				'mobicaptcha' => __('MobiCMS Captcha', 'megaforms'),
 			),
 		);
 
@@ -144,6 +145,18 @@ class Mega_Forms_Admin_Pro
 				'value' => mfget_option('recaptcha_secret_key'),
 				'sanitization' => 'string',
 			),
+		);
+
+		// Create a new tab for mobiCMS Captcha options
+		$options['mobicaptcha'] = array(
+			'mobicaptcha_status' => array(
+				'priority' => 10,
+				'type' => 'switch',
+				'label' => __('Enable MobiCMS Captcha', 'megaforms'),
+				'desc' => __('Switch this on to enable locally generated MobiCMS captchas on all forms.', 'megaforms'),
+				'value' => mfget_option('mobicaptcha_status', false),
+				'sanitization' => 'boolean',
+			)
 		);
 
 		return $options;

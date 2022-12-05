@@ -89,6 +89,22 @@ class Mega_Forms_Common_Pro
 			$site_key = mfget_option('recaptcha_site_key', '');
 			echo '<div class="g-recaptcha" data-sitekey="' . esc_attr($site_key) . '"></div>';
 		}
+
+		// If MobiCMS Captcha is enabled, load it
+		if (mfget_option('mobicaptcha_status', false)) {
+			$code = (string) new Mobicms\Captcha\Code;
+			mf_session()->set('_mf_captcha_code', $code);
+
+			echo
+			'<div class="mf_input_captcha_wrapper">
+				<span class="mf_label">'.__('Verification code', 'megaforms').'</span>
+				<span class="mf_required">*</span>
+				<div class="mf_input_captcha">
+					<img alt="'.__('Verification code', 'megaforms').'" src="'.new Mobicms\Captcha\Image($code).'">
+					<input type="text" placeholder="ABCD" name="_mf_captcha_code">
+				</div>
+			</div>';
+		}
 	}
 	/**
 	 * Display the markup for save and continue button if enabled.
@@ -175,6 +191,22 @@ class Mega_Forms_Common_Pro
 				}
 			}
 		}
+
+		// If MobiCMS captcha is enabled, validate it
+		if (mfget_option('mobicaptcha_status', false)) {
+			$result = mfpost('_mf_captcha_code', $object->posted, '');
+			$session = mf_session()->get('_mf_captcha_code');
+			
+			if ($result !== null && $session !== null) {
+				if (strtolower($result) == strtolower($session)) {
+					// CAPTCHA code is correct
+				} else {
+					// CAPTCHA code is incorrect, show an error to the user
+					throw new Exception(__('Submission failed, you didn\'t complete the captcha challenge successfully.', 'megaforms'));
+				}
+			}
+		}
+
 	}
 	/**
 	 * Validate custom form submission ( validate page/save ).

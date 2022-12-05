@@ -50,6 +50,7 @@ class Mega_Forms_Common
 		require_once MEGAFORMS_COMMON_PATH . 'partials/class-mega-forms-api.php'; # Database requests and helpers
 		require_once MEGAFORMS_COMMON_PATH . 'partials/class-mega-forms-files-api.php'; # Files API
 		require_once MEGAFORMS_COMMON_PATH . 'partials/libraries/emogrifier/vendor/autoload.php'; # Emogrifier library for preparing e-mails
+		require_once MEGAFORMS_COMMON_PATH . 'partials/libraries/mobicms-captcha/vendor/autoload.php'; # MobiCMS library for captcha generation
 		require_once MEGAFORMS_COMMON_PATH . 'partials/class-mega-forms-mailer.php'; # Megaforms mailer
 		require_once MEGAFORMS_COMMON_PATH . 'partials/class-mega-forms-tags.php'; # Handling merge tags
 		require_once MEGAFORMS_COMMON_PATH . 'partials/class-mega-forms-tasks.php'; # Background processing
