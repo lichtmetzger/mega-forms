@@ -4,7 +4,7 @@ Donate link: https://alikhallad.com/donations/donation-form/
 Tags: drag and drop form builder, contact forms, form builder, form maker, contact form, forms, custom form, contact form plugin, wordpress form plugin, drag and drop form builder, message form, multi-step form, file upload forms
 Requires at least: 5.6
 Tested up to: 6.1
-Stable tag: 1.2.8
+Stable tag: 1.2.9
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -77,7 +77,7 @@ Yes, Mega Forms is completely responsive and will display forms properly on all 
 
 = Does It Include Spam Protection =
 
-Yes, we are using a combination of Honeypot & Timetrap to make great spambot-proof forms. We have implemented these thwarting techniques in a way that makes them very effective in detecting and blocking spam submissions without annoying the real users.
+Yes, we are using a combination of Honeypot & Timetrap to make great spambot-proof forms. We have implemented these thwarting techniques in a way that makes them very effective in detecting and blocking spam submissions without annoying the real users. On top of this, we've added an integration with Google reCaptcha in additional to internal spam filters for more security.
 
 = Can I Export & Import Forms =
 
@@ -109,7 +109,6 @@ Mega Forms comes with all the fields you need:
 
 Here is a list of the field types in progress:
 
-- Google ReCaptacha
 - Calculated Field
 - Star Rating
 - Rangle Slider
@@ -280,3 +279,7 @@ We don't promise all of this will be available soon, but we promise we'll do our
 = 1.2.8 =
 - Include field type in the submission values array during entry creation ( Help identify field types when extending the plugin )
 - Allow HTML in the email message field.
+= 1.2.9 =
+- Added "Google reCaptcha" feature for spam prevention.
+- Fixes to the spam feature on entries list
+- More spam filters for the "Paragraph" and "Name" fields

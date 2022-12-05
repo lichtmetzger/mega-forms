@@ -5,7 +5,7 @@
  * Plugin Name:       Mega Forms
  * Plugin URI:        http://wpmegaforms.com/
  * Description:       Megaforms is an easy to use, feature rich, drag and drop form builder for WordPress.
- * Version:           1.2.8
+ * Version:           1.2.9
  * Author:            Ali Khallad
  * Author URI:        https://alikhallad.com
  * License:           GPL-2.0+
@@ -20,7 +20,7 @@ if (!defined('WPINC')) {
 	die;
 }
 
-define('MEGAFORMS', '1.2.8');
+define('MEGAFORMS', '1.2.9');
 define('MEGAFORMS_DIR_URL', plugin_dir_url(__FILE__));
 define('MEGAFORMS_DIR_PATH', plugin_dir_path(__FILE__));
 define('MEGAFORMS_INC_PATH', plugin_dir_path(__FILE__) . 'includes/');

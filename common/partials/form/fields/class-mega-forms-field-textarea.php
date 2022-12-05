@@ -182,9 +182,10 @@ class MegaForms_textarea extends MF_Field
 		$value = (function_exists('iconv') ? iconv('utf-8', 'utf-8//TRANSLIT', $value) : $value);
 		$patterns = array(
 			'gay|sexy|porn',
-			'click here|buy here|buy now|make dollars|earn ([\S]+) money|earn money online|purchase amazing|buy amazing|luxurybrandsale',
+			'50% off|money back guarantee|get it now|click here|buy here|buy now|make dollars|earn ([\S]+) money|earn money online|purchase amazing|buy amazing|luxurybrandsale',
 			'target[t]?ed (visitors|traffic)|viagra|cialis|increas(e|ing) your (sales|leads|conversion)',
 			'forex (course|trading)|financial robot',
+			'fiverr\.com|clickbank\.(net|com)',
 			'\b[a-z]{30}\b',
 		);
 		if (!empty($value)) {

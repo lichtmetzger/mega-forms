@@ -26,13 +26,7 @@ class MegaForms_Settings
       'general'       => __('General', 'megaforms'),
       'email'         => __('Emails', 'megaforms'),
       'validation'    => __('Validation Messages', 'megaforms'),
-      'misc'          => __('Misc', 'megaforms'),
-      // 'integrations'  => array(
-      //   'title' => __('Integrations', 'megaforms'),
-      //   'children'   => array(
-      //     'recaptcha' => __('reCAPTCHA', 'megaforms'),
-      //   ),
-      // )
+      'misc'          => __('Misc', 'megaforms')
     ));
   }
   /**

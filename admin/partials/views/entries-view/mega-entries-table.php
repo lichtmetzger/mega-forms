@@ -189,7 +189,10 @@ class Mega_Entries_Table extends Mega_Forms_List_Table
 
 		$where_arr   = array();
 		$where_arr[] = $wpdb->prepare('is_trash=%d', $trash);
-		$where_arr[] = $wpdb->prepare('is_spam=%d', $spam);
+
+		if (!$trash) {
+			$where_arr[] = $wpdb->prepare('is_spam=%d', $spam);
+		}
 
 		if ($unread) {
 			$is_read = 0;
@@ -232,10 +235,10 @@ class Mega_Entries_Table extends Mega_Forms_List_Table
 		$form_id = $this->get_form_id();
 
 		$select_arr   = array();
-		$select_arr[] = $wpdb->prepare("(SELECT count(0) FROM $entries_table_name WHERE is_trash = 0 AND form_id = %d ) as total", $form_id);
-		$select_arr[] = $wpdb->prepare("(SELECT count(0) FROM $entries_table_name WHERE is_read = 0 AND is_trash = 0 AND form_id = %d ) as unread", $form_id);
-		$select_arr[] = $wpdb->prepare("(SELECT count(0) FROM $entries_table_name WHERE is_starred = 1 AND is_trash = 0 AND form_id = %d ) as starred", $form_id);
-		$select_arr[] = $wpdb->prepare("(SELECT count(0) FROM $entries_table_name WHERE is_spam = 1 AND form_id = %d ) as spam", $form_id);
+		$select_arr[] = $wpdb->prepare("(SELECT count(0) FROM $entries_table_name WHERE is_spam = 0 AND is_trash = 0 AND form_id = %d ) as total", $form_id);
+		$select_arr[] = $wpdb->prepare("(SELECT count(0) FROM $entries_table_name WHERE is_read = 0 AND is_spam = 0 AND is_trash = 0 AND form_id = %d ) as unread", $form_id);
+		$select_arr[] = $wpdb->prepare("(SELECT count(0) FROM $entries_table_name WHERE is_starred = 1 AND is_spam = 0 AND is_trash = 0 AND form_id = %d ) as starred", $form_id);
+		$select_arr[] = $wpdb->prepare("(SELECT count(0) FROM $entries_table_name WHERE is_spam = 1 AND is_trash = 0 AND form_id = %d ) as spam", $form_id);
 		$select_arr[] = $wpdb->prepare("(SELECT count(0) FROM $entries_table_name WHERE is_trash = 1 AND form_id = %d ) as trash", $form_id);
 
 		$sub_select_clause = join(', ', $select_arr);

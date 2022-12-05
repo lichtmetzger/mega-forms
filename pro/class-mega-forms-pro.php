@@ -74,6 +74,9 @@ class Mega_Forms_Pro
 		# Add save and continue button before the submit button if enabled
 		$this->loader->add_action('mf_footer_submit_before', $pro_common, 'save_and_continue_button');
 
+		# Validate submissions
+		$this->loader->add_action('mf_submission_validation', $pro_common, 'validate_submission');
+
 		# Validate page submissions
 		$this->loader->add_action('mf_custom_submission_validation', $pro_common, 'validate_custom_submission');
 
@@ -101,6 +104,8 @@ class Mega_Forms_Pro
 			$this->loader->add_action('admin_enqueue_scripts', $pro_admin, 'enqueue_styles');
 			$this->loader->add_action('admin_enqueue_scripts', $pro_admin, 'enqueue_scripts');
 
+			# global forms settings tabs
+			$this->loader->add_filter('mf_option_tabs', $pro_admin, 'forms_settings_tabs', 10, 1);
 			# global forms settings
 			$this->loader->add_filter('mf_settings_options', $pro_admin, 'forms_settings', 10, 1);
 			# Single form settings

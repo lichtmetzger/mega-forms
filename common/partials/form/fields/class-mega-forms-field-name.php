@@ -290,7 +290,7 @@ class MegaForms_Name extends MF_Field
         if (empty($name_part)) {
           continue;
         }
-        if (preg_match('/Henrynal|Crytonal|eric jones|moncler|north face|vuitton|handbag|burberry|outlet|prada|cialis|viagra|maillot|oakley|ralph lauren|ray ban|iphone|プラダ/isu', $name_part)) {
+        if (preg_match('/henrynal|crytonal|crytofom|eric jones|moncler|north face|vuitton|handbag|burberry|outlet|prada|cialis|viagra|maillot|oakley|ralph lauren|ray ban|iphone|プラダ/isu', $name_part)) {
           return true;
         }
       }

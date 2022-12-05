@@ -84,6 +84,19 @@ class Mega_Forms_Public_Pro
 		 * @see Gruntfile.js for more details
 		 */
 		wp_register_script('mf-public-pro', MEGAFORMS_DIR_URL . 'assets/pro/frontend/js/scripts.min.js', array(), $this->version, false);
+
+
+		// If reCaptcha is enabled, load recaptcha api script
+		if (mfget_option('recaptcha_status', false)) {
+			wp_print_script_tag(
+				array(
+					'id' => 'mf-recaptcha',
+					'src' => esc_url('https://www.google.com/recaptcha/api.js'),
+					'async' => true,
+					'defer' => true
+				)
+			);
+		}
 	}
 
 	/**

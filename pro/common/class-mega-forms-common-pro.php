@@ -83,6 +83,12 @@ class Mega_Forms_Common_Pro
 		if (isset($_GET['mf_token']) && hash_equals(wp_hash($form->ID), mfget('mf_hash'))) {
 			echo '<input type="hidden" name="_mf_resume_token" value="' . esc_attr(mfget('mf_token')) . '">';
 		}
+
+		// If reCaptcha is enabled, load it
+		if (mfget_option('recaptcha_status', false)) {
+			$site_key = mfget_option('recaptcha_site_key', '');
+			echo '<div class="g-recaptcha" data-sitekey="' . esc_attr($site_key) . '"></div>';
+		}
 	}
 	/**
 	 * Display the markup for save and continue button if enabled.
@@ -113,6 +119,63 @@ class Mega_Forms_Common_Pro
 		mf_files()->clean_temp_files();
 	}
 
+	/**
+	 * Validate form submission.
+	 *
+	 * @since    1.0.7
+	 */
+	public function validate_submission($object)
+	{
+		// If reCaptcha is enabled, validate it
+		if (mfget_option('recaptcha_status', false)) {
+			$secret_key = mfget_option('recaptcha_secret_key', '');
+			$reCaptcha_response = mfpost('g-recaptcha-response', $object->posted, '');
+
+			if (empty($reCaptcha_response)) {
+				throw new Exception(__('Submission failed, please complete verification challenge to continue.', 'megaforms'));
+			} else {
+				$response = wp_remote_post('https://www.google.com/recaptcha/api/siteverify', array(
+					'body'    => array(
+						'secret' => $secret_key,
+						'response' => $reCaptcha_response,
+						'remoteip' => $_SERVER['REMOTE_ADDR'],
+					)
+				));
+
+				if (is_array($response) && !is_wp_error($response)) {
+					$response_body = (array)json_decode(wp_remote_retrieve_body($response));
+					if (!$response_body['success']) {
+						$error = __('Submission failed, you didn\'t complete the captcha challenge successfully.', 'megaforms');
+						if (!empty($response_body['error-codes'])) {
+							switch ($response_body['error-codes'][0]) {
+								case 'missing-input-secret':
+									$error = __('Submission failed, the reCaptcha secret key is missing.', 'megaforms');
+									break;
+								case 'invalid-input-secret':
+									$error = __('Submission failed, the provided reCaptcha secret key is invalid or malformed.', 'megaforms');
+									break;
+								case 'missing-input-response':
+									$error = __('Submission failed, the reCaptcha response is missing.', 'megaforms');
+									break;
+								case 'invalid-input-response	':
+									$error = __('Submission failed, the reCaptcha response is invalid or malformed.', 'megaforms');
+									break;
+								case 'bad-request':
+									$error = __('Submission failed, the captcha challenge evaluation failed, please refresh and try again.', 'megaforms');
+									break;
+								case 'timeout-or-duplicate':
+									$error = __('Submission failed, the captcha challenge timed out.', 'megaforms');
+									break;
+							}
+						}
+						throw new Exception($error);
+					}
+				} else {
+					throw new Exception(__('Submission failed, could not validate the captcha challenge, please refresh and try again.', 'megaforms'));
+				}
+			}
+		}
+	}
 	/**
 	 * Validate custom form submission ( validate page/save ).
 	 *

@@ -77,10 +77,27 @@ class Mega_Forms_Admin_Pro
 			 * 
 			 * @see Gruntfile.js for more details
 			 */
-			
+
 			wp_register_script('mega-forms-admin-pro', MEGAFORMS_DIR_URL . 'assets/pro/admin/js/scripts.min.js', array(), $this->version, false);
 			wp_enqueue_script('mega-forms-admin-pro');
 		}
+	}
+	/**
+	 * Add any extra options to the plugin settings page.
+	 *
+	 * @since    1.0.6
+	 */
+	public function forms_settings_tabs($tabs)
+	{
+
+		$tabs['integrations'] = array(
+			'title' => __('Integrations', 'megaforms'),
+			'children'   => array(
+				'recaptcha' => __('reCAPTCHA v2', 'megaforms'),
+			),
+		);
+
+		return $tabs;
 	}
 	/**
 	 * Add any extra options to the plugin settings page.
@@ -91,6 +108,7 @@ class Mega_Forms_Admin_Pro
 	{
 
 		if (isset($options['general'])) {
+			// Add option to enable AJAX in the `general` tab
 			$options['general']['enable_ajax'] = array(
 				'priority' => 30,
 				'type' => 'switch',
@@ -100,6 +118,33 @@ class Mega_Forms_Admin_Pro
 				'sanitization' => 'boolean',
 			);
 		}
+		// Create a new tab for reCaptcha options
+		$options['recaptcha'] = array(
+			'recaptcha_status' => array(
+				'priority' => 10,
+				'type' => 'switch',
+				'label' => __('Enable reCaptcha v2', 'megaforms'),
+				'desc' => __('Switch this on to enable Google reCaptcha v2 on all froms.', 'megaforms'),
+				'value' => mfget_option('recaptcha_status', false),
+				'sanitization' => 'boolean',
+			),
+			'recaptcha_site_key' => array(
+				'priority' => 20,
+				'type' => 'text',
+				'label' => __('Site Key', 'megaforms'),
+				'desc' => sprintf(__('The site key used in the HTML code that the plugin serves to users. Create your key from <a href="%s" target="_blank">Google reCAPTCHA Admin</a>', 'megaforms'), 'https://www.google.com/recaptcha/admin'),
+				'value' => mfget_option('recaptcha_site_key'),
+				'sanitization' => 'string',
+			),
+			'recaptcha_secret_key' => array(
+				'priority' => 30,
+				'type' => 'text',
+				'label' => __('Secret Key', 'megaforms'),
+				'desc' => sprintf(__('The secret key used for communication between your site and reCAPTCHA. Create your key from <a href="%s" target="_blank">Google reCAPTCHA Admin</a>', 'megaforms'), 'https://www.google.com/recaptcha/admin'),
+				'value' => mfget_option('recaptcha_secret_key'),
+				'sanitization' => 'string',
+			),
+		);
 
 		return $options;
 	}

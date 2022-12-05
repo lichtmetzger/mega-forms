@@ -620,6 +620,11 @@ if (!function_exists('mfsettings')) :
               if (isset($args['placeholder'])) $attrs['placeholder'] = $args['placeholder'];
               if (isset($args['value']) && ($args['type'] !== 'radio' && $args['type'] !== 'checkbox')) $attrs['value'] = esc_attr($args['value']);
 
+              if ($args['type'] == 'hidden') {
+                echo get_mf_input($args['type'], $attrs);
+                continue;
+              }
+
               if (isset($args['parent'])) {
 
                 $attrs['data-conditional-rules'] = json_encode(array(
@@ -642,7 +647,8 @@ if (!function_exists('mfsettings')) :
                     }
                       ?>
                       <tr>
-                        <th><label for='<?php echo $name ?>'></label><?php echo $args['label'] ?>
+                        <th>
+                          <label for='<?php echo $name ?>'></label><?php echo $args['label'] ?? '' ?>
                           <?php
                           if (isset($args['desc'])) {
                             echo get_mfsettings_tooltip($args['label'], $args['desc']);

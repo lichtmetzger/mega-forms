@@ -2,9 +2,9 @@
 # This file is distributed under the GPL-2.0+.
 msgid ""
 msgstr ""
-"Project-Id-Version: Mega Forms 1.2.8\n"
+"Project-Id-Version: Mega Forms 1.2.9\n"
 "Report-Msgid-Bugs-To: https://wpmegaforms.com/support/\n"
-"POT-Creation-Date: 2022-11-13 16:19:54+00:00\n"
+"POT-Creation-Date: 2022-12-02 16:11:20+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -94,7 +94,7 @@ msgid "Do you really want to delete this container?"
 msgstr ""
 
 #: admin/class-mega-forms-admin.php:155
-#: admin/partials/views/entries-view/mega-entries-table.php:353
+#: admin/partials/views/entries-view/mega-entries-table.php:356
 #: admin/partials/views/forms-view/mega-forms-table.php:236
 #: admin/partials/views/single-entry-view/mega-entry-render.php:297
 #: common/partials/form/containers/class-mega-forms-container.php:321
@@ -369,183 +369,183 @@ msgstr ""
 msgid "Date Submitted"
 msgstr ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:289
+#: admin/partials/views/entries-view/mega-entries-table.php:292
 msgid "Select entry"
 msgstr ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:332
+#: admin/partials/views/entries-view/mega-entries-table.php:335
 msgid "other field(s)"
 msgstr ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:352
-#: admin/partials/views/entries-view/mega-entries-table.php:378
+#: admin/partials/views/entries-view/mega-entries-table.php:355
+#: admin/partials/views/entries-view/mega-entries-table.php:381
 #: admin/partials/views/forms-view/mega-forms-table.php:205
 #: admin/partials/views/forms-view/mega-forms-table.php:235
 msgid "Restore"
 msgstr ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:361
+#: admin/partials/views/entries-view/mega-entries-table.php:364
 msgid "View"
 msgstr ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:362
+#: admin/partials/views/entries-view/mega-entries-table.php:365
 msgid "Mark as Read"
 msgstr ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:363
+#: admin/partials/views/entries-view/mega-entries-table.php:366
 msgid "Mark as Unread"
 msgstr ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:364
+#: admin/partials/views/entries-view/mega-entries-table.php:367
 #: admin/partials/views/forms-view/mega-forms-table.php:248
 msgid "Trash"
 msgstr ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:379
+#: admin/partials/views/entries-view/mega-entries-table.php:382
 #: admin/partials/views/forms-view/mega-forms-table.php:206
 msgid "Delete permanently"
 msgstr ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:383
-#: admin/partials/views/entries-view/mega-entries-table.php:390
-#: admin/partials/views/entries-view/mega-entries-table.php:402
+#: admin/partials/views/entries-view/mega-entries-table.php:386
+#: admin/partials/views/entries-view/mega-entries-table.php:393
+#: admin/partials/views/entries-view/mega-entries-table.php:405
 msgid "Mark as read"
 msgstr ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:384
-#: admin/partials/views/entries-view/mega-entries-table.php:405
+#: admin/partials/views/entries-view/mega-entries-table.php:387
+#: admin/partials/views/entries-view/mega-entries-table.php:408
 msgid "Add star"
 msgstr ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:385
-#: admin/partials/views/entries-view/mega-entries-table.php:392
-#: admin/partials/views/entries-view/mega-entries-table.php:406
+#: admin/partials/views/entries-view/mega-entries-table.php:388
+#: admin/partials/views/entries-view/mega-entries-table.php:395
+#: admin/partials/views/entries-view/mega-entries-table.php:409
 msgid "Remove star"
 msgstr ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:386
-#: admin/partials/views/entries-view/mega-entries-table.php:393
-#: admin/partials/views/entries-view/mega-entries-table.php:398
-#: admin/partials/views/entries-view/mega-entries-table.php:407
+#: admin/partials/views/entries-view/mega-entries-table.php:389
+#: admin/partials/views/entries-view/mega-entries-table.php:396
+#: admin/partials/views/entries-view/mega-entries-table.php:401
+#: admin/partials/views/entries-view/mega-entries-table.php:410
 #: admin/partials/views/forms-view/mega-forms-table.php:213
 msgid "Move to trash"
 msgstr ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:391
-#: admin/partials/views/entries-view/mega-entries-table.php:403
+#: admin/partials/views/entries-view/mega-entries-table.php:394
+#: admin/partials/views/entries-view/mega-entries-table.php:406
 msgid "Mark as unread"
 msgstr ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:397
+#: admin/partials/views/entries-view/mega-entries-table.php:400
 msgid "Mark as not spam"
 msgstr ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:404
+#: admin/partials/views/entries-view/mega-entries-table.php:407
 msgid "Mark as spam"
 msgstr ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:428
+#: admin/partials/views/entries-view/mega-entries-table.php:431
 msgid "Entry marked as read."
 msgstr ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:432
+#: admin/partials/views/entries-view/mega-entries-table.php:435
 msgid "Entry marked as unread."
 msgstr ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:436
+#: admin/partials/views/entries-view/mega-entries-table.php:439
 msgid "Entry successfully restored."
 msgstr ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:441
+#: admin/partials/views/entries-view/mega-entries-table.php:444
 msgid "Entry successfully deleted."
 msgstr ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:445
-#: admin/partials/views/entries-view/mega-entries-table.php:524
+#: admin/partials/views/entries-view/mega-entries-table.php:448
+#: admin/partials/views/entries-view/mega-entries-table.php:527
 msgid "Entry moved to the trash successfully."
 msgstr ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:459
+#: admin/partials/views/entries-view/mega-entries-table.php:462
 #. translators: number of entries moved to trash.
 msgid "%s entry moved to the trash successfully."
 msgid_plural "%s entries moved to the trash successfully."
 msgstr[0] ""
 msgstr[1] ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:466
+#: admin/partials/views/entries-view/mega-entries-table.php:469
 #. translators: number of entries restored.
 msgid "%s entry successfully restored."
 msgid_plural "%s entries successfully restored."
 msgstr[0] ""
 msgstr[1] ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:474
+#: admin/partials/views/entries-view/mega-entries-table.php:477
 #. translators: number of entries deleted.
 msgid "%s entry successfully deleted."
 msgid_plural "%s entries successfully deleted."
 msgstr[0] ""
 msgstr[1] ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:481
+#: admin/partials/views/entries-view/mega-entries-table.php:484
 #. translators: number of entries marked as read.
 msgid "%s entry has been marked as read."
 msgid_plural "%s entries have been marked as read."
 msgstr[0] ""
 msgstr[1] ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:488
+#: admin/partials/views/entries-view/mega-entries-table.php:491
 #. translators: number of entries marked as unread.
 msgid "%s entry has been marked as unread."
 msgid_plural "%s entries have been marked as unread."
 msgstr[0] ""
 msgstr[1] ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:495
+#: admin/partials/views/entries-view/mega-entries-table.php:498
 #. translators: number of entries starred.
 msgid "Star has been added to %s entry."
 msgid_plural "Star has been added to %s entries."
 msgstr[0] ""
 msgstr[1] ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:502
+#: admin/partials/views/entries-view/mega-entries-table.php:505
 #. translators: number of entries unstarred.
 msgid "Star has been removed from %s entry."
 msgid_plural "Star has been removed from %s entries."
 msgstr[0] ""
 msgstr[1] ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:509
+#: admin/partials/views/entries-view/mega-entries-table.php:512
 #. translators: number of entries marked as spam.
 msgid "%s entry marked as spam."
 msgid_plural "%s entries marked as spam."
 msgstr[0] ""
 msgstr[1] ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:516
+#: admin/partials/views/entries-view/mega-entries-table.php:519
 #. translators: number of entries marked as not spam.
 msgid "%s entry marked as not spam."
 msgid_plural "%s entries marked as not spam."
 msgstr[0] ""
 msgstr[1] ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:610
+#: admin/partials/views/entries-view/mega-entries-table.php:613
 msgid "Hurrah, it appears that you do not have any unread form submission."
 msgstr ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:614
+#: admin/partials/views/entries-view/mega-entries-table.php:617
 msgid "Whoops, it appears that you have not starred any form submissions."
 msgstr ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:618
+#: admin/partials/views/entries-view/mega-entries-table.php:621
 msgid "Hurrah, spam is empty."
 msgstr ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:622
+#: admin/partials/views/entries-view/mega-entries-table.php:625
 #: admin/partials/views/forms-view/mega-forms-table.php:294
 msgid "Trash is empty."
 msgstr ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:626
+#: admin/partials/views/entries-view/mega-entries-table.php:629
 msgid "Whoops, it appears that this form does not have any submissions yet."
 msgstr ""
 
@@ -755,224 +755,224 @@ msgstr ""
 msgid "Misc"
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:56
+#: admin/partials/views/settings-view/mega-settings.php:50
 msgid "Load Form Styling"
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:57
+#: admin/partials/views/settings-view/mega-settings.php:51
 msgid ""
 "Switching this off will stop all fields and containers related CSS from "
 "loading. Only switch off if you're going to load your custom CSS."
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:64
+#: admin/partials/views/settings-view/mega-settings.php:58
 msgid "Store User Details"
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:65
+#: admin/partials/views/settings-view/mega-settings.php:59
 msgid ""
 " Switch this off to disable storing the IP address and User Agent on all "
 "forms. This helps with GDPR compliance."
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:74
+#: admin/partials/views/settings-view/mega-settings.php:68
 #: common/partials/form/actions/class-mega-forms-action-email.php:120
 msgid "From Name"
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:75
+#: admin/partials/views/settings-view/mega-settings.php:69
 msgid "Type the default sender name for all of your outgoing Mega Forms emails."
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:82
+#: admin/partials/views/settings-view/mega-settings.php:76
 msgid "From Address"
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:83
+#: admin/partials/views/settings-view/mega-settings.php:77
 msgid ""
 "Type the default sender email address for all of your outgoing Mega Forms "
 "emails."
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:90
+#: admin/partials/views/settings-view/mega-settings.php:84
 msgid "Template"
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:91
+#: admin/partials/views/settings-view/mega-settings.php:85
 msgid "Select which format you want for all of your outgoing Mega Forms emails."
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:93
+#: admin/partials/views/settings-view/mega-settings.php:87
 msgid "HTML Template"
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:93
+#: admin/partials/views/settings-view/mega-settings.php:87
 msgid "Plain Template"
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:99
+#: admin/partials/views/settings-view/mega-settings.php:93
 msgid "Header Image"
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:100
+#: admin/partials/views/settings-view/mega-settings.php:94
 msgid ""
 "URL to the logo you want to be displayed at the top of all your outgoing "
 "Mega Forms emails."
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:107
+#: admin/partials/views/settings-view/mega-settings.php:101
 msgid "Footer Text"
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:108
+#: admin/partials/views/settings-view/mega-settings.php:102
 msgid ""
 "Type the text to appear in the footer of all your outgoing Mega Forms "
 "emails."
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:115
+#: admin/partials/views/settings-view/mega-settings.php:109
 msgid "Primary Color"
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:116
+#: admin/partials/views/settings-view/mega-settings.php:110
 msgid "The primary text color for Mega Forms email templates."
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:124
+#: admin/partials/views/settings-view/mega-settings.php:118
 msgid "Secondary Color"
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:125
+#: admin/partials/views/settings-view/mega-settings.php:119
 msgid "The secondary text color for Mega Forms email templates."
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:133
+#: admin/partials/views/settings-view/mega-settings.php:127
 msgid "Primary Bg Color"
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:134
+#: admin/partials/views/settings-view/mega-settings.php:128
 msgid "The primary background color for Mega Forms email templates."
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:142
+#: admin/partials/views/settings-view/mega-settings.php:136
 msgid "Secondary Bg Color"
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:143
+#: admin/partials/views/settings-view/mega-settings.php:137
 msgid "The secondary background color for Mega Forms email templates."
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:153
+#: admin/partials/views/settings-view/mega-settings.php:147
 msgid "Timetrap Error"
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:154
+#: admin/partials/views/settings-view/mega-settings.php:148
 msgid "Type the error message for spam entries detected by Timetrap."
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:162
+#: admin/partials/views/settings-view/mega-settings.php:156
 msgid "Honeypot Error"
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:163
+#: admin/partials/views/settings-view/mega-settings.php:157
 msgid "Type the error message for spam entries detected by Honeypot trap."
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:171
+#: admin/partials/views/settings-view/mega-settings.php:165
 #: common/partials/form/fields/base/class-mega-forms-field.php:567
 #: common/partials/form/fields/class-mega-forms-field-question.php:94
 msgid "Required Field"
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:172
+#: admin/partials/views/settings-view/mega-settings.php:166
 msgid "Type the error message for required single entry fields."
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:180
+#: admin/partials/views/settings-view/mega-settings.php:174
 msgid "Required Fields"
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:181
+#: admin/partials/views/settings-view/mega-settings.php:175
 msgid ""
 "Type the error message for required multiple entry fields (e.g. name, "
 "email, password ...etc)."
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:189
+#: admin/partials/views/settings-view/mega-settings.php:183
 msgid "Required Option"
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:190
+#: admin/partials/views/settings-view/mega-settings.php:184
 msgid ""
 "Type the error message for required option fields (e.g. radios, checkboxes, "
 "selectboxes)."
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:198
+#: admin/partials/views/settings-view/mega-settings.php:192
 msgid "Required Address"
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:199
+#: admin/partials/views/settings-view/mega-settings.php:193
 msgid "Type the error message for required address field."
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:207
+#: admin/partials/views/settings-view/mega-settings.php:201
 msgid "Invalid Email"
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:208
+#: admin/partials/views/settings-view/mega-settings.php:202
 msgid "Type the error message for invalid email address."
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:209
+#: admin/partials/views/settings-view/mega-settings.php:203
 #: common/partials/form/fields/class-mega-forms-field-email.php:283
 msgid "Please enter a valid email."
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:216
+#: admin/partials/views/settings-view/mega-settings.php:210
 msgid "Invalid Website"
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:217
+#: admin/partials/views/settings-view/mega-settings.php:211
 msgid "Type the error message for invalid web address."
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:218
+#: admin/partials/views/settings-view/mega-settings.php:212
 #: common/partials/form/fields/class-mega-forms-field-website.php:86
 msgid "Please enter a valid url."
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:225
+#: admin/partials/views/settings-view/mega-settings.php:219
 msgid "Invalid Date"
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:226
+#: admin/partials/views/settings-view/mega-settings.php:220
 msgid "Type the error message for invalid date."
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:227
+#: admin/partials/views/settings-view/mega-settings.php:221
 #: common/partials/form/fields/class-mega-forms-field-date.php:312
 msgid "Please enter a valid date."
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:234
+#: admin/partials/views/settings-view/mega-settings.php:228
 msgid "Invalid Date Range"
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:235
+#: admin/partials/views/settings-view/mega-settings.php:229
 msgid "Type the error message for invalid date range."
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:236
+#: admin/partials/views/settings-view/mega-settings.php:230
 #: common/partials/form/fields/class-mega-forms-field-date.php:312
 msgid "Please enter a valid date range."
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:245
+#: admin/partials/views/settings-view/mega-settings.php:239
 msgid "Uninstall"
 msgstr ""
 
-#: admin/partials/views/settings-view/mega-settings.php:246
+#: admin/partials/views/settings-view/mega-settings.php:240
 msgid "Permanently delete all Mega Forms data upon uninstallation."
 msgstr ""
 
@@ -4230,64 +4230,143 @@ msgstr ""
 msgid "Every %d Minutes"
 msgstr ""
 
-#: pro/admin/class-mega-forms-admin-pro.php:97
+#: pro/admin/class-mega-forms-admin-pro.php:94
+msgid "Integrations"
+msgstr ""
+
+#: pro/admin/class-mega-forms-admin-pro.php:96
+msgid "reCAPTCHA v2"
+msgstr ""
+
+#: pro/admin/class-mega-forms-admin-pro.php:115
 msgid "Enable AJAX"
 msgstr ""
 
-#: pro/admin/class-mega-forms-admin-pro.php:98
+#: pro/admin/class-mega-forms-admin-pro.php:116
 msgid "Switch this on to enable form submission without page refresh."
 msgstr ""
 
-#: pro/admin/class-mega-forms-admin-pro.php:118
+#: pro/admin/class-mega-forms-admin-pro.php:126
+msgid "Enable reCaptcha v2"
+msgstr ""
+
+#: pro/admin/class-mega-forms-admin-pro.php:127
+msgid "Switch this on to enable Google reCaptcha v2 on all froms."
+msgstr ""
+
+#: pro/admin/class-mega-forms-admin-pro.php:134
+msgid "Site Key"
+msgstr ""
+
+#: pro/admin/class-mega-forms-admin-pro.php:135
+msgid ""
+"The site key used in the HTML code that the plugin serves to users. Create "
+"your key from <a href=\"%s\" target=\"_blank\">Google reCAPTCHA Admin</a>"
+msgstr ""
+
+#: pro/admin/class-mega-forms-admin-pro.php:142
+msgid "Secret Key"
+msgstr ""
+
+#: pro/admin/class-mega-forms-admin-pro.php:143
+msgid ""
+"The secret key used for communication between your site and reCAPTCHA. "
+"Create your key from <a href=\"%s\" target=\"_blank\">Google reCAPTCHA "
+"Admin</a>"
+msgstr ""
+
+#: pro/admin/class-mega-forms-admin-pro.php:163
 msgid "Save and Continue"
 msgstr ""
 
-#: pro/admin/class-mega-forms-admin-pro.php:119
+#: pro/admin/class-mega-forms-admin-pro.php:164
 msgid ""
 "Switch this on to allow the user to save the form and continue with the "
 "submission later."
 msgstr ""
 
-#: pro/admin/class-mega-forms-admin-pro.php:127
+#: pro/admin/class-mega-forms-admin-pro.php:172
 msgid "Save and Continue Text"
 msgstr ""
 
-#: pro/admin/class-mega-forms-admin-pro.php:128
+#: pro/admin/class-mega-forms-admin-pro.php:173
 msgid "The text for save and continue button."
 msgstr ""
 
-#: pro/admin/class-mega-forms-admin-pro.php:129
-#: pro/common/class-mega-forms-common-pro.php:95
+#: pro/admin/class-mega-forms-admin-pro.php:174
+#: pro/common/class-mega-forms-common-pro.php:101
 msgid "Save and Continue Later"
 msgstr ""
 
-#: pro/admin/class-mega-forms-admin-pro.php:148
+#: pro/admin/class-mega-forms-admin-pro.php:193
 msgid "Validation failed."
 msgstr ""
 
-#: pro/admin/class-mega-forms-admin-pro.php:189
+#: pro/admin/class-mega-forms-admin-pro.php:234
 msgid "File deleted succesfully."
 msgstr ""
 
-#: pro/admin/class-mega-forms-admin-pro.php:193
+#: pro/admin/class-mega-forms-admin-pro.php:238
 msgid "File deletion failed."
 msgstr ""
 
-#: pro/admin/class-mega-forms-admin-pro.php:200
+#: pro/admin/class-mega-forms-admin-pro.php:245
 msgid "Request failed."
 msgstr ""
 
-#: pro/common/class-mega-forms-common-pro.php:142
+#: pro/common/class-mega-forms-common-pro.php:135
+msgid "Submission failed, please complete verification challenge to continue."
+msgstr ""
+
+#: pro/common/class-mega-forms-common-pro.php:148
+msgid "Submission failed, you didn't complete the captcha challenge successfully."
+msgstr ""
+
+#: pro/common/class-mega-forms-common-pro.php:152
+msgid "Submission failed, the reCaptcha secret key is missing."
+msgstr ""
+
+#: pro/common/class-mega-forms-common-pro.php:155
+msgid ""
+"Submission failed, the provided reCaptcha secret key is invalid or "
+"malformed."
+msgstr ""
+
+#: pro/common/class-mega-forms-common-pro.php:158
+msgid "Submission failed, the reCaptcha response is missing."
+msgstr ""
+
+#: pro/common/class-mega-forms-common-pro.php:161
+msgid "Submission failed, the reCaptcha response is invalid or malformed."
+msgstr ""
+
+#: pro/common/class-mega-forms-common-pro.php:164
+msgid ""
+"Submission failed, the captcha challenge evaluation failed, please refresh "
+"and try again."
+msgstr ""
+
+#: pro/common/class-mega-forms-common-pro.php:167
+msgid "Submission failed, the captcha challenge timed out."
+msgstr ""
+
+#: pro/common/class-mega-forms-common-pro.php:174
+msgid ""
+"Submission failed, could not validate the captcha challenge, please refresh "
+"and try again."
+msgstr ""
+
+#: pro/common/class-mega-forms-common-pro.php:205
 msgid "There was an error, please refresh the page and try again."
 msgstr ""
 
-#: pro/common/class-mega-forms-common-pro.php:232
+#: pro/common/class-mega-forms-common-pro.php:295
 msgid ""
 "Please use the following link to return and complete this form from any "
 "computer."
 msgstr ""
 
-#: pro/common/class-mega-forms-common-pro.php:234
+#: pro/common/class-mega-forms-common-pro.php:297
 msgid "Note: This link will expire after 30 days."
 msgstr ""
 
@@ -4583,27 +4662,27 @@ msgctxt "paging"
 msgid "%1$s of %2$s"
 msgstr ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:276
+#: admin/partials/views/entries-view/mega-entries-table.php:279
 msgctxt "Entry List"
 msgid "All"
 msgstr ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:277
+#: admin/partials/views/entries-view/mega-entries-table.php:280
 msgctxt "Entry List"
 msgid "Unread"
 msgstr ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:278
+#: admin/partials/views/entries-view/mega-entries-table.php:281
 msgctxt "Entry List"
 msgid "Starred"
 msgstr ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:279
+#: admin/partials/views/entries-view/mega-entries-table.php:282
 msgctxt "Entry List"
 msgid "Spam"
 msgstr ""
 
-#: admin/partials/views/entries-view/mega-entries-table.php:280
+#: admin/partials/views/entries-view/mega-entries-table.php:283
 msgctxt "Entry List"
 msgid "Trash"
 msgstr ""
