@@ -1,0 +1,4937 @@
+# Copyright (C) 2022 Ali Khallad
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Mega Forms 1.2.9\n"
+"Report-Msgid-Bugs-To: https://wpmegaforms.com/support/\n"
+"POT-Creation-Date: 2022-12-05 19:29:56+00:00\n"
+"PO-Revision-Date: 2023-06-05 15:02+0200\n"
+"Last-Translator: Danny Schmarsel <dsc@qbus.de>\n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 3.3.1\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-mega-forms-admin.php:125
+msgid "Rename Form"
+msgstr "Formular umbenennen"
+
+#: admin/class-mega-forms-admin.php:126
+msgid "Rename"
+msgstr "Umbenennen"
+
+#: admin/class-mega-forms-admin.php:127
+msgid "E.g., Contact Form"
+msgstr "z.B. Kontaktformular"
+
+#: admin/class-mega-forms-admin.php:128
+msgid "Display Your Form"
+msgstr "Zeige dein Formular an"
+
+#: admin/class-mega-forms-admin.php:131 admin/class-mega-forms-admin.php:153
+#: admin/class-mega-forms-admin.php:163
+msgid "Yes"
+msgstr "Ja"
+
+#: admin/class-mega-forms-admin.php:132 admin/class-mega-forms-admin.php:154
+msgid "No"
+msgstr "Nein"
+
+#: admin/class-mega-forms-admin.php:133
+msgid "The main row can not be deleted."
+msgstr "Die Hauptzeile kann nicht gelöscht werden."
+
+#: admin/class-mega-forms-admin.php:134
+msgid "Do you really want to delete this row?"
+msgstr "Möchtest du diese Zeile wirklich löschen?"
+
+#: admin/class-mega-forms-admin.php:135
+msgid "Do you really want to delete this action?"
+msgstr "Möchtest du diese Aktion wirklich löschen?"
+
+#: admin/class-mega-forms-admin.php:136
+msgid "Do you really want to delete this field?"
+msgstr "Möchtest du dieses Feld wirklich löschen?"
+
+#: admin/class-mega-forms-admin.php:137
+msgid "This field requires at least one choice."
+msgstr "In diesem Feld muss mindestens eine Auswahl getroffen werden."
+
+#: admin/class-mega-forms-admin.php:138
+msgid "This field can't be disabled."
+msgstr "Dieses Feld kann nicht deaktiviert werden."
+
+#: admin/class-mega-forms-admin.php:139
+msgid "The main conditional rule can't be removed."
+msgstr "Die Hauptbedingungsregel kann nicht entfernt werden."
+
+#: admin/class-mega-forms-admin.php:140
+msgid "Enter a new name for your form, and continue building!"
+msgstr ""
+"Gib einen neuen Namen für dein Formular ein und fahre mit der Erstellung "
+"fort!"
+
+#: admin/class-mega-forms-admin.php:141
+msgid "Form name can't be empty!"
+msgstr "Der Formularname darf nicht leer sein!"
+
+#: admin/class-mega-forms-admin.php:142
+msgid "Please use this shortcode to display the form on a page or post."
+msgstr ""
+"Bitte verwende diesen Shortcode, um das Formular auf einer Seite oder einem "
+"Beitrag anzuzeigen."
+
+#: admin/class-mega-forms-admin.php:143
+msgid "Do you really want to delete this container?"
+msgstr "Möchtest du diesen Container wirklich löschen?"
+
+#: admin/class-mega-forms-admin.php:155
+#: admin/partials/views/entries-view/mega-entries-table.php:356
+#: admin/partials/views/forms-view/mega-forms-table.php:236
+#: admin/partials/views/single-entry-view/mega-entry-render.php:297
+#: common/partials/form/containers/class-mega-forms-container.php:321
+msgid "Delete"
+msgstr "Löschen"
+
+#: admin/class-mega-forms-admin.php:156
+msgid "Do you really want to delete this note?"
+msgstr "Möchtest du diese Notiz wirklich löschen?"
+
+#: admin/class-mega-forms-admin.php:157
+msgid "You can't add an empty note!"
+msgstr "Du kannst keine leere Notiz hinzufügen!"
+
+#: admin/class-mega-forms-admin.php:164
+msgid "Save"
+msgstr "Speichern"
+
+#: admin/class-mega-forms-admin.php:165
+msgid "Type a Title"
+msgstr "Gib einen Titel ein"
+
+#: admin/class-mega-forms-admin.php:166
+msgid "E.g., My Form"
+msgstr "z.B. Mein Formular"
+
+#: admin/class-mega-forms-admin.php:167
+msgid ""
+"Please enter a name for your form, or select a template from the list below!"
+msgstr ""
+"Bitte gib einen Namen für dein Formular ein oder wähle eine Vorlage aus der "
+"Liste unten aus!"
+
+#: admin/class-mega-forms-admin.php:168
+msgid "Change columns visibility"
+msgstr "Ändern der Sichtbarkeit von Spalten"
+
+#: admin/class-mega-forms-admin.php:169
+msgid "Enable columns that you wish to display in the entries table."
+msgstr ""
+"Aktiviere die Spalten, die in der Tabelle mit Einträgen angezeigt werden "
+"sollen."
+
+#: admin/class-mega-forms-admin.php:170
+msgid ""
+"Are you sure you want to permanently delete all data upon uninstallation."
+msgstr ""
+"Bist du sicher, dass du alle Daten bei der Deinstallation dauerhaft löschen "
+"möchtest?"
+
+#: admin/class-mega-forms-admin.php:171
+msgid ""
+"Are you sure you want to permanently delete all entries for the selected "
+"form(s)."
+msgstr ""
+"Bist du sicher, dass du alle Einträge für das/die ausgewählte(n) Formular(e) "
+"dauerhaft löschen möchtest?"
+
+#: admin/class-mega-forms-admin.php:172
+msgid "Select a file to import."
+msgstr "Wähle eine Datei für den Import aus."
+
+#: admin/class-mega-forms-admin.php:173
+msgid "Please make sure the selected file is in JSON format."
+msgstr ""
+"Bitte stelle sicher, dass die ausgewählte Datei im JSON-Format vorliegt."
+
+#: admin/class-mega-forms-admin.php:174
+msgid "Please select the form(s) you want to export."
+msgstr "Bitte wählen das/die Formular(e) für den Export."
+
+#: admin/class-mega-forms-admin.php:175
+msgid "Please select a form."
+msgstr "Bitte wähle ein Formular aus."
+
+#: admin/class-mega-forms-admin.php:176
+msgid "Please select the fields that you want to export."
+msgstr "Bitte wähle die Felder aus, die du exportieren möchtest."
+
+#. Plugin Name of the plugin/theme
+msgid "Mega Forms"
+msgstr "Mega Forms"
+
+#: admin/class-mega-forms-admin.php:228 admin/class-mega-forms-admin.php:229
+#: admin/partials/views/entries-view/mega-entries-render.php:71
+#: admin/partials/views/forms-view/mega-forms-table.php:40
+#: admin/partials/views/mega-forms-header-render.php:96
+msgid "Entries"
+msgstr "Einträge"
+
+#: admin/class-mega-forms-admin.php:237 admin/class-mega-forms-admin.php:238
+#: admin/partials/views/mega-forms-header-render.php:98
+#: admin/partials/views/settings-view/mega-settings-render.php:61
+#: admin/partials/views/single-form-view/mega-form-render.php:66
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: admin/class-mega-forms-admin.php:246 admin/class-mega-forms-admin.php:247
+#: admin/partials/views/import-export-view/mega-import-export-render.php:71
+msgid "Import / Export"
+msgstr "Importieren / Exportieren"
+
+#: admin/partials/class-mega-forms-admin-ajax.php:32
+#: admin/partials/class-mega-forms-admin-ajax.php:188
+msgid "The form you're trying to change does not exist."
+msgstr "Das Formular, das du ändern möchtest, existiert nicht."
+
+#: admin/partials/class-mega-forms-admin-ajax.php:66
+msgid "Form created! Redirecting..."
+msgstr "Formular erstellt! Weiterleitung..."
+
+#: admin/partials/class-mega-forms-admin-ajax.php:68
+msgid "The form could not be created."
+msgstr "Das Formular konnte nicht erstellt werden."
+
+#: admin/partials/class-mega-forms-admin-ajax.php:83
+msgid "Form renamed!"
+msgstr "Formular umbenannt!"
+
+#: admin/partials/class-mega-forms-admin-ajax.php:85
+msgid "The form could not be renamed."
+msgstr "Das Formular konnte nicht umbenannt werden."
+
+#: admin/partials/class-mega-forms-admin-ajax.php:105
+msgid "Form saved successfully."
+msgstr "Formular erfolgreich gespeichert."
+
+#: admin/partials/class-mega-forms-admin-ajax.php:107
+msgid "The form couldn't be saved."
+msgstr "Das Formular konnte nicht gespeichert werden."
+
+#: admin/partials/class-mega-forms-admin-ajax.php:147
+msgid "The field you are trying to add doesn't exist."
+msgstr "Das Feld, das du hinzufügen möchtest, existiert nicht."
+
+#: admin/partials/class-mega-forms-admin-ajax.php:173
+msgid "The action you are trying to add doesn't exist."
+msgstr "Die Aktion, die du hinzufügen möchtest, existiert nicht."
+
+#: admin/partials/class-mega-forms-admin-ajax.php:208
+msgid "We couldn\\'t save your preference."
+msgstr "Wir konnten deine Einstellung nicht speichern."
+
+#: admin/partials/class-mega-forms-admin-ajax.php:241
+msgid "We couldn't save the added note."
+msgstr "Wir konnten die hinzugefügte Notiz nicht speichern."
+
+#: admin/partials/class-mega-forms-admin-ajax.php:262
+msgid ""
+"Something wrong happened while deleting this note, please refresh the page "
+"and try again."
+msgstr ""
+"Beim Löschen dieser Notiz ist ein Fehler aufgetreten, bitte aktualisiere die "
+"Seite und versuche es erneut."
+
+#: admin/partials/class-mega-forms-admin-ajax.php:308
+msgid "Settings saved successfully."
+msgstr "Einstellungen erfolgreich gespeichert."
+
+#: admin/partials/class-mega-forms-admin-ajax.php:310
+msgid "Settings could not be saved."
+msgstr "Einstellungen konnten nicht gespeichert werden."
+
+#: admin/partials/class-mega-forms-admin-ajax.php:327
+msgid "Form(s) imported successfully."
+msgstr "Formular(e) wurden erfolgreich importiert."
+
+#: admin/partials/class-mega-forms-admin-ajax.php:329
+msgid "Please make sure you have selected a valid Mega Forms export file."
+msgstr ""
+"Bitte stelle sicher, dass du eine gültige Mega Forms-Exportdatei ausgewählt "
+"hast."
+
+#: admin/partials/class-mega-forms-admin-ajax.php:343
+#: admin/partials/views/single-entry-view/mega-entry-render.php:214
+#: common/partials/class-mega-forms-api.php:716
+msgid "Entry ID"
+msgstr "Eintrags-ID"
+
+#: admin/partials/class-mega-forms-admin-ajax.php:344
+#: common/partials/class-mega-forms-api.php:717
+#: common/partials/class-mega-forms-tags.php:71
+msgid "User ID"
+msgstr "Benutzer-ID"
+
+#: admin/partials/class-mega-forms-admin-ajax.php:345
+#: common/partials/class-mega-forms-api.php:718
+msgid "Date Created"
+msgstr "Erstellungsdatum"
+
+#: admin/partials/class-mega-forms-admin-ajax.php:346
+#: admin/partials/views/single-entry-view/mega-entry-render.php:249
+#: common/partials/class-mega-forms-api.php:719
+msgid "Referrer"
+msgstr "Bezug (Referrer)"
+
+#: admin/partials/class-mega-forms-admin-ajax.php:347
+#: admin/partials/views/single-entry-view/mega-entry-render.php:245
+#: common/partials/class-mega-forms-api.php:720
+msgid "User IP"
+msgstr "Benutzer-IP"
+
+#: admin/partials/class-mega-forms-admin-ajax.php:348
+#: admin/partials/views/single-entry-view/mega-entry-render.php:241
+#: common/partials/class-mega-forms-api.php:721
+msgid "User Agent"
+msgstr "User-Agent"
+
+#: admin/partials/class-mega-forms-admin-ajax.php:367
+msgid "Select All"
+msgstr "Alle auswählen"
+
+#: admin/partials/class-mega-forms-admin-ajax.php:368
+msgid "Deselect All"
+msgstr "Alle abwählen"
+
+#: admin/partials/class-mega-forms-admin-ajax.php:391
+msgid "Something went wrong, please refresh and try again."
+msgstr "Ein Fehler ist aufgetreten, bitte lade die Seite erneut."
+
+#: admin/partials/class-mega-forms-admin-list.php:95
+msgid "Show more details"
+msgstr "Weitere Details anzeigen"
+
+#: admin/partials/class-mega-forms-admin-list.php:158
+msgid "First page"
+msgstr "Erste Seite"
+
+#: admin/partials/class-mega-forms-admin-list.php:169
+msgid "Previous page"
+msgstr "Vorherige Seite"
+
+#: admin/partials/class-mega-forms-admin-list.php:176
+#: admin/partials/class-mega-forms-admin-list.php:180
+msgid "Current Page"
+msgstr "Aktuelle Seite"
+
+#: admin/partials/class-mega-forms-admin-list.php:194
+msgid "Next page"
+msgstr "Nächste Seite"
+
+#: admin/partials/class-mega-forms-admin-list.php:205
+msgid "Last page"
+msgstr "Letzte Seite"
+
+#: admin/partials/class-mega-forms-admin-list.php:219
+msgid "Showing %1$s %3$s."
+msgid_plural "Showing %1$s out of %2$s %4$s."
+msgstr[0] "Zeige %1$s %3$s."
+msgstr[1] "Zeige %1$s von %2$s %4$s."
+
+#: admin/partials/class-mega-forms-admin-list.php:221
+msgid "Showing %1$s %2$s."
+msgid_plural "Showing %1$s %3$s."
+msgstr[0] "Zeige %1$s %2$s."
+msgstr[1] "Zeige %1$s %3$s."
+
+#: admin/partials/views/entries-view/mega-entries-render.php:83
+msgid "One more step!"
+msgstr "Noch ein Schritt!"
+
+#: admin/partials/views/entries-view/mega-entries-render.php:84
+msgid "Select a form to view the corresponding entries."
+msgstr "Wähle ein Formular aus, um die entsprechenden Einträge anzuzeigen."
+
+#: admin/partials/views/entries-view/mega-entries-render.php:89
+msgid "No available entries."
+msgstr "Keine Einträge vorhanden."
+
+#: admin/partials/views/entries-view/mega-entries-render.php:90
+msgid ""
+"You haven't created any forms yet, please create a form to be able to view "
+"the corresponding entries here."
+msgstr ""
+"Du hast noch keine Formulare erstellt, bitte erstelle ein Formular, um die "
+"entsprechenden Einträge hier einsehen zu können."
+
+#: admin/partials/views/entries-view/mega-entries-render.php:162
+#: admin/partials/views/import-export-view/mega-import-export-render.php:172
+#: admin/partials/views/import-export-view/mega-import-export-render.php:217
+msgid "Select a Form"
+msgstr "Wähle ein Formular"
+
+#: admin/partials/views/entries-view/mega-entries-table.php:99
+msgid "ID"
+msgstr "ID"
+
+#: admin/partials/views/entries-view/mega-entries-table.php:100
+msgid "Date Submitted"
+msgstr "Übermittelt am"
+
+#: admin/partials/views/entries-view/mega-entries-table.php:292
+msgid "Select entry"
+msgstr "Eintrag auswählen"
+
+#: admin/partials/views/entries-view/mega-entries-table.php:335
+msgid "other field(s)"
+msgstr "weitere Felder"
+
+#: admin/partials/views/entries-view/mega-entries-table.php:355
+#: admin/partials/views/entries-view/mega-entries-table.php:381
+#: admin/partials/views/forms-view/mega-forms-table.php:205
+#: admin/partials/views/forms-view/mega-forms-table.php:235
+msgid "Restore"
+msgstr "Wiederherstellen"
+
+#: admin/partials/views/entries-view/mega-entries-table.php:364
+msgid "View"
+msgstr "Anzeigen"
+
+#: admin/partials/views/entries-view/mega-entries-table.php:365
+msgid "Mark as Read"
+msgstr "Als gelesen markieren"
+
+#: admin/partials/views/entries-view/mega-entries-table.php:366
+msgid "Mark as Unread"
+msgstr "Als ungelesen markieren"
+
+#: admin/partials/views/entries-view/mega-entries-table.php:367
+#: admin/partials/views/forms-view/mega-forms-table.php:248
+msgid "Trash"
+msgstr "Papierkorb"
+
+#: admin/partials/views/entries-view/mega-entries-table.php:382
+#: admin/partials/views/forms-view/mega-forms-table.php:206
+msgid "Delete permanently"
+msgstr "Endgültig löschen"
+
+#: admin/partials/views/entries-view/mega-entries-table.php:386
+#: admin/partials/views/entries-view/mega-entries-table.php:393
+#: admin/partials/views/entries-view/mega-entries-table.php:405
+msgid "Mark as read"
+msgstr "Als gelesen markieren"
+
+#: admin/partials/views/entries-view/mega-entries-table.php:387
+#: admin/partials/views/entries-view/mega-entries-table.php:408
+msgid "Add star"
+msgstr "Stern hinzufügen"
+
+#: admin/partials/views/entries-view/mega-entries-table.php:388
+#: admin/partials/views/entries-view/mega-entries-table.php:395
+#: admin/partials/views/entries-view/mega-entries-table.php:409
+msgid "Remove star"
+msgstr "Stern entfernen"
+
+#: admin/partials/views/entries-view/mega-entries-table.php:389
+#: admin/partials/views/entries-view/mega-entries-table.php:396
+#: admin/partials/views/entries-view/mega-entries-table.php:401
+#: admin/partials/views/entries-view/mega-entries-table.php:410
+#: admin/partials/views/forms-view/mega-forms-table.php:213
+msgid "Move to trash"
+msgstr "In den Papierkorb verschieben"
+
+#: admin/partials/views/entries-view/mega-entries-table.php:394
+#: admin/partials/views/entries-view/mega-entries-table.php:406
+msgid "Mark as unread"
+msgstr "Als ungelesen markieren"
+
+#: admin/partials/views/entries-view/mega-entries-table.php:400
+msgid "Mark as not spam"
+msgstr "Als Nicht-Spam markieren"
+
+#: admin/partials/views/entries-view/mega-entries-table.php:407
+msgid "Mark as spam"
+msgstr "Als Spam markieren"
+
+#: admin/partials/views/entries-view/mega-entries-table.php:431
+msgid "Entry marked as read."
+msgstr "Eintrag als gelesen markiert."
+
+#: admin/partials/views/entries-view/mega-entries-table.php:435
+msgid "Entry marked as unread."
+msgstr "Eintrag als ungelesen markiert."
+
+#: admin/partials/views/entries-view/mega-entries-table.php:439
+msgid "Entry successfully restored."
+msgstr "Eintrag wurde erfolgreich wiederhergestellt."
+
+#: admin/partials/views/entries-view/mega-entries-table.php:444
+msgid "Entry successfully deleted."
+msgstr "Eintrag erfolgreich gelöscht."
+
+#: admin/partials/views/entries-view/mega-entries-table.php:448
+#: admin/partials/views/entries-view/mega-entries-table.php:527
+msgid "Entry moved to the trash successfully."
+msgstr "Eintrag erfolgreich in den Papierkorb verschoben."
+
+#. translators: number of entries moved to trash.
+#: admin/partials/views/entries-view/mega-entries-table.php:462
+msgid "%s entry moved to the trash successfully."
+msgid_plural "%s entries moved to the trash successfully."
+msgstr[0] "%s Eintrag erfolgreich in den Papierkorb verschoben."
+msgstr[1] "%s Einträge erfolgreich in den Papierkorb verschoben."
+
+#. translators: number of entries restored.
+#: admin/partials/views/entries-view/mega-entries-table.php:469
+msgid "%s entry successfully restored."
+msgid_plural "%s entries successfully restored."
+msgstr[0] "%s Eintrag erfolgreich wiederhergestellt."
+msgstr[1] "%s Einträge erfolgreich wiederhergestellt."
+
+#. translators: number of entries deleted.
+#: admin/partials/views/entries-view/mega-entries-table.php:477
+msgid "%s entry successfully deleted."
+msgid_plural "%s entries successfully deleted."
+msgstr[0] "%s Eintrag erfolgreich gelöscht."
+msgstr[1] "%s Einträge erfolgreich gelöscht."
+
+#. translators: number of entries marked as read.
+#: admin/partials/views/entries-view/mega-entries-table.php:484
+msgid "%s entry has been marked as read."
+msgid_plural "%s entries have been marked as read."
+msgstr[0] "%s Eintrag wurde als gelesen markiert."
+msgstr[1] "%s Einträge wurden als gelesen markiert."
+
+#. translators: number of entries marked as unread.
+#: admin/partials/views/entries-view/mega-entries-table.php:491
+msgid "%s entry has been marked as unread."
+msgid_plural "%s entries have been marked as unread."
+msgstr[0] "%s Eintrag wurde als ungelesen markiert."
+msgstr[1] "%s Einträge wurden als ungelesen markiert."
+
+#. translators: number of entries starred.
+#: admin/partials/views/entries-view/mega-entries-table.php:498
+msgid "Star has been added to %s entry."
+msgid_plural "Star has been added to %s entries."
+msgstr[0] "Stern wurde zu %s Eintrag hinzugefügt."
+msgstr[1] "Stern wurde zu %s Einträgen hinzugefügt."
+
+#. translators: number of entries unstarred.
+#: admin/partials/views/entries-view/mega-entries-table.php:505
+msgid "Star has been removed from %s entry."
+msgid_plural "Star has been removed from %s entries."
+msgstr[0] "Stern wurde von %s Eintrag entfernt."
+msgstr[1] "Stern wurde von %s Einträgen entfernt."
+
+#. translators: number of entries marked as spam.
+#: admin/partials/views/entries-view/mega-entries-table.php:512
+msgid "%s entry marked as spam."
+msgid_plural "%s entries marked as spam."
+msgstr[0] "%s Eintrag als Spam markiert."
+msgstr[1] "%s Einträge als Spam markiert."
+
+#. translators: number of entries marked as not spam.
+#: admin/partials/views/entries-view/mega-entries-table.php:519
+msgid "%s entry marked as not spam."
+msgid_plural "%s entries marked as not spam."
+msgstr[0] "%s Eintrag als Nicht-Spam markiert."
+msgstr[1] "%s Einträge als Nicht-Spam markiert."
+
+#: admin/partials/views/entries-view/mega-entries-table.php:613
+msgid "Hurrah, it appears that you do not have any unread form submission."
+msgstr "Hurra, scheinbar hast du keine ungelesenen Formulareinreichungen."
+
+#: admin/partials/views/entries-view/mega-entries-table.php:617
+msgid "Whoops, it appears that you have not starred any form submissions."
+msgstr ""
+"Hoppla, scheinbar hast du keine Formulareinreichungen mit einem Stern "
+"markiert."
+
+#: admin/partials/views/entries-view/mega-entries-table.php:621
+msgid "Hurrah, spam is empty."
+msgstr "Hurra, Spam ist leer."
+
+#: admin/partials/views/entries-view/mega-entries-table.php:625
+#: admin/partials/views/forms-view/mega-forms-table.php:294
+msgid "Trash is empty."
+msgstr "Der Papierkorb ist leer."
+
+#: admin/partials/views/entries-view/mega-entries-table.php:629
+msgid "Whoops, it appears that this form does not have any submissions yet."
+msgstr "Hoppla, es scheint, dass dieses Formular noch keine Einreichungen hat."
+
+#: admin/partials/views/forms-view/mega-forms-render.php:38
+#: admin/partials/views/mega-forms-header-render.php:95
+msgid "Forms"
+msgstr "Formulare"
+
+#: admin/partials/views/forms-view/mega-forms-render.php:39
+msgid "New Form"
+msgstr "Neues Formular"
+
+#: admin/partials/views/forms-view/mega-forms-table.php:38
+msgid "Status"
+msgstr "Status"
+
+#: admin/partials/views/forms-view/mega-forms-table.php:39
+msgid "Form name"
+msgstr "Name des Formulars"
+
+#: admin/partials/views/forms-view/mega-forms-table.php:41
+msgid "Views"
+msgstr "Aufrufe"
+
+#: admin/partials/views/forms-view/mega-forms-table.php:42
+msgid "Conversion"
+msgstr "Conversion"
+
+#: admin/partials/views/forms-view/mega-forms-table.php:43
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: admin/partials/views/forms-view/mega-forms-table.php:210
+msgid "Mark as Active"
+msgstr "Als aktiv markieren"
+
+#: admin/partials/views/forms-view/mega-forms-table.php:211
+msgid "Mark as Inactive"
+msgstr "Als inaktiv markieren"
+
+#: admin/partials/views/forms-view/mega-forms-table.php:212
+msgid "Delete Entries"
+msgstr "Einträge löschen"
+
+#: admin/partials/views/forms-view/mega-forms-table.php:247
+#: common/partials/form/containers/class-mega-forms-container.php:325
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: admin/partials/views/forms-view/mega-forms-table.php:249
+msgid "Duplicate"
+msgstr "Duplizieren"
+
+#: admin/partials/views/forms-view/mega-forms-table.php:283
+msgid "Select form"
+msgstr "Formular auswählen"
+
+#: admin/partials/views/forms-view/mega-forms-table.php:296
+msgid "You don't have any inactive forms."
+msgstr "Du hast keine inaktiven Formulare."
+
+#: admin/partials/views/forms-view/mega-forms-table.php:298
+msgid "You don't have any active forms."
+msgstr "Du hast keine aktiven Formulare."
+
+#. translators: HTML `a` tags.
+#: admin/partials/views/forms-view/mega-forms-table.php:301
+msgid "You haven't created a form yet. Want to %s give it a go%s?"
+msgstr "Du hast noch kein Formular erstellt. Willst du es %s ausprobieren%s?"
+
+#: admin/partials/views/forms-view/mega-forms-table.php:320
+msgid "Form successfully restored."
+msgstr "Formular erfolgreich wiederhergestellt."
+
+#: admin/partials/views/forms-view/mega-forms-table.php:324
+msgid "Form successfully deleted."
+msgstr "Formular erfolgreich gelöscht."
+
+#: admin/partials/views/forms-view/mega-forms-table.php:329
+#: admin/partials/views/forms-view/mega-forms-table.php:389
+msgid "Form moved to the trash successfully."
+msgstr "Formular erfolgreich in den Papierkorb verschoben."
+
+#: admin/partials/views/forms-view/mega-forms-table.php:333
+msgid "Form successfully duplicated."
+msgstr "Formular erfolgreich dupliziert."
+
+#. translators: number of forms moved to trash.
+#: admin/partials/views/forms-view/mega-forms-table.php:346
+msgid "%s form moved to the trash successfully."
+msgid_plural "%s forms moved to the trash successfully."
+msgstr[0] "%s Formular erfolgreich in den Papierkorb verschoben."
+msgstr[1] "%s Formulare erfolgreich in den Papierkorb verschoben."
+
+#. translators: number of forms restored.
+#: admin/partials/views/forms-view/mega-forms-table.php:353
+msgid "%s form successfully restored."
+msgid_plural "%s forms successfully restored."
+msgstr[0] "%s Formular erfolgreich wiederhergestellt."
+msgstr[1] "%s Formulare erfolgreich wiederhergestellt."
+
+#. translators: number of forms deleted.
+#: admin/partials/views/forms-view/mega-forms-table.php:360
+msgid "%s form successfully deleted."
+msgid_plural "%s forms successfully deleted."
+msgstr[0] "%s Formular erfolgreich gelöscht."
+msgstr[1] "%s Formulare erfolgreich gelöscht."
+
+#. translators: number of entries deleted.
+#: admin/partials/views/forms-view/mega-forms-table.php:367
+msgid "Entries for %s form have been deleted successfully."
+msgid_plural "Entries for %s forms have been deleted successfully."
+msgstr[0] "Einträge für %s Formular wurden erfolgreich gelöscht."
+msgstr[1] "Einträge für %s Formulare wurden erfolgreich gelöscht."
+
+#. translators: number of forms marked as active.
+#: admin/partials/views/forms-view/mega-forms-table.php:374
+msgid "%s form has been marked as active."
+msgid_plural "%s forms have been marked as active."
+msgstr[0] "%s Formular wurde als aktiv markiert."
+msgstr[1] "%s Formulare wurde als aktiv markiert."
+
+#. translators: number of forms marked as inactive.
+#: admin/partials/views/forms-view/mega-forms-table.php:381
+msgid "%s form has been marked as inactive."
+msgid_plural "%s forms have been marked as inactive."
+msgstr[0] "%s Formular wurde als inaktiv markiert."
+msgstr[1] "%s Formulare wurde als inaktiv markiert."
+
+#: admin/partials/views/forms-view/mega-forms-table.php:393
+msgid "Form has been marked as active."
+msgstr "Formular wurde als aktiv markiert."
+
+#: admin/partials/views/forms-view/mega-forms-table.php:397
+msgid "Form has been marked as inactive."
+msgstr "Formular wurde als inaktiv markiert."
+
+#: admin/partials/views/import-export-view/mega-import-export-render.php:43
+msgid "Import Forms"
+msgstr "Formulare importieren"
+
+#: admin/partials/views/import-export-view/mega-import-export-render.php:47
+msgid "Export Forms"
+msgstr "Formulare exportieren"
+
+#: admin/partials/views/import-export-view/mega-import-export-render.php:51
+msgid "Export Entries"
+msgstr "Einträge exportieren"
+
+#: admin/partials/views/import-export-view/mega-import-export-render.php:126
+msgid ""
+"Use the upload field below to select a Mega Forms export file. Once the "
+"export file is uploaded, Mega Forms will import the form(s) for you."
+msgstr ""
+"Verwende das Upload-Feld unten, um eine Mega Forms-Exportdatei auszuwählen. "
+"Sobald die Exportdatei hochgeladen ist, importiert Mega Forms das/die "
+"Formular(e) für dich."
+
+#: admin/partials/views/import-export-view/mega-import-export-render.php:130
+msgid "Import From(s)"
+msgstr "Formular(e) importieren"
+
+#: admin/partials/views/import-export-view/mega-import-export-render.php:148
+msgid ""
+"Select a form below to export. Once the form is selected, you can click the "
+"download button below, Mega Forms will generate a JSON file that you can "
+"upload in the import section to import the forms."
+msgstr ""
+"Wähle unten ein Formular für den Export aus. Sobald das Formular ausgewählt "
+"ist, kannst du unten auf die Schaltfläche \"Herunterladen\" klicken, Mega "
+"Forms generiert eine JSON-Datei, die du im Importbereich hochladen kannst, "
+"um die Formulare zu importieren."
+
+#: admin/partials/views/import-export-view/mega-import-export-render.php:152
+msgid "Select From(s)"
+msgstr "Formular(e) importieren"
+
+#: admin/partials/views/import-export-view/mega-import-export-render.php:188
+msgid ""
+"Select a form below to export entries. Once the form is selected, you can "
+"choose the fields you want to export and click the download button below, "
+"Mega Forms will generate a CSV file that you can save to your computer."
+msgstr ""
+"Wähle unten ein Formular aus, um Einträge zu exportieren. Sobald das "
+"Formular ausgewählt ist, kannst du die Felder auswählen, die du exportieren "
+"möchtest und unten auf die Schaltfläche \"Herunterladen\" klicken. Mega "
+"Forms generiert eine CSV-Datei, die du auf deinem Computer speichern kannst."
+
+#: admin/partials/views/import-export-view/mega-import-export-render.php:192
+msgid "Select a From"
+msgstr "Formular auswählen"
+
+#: admin/partials/views/import-export-view/mega-import-export-render.php:208
+msgid "Select Fields"
+msgstr "Felder auswählen"
+
+#: admin/partials/views/settings-view/mega-settings-render.php:63
+msgid "Save Settings"
+msgstr "Einstellungen speichern"
+
+#: admin/partials/views/settings-view/mega-settings.php:26
+#: admin/partials/views/single-form-view/mega-form-settings.php:59
+#: common/partials/form/fields/base/class-mega-forms-field.php:184
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:87
+msgid "General"
+msgstr "Allgemein"
+
+#: admin/partials/views/settings-view/mega-settings.php:27
+msgid "Emails"
+msgstr "E-Mails"
+
+#: admin/partials/views/settings-view/mega-settings.php:28
+msgid "Validation Messages"
+msgstr "Validierungs-Mitteilungen"
+
+#: admin/partials/views/settings-view/mega-settings.php:29
+#: common/partials/class-mega-forms-tags.php:94
+msgid "Misc"
+msgstr "Sonstiges"
+
+#: admin/partials/views/settings-view/mega-settings.php:50
+msgid "Load Form Styling"
+msgstr "Formular-Styling laden"
+
+#: admin/partials/views/settings-view/mega-settings.php:51
+msgid ""
+"Switching this off will stop all fields and containers related CSS from "
+"loading. Only switch off if you're going to load your custom CSS."
+msgstr ""
+"Wenn du diese Option deaktivierst, werden alle CSS-Felder und -Container "
+"nicht mehr geladen. Deaktiviere sie nur, wenn du benutzerdefiniertes CSS "
+"laden möchtest."
+
+#: admin/partials/views/settings-view/mega-settings.php:58
+msgid "Store User Details"
+msgstr "Benutzerdaten speichern"
+
+#: admin/partials/views/settings-view/mega-settings.php:59
+msgid ""
+" Switch this off to disable storing the IP address and User Agent on all "
+"forms. This helps with GDPR compliance."
+msgstr ""
+" Deaktiviere diese Option, um das Speichern der IP-Adresse und des User-"
+"Agents in allen Formularen zu deaktivieren. Dies ist hilfreich zur "
+"Einhaltung der DSGVO."
+
+#: admin/partials/views/settings-view/mega-settings.php:68
+#: common/partials/form/actions/class-mega-forms-action-email.php:120
+msgid "From Name"
+msgstr "Absender-Name"
+
+#: admin/partials/views/settings-view/mega-settings.php:69
+msgid ""
+"Type the default sender name for all of your outgoing Mega Forms emails."
+msgstr ""
+"Gib den Standard-Absender-Namen für all deine ausgehenden Mega Forms-E-Mails "
+"ein."
+
+#: admin/partials/views/settings-view/mega-settings.php:76
+msgid "From Address"
+msgstr "Absender-Adresse"
+
+#: admin/partials/views/settings-view/mega-settings.php:77
+msgid ""
+"Type the default sender email address for all of your outgoing Mega Forms "
+"emails."
+msgstr ""
+"Gib die Standard-Absender-E-Mail-Adresse für all deine ausgehenden Mega "
+"Forms-E-Mails ein."
+
+#: admin/partials/views/settings-view/mega-settings.php:84
+msgid "Template"
+msgstr "Vorlage"
+
+#: admin/partials/views/settings-view/mega-settings.php:85
+msgid ""
+"Select which format you want for all of your outgoing Mega Forms emails."
+msgstr ""
+"Wähle das gewünschte Format für all deine ausgehenden Mega Forms-E-Mails."
+
+#: admin/partials/views/settings-view/mega-settings.php:87
+msgid "HTML Template"
+msgstr "HTML-Vorlage"
+
+#: admin/partials/views/settings-view/mega-settings.php:87
+msgid "Plain Template"
+msgstr "Klartext-Vorlage"
+
+#: admin/partials/views/settings-view/mega-settings.php:93
+msgid "Header Image"
+msgstr "Header-Bild"
+
+#: admin/partials/views/settings-view/mega-settings.php:94
+msgid ""
+"URL to the logo you want to be displayed at the top of all your outgoing "
+"Mega Forms emails."
+msgstr ""
+"URL zu dem Logo, das oben in all deinen ausgehenden Mega Forms-E-Mails "
+"angezeigt werden soll."
+
+#: admin/partials/views/settings-view/mega-settings.php:101
+msgid "Footer Text"
+msgstr "Fußzeilentext"
+
+#: admin/partials/views/settings-view/mega-settings.php:102
+msgid ""
+"Type the text to appear in the footer of all your outgoing Mega Forms emails."
+msgstr ""
+"Gib den Text ein, der in der Fußzeile all deiner ausgehenden Mega Forms-E-"
+"Mails angezeigt werden soll."
+
+#: admin/partials/views/settings-view/mega-settings.php:109
+msgid "Primary Color"
+msgstr "Primärfarbe"
+
+#: admin/partials/views/settings-view/mega-settings.php:110
+msgid "The primary text color for Mega Forms email templates."
+msgstr "Die primäre Textfarbe für Mega Forms-E-Mail-Vorlagen."
+
+#: admin/partials/views/settings-view/mega-settings.php:118
+msgid "Secondary Color"
+msgstr "Sekundärfarbe"
+
+#: admin/partials/views/settings-view/mega-settings.php:119
+msgid "The secondary text color for Mega Forms email templates."
+msgstr "Die sekundäre Textfarbe für Mega Forms-E-Mail-Vorlagen."
+
+#: admin/partials/views/settings-view/mega-settings.php:127
+msgid "Primary Bg Color"
+msgstr "Primäre Hintergrundfarbe"
+
+#: admin/partials/views/settings-view/mega-settings.php:128
+msgid "The primary background color for Mega Forms email templates."
+msgstr "Die primäre Hintergrundfarbe für Mega Forms-E-Mail-Vorlagen."
+
+#: admin/partials/views/settings-view/mega-settings.php:136
+msgid "Secondary Bg Color"
+msgstr "Sekundäre Hintergrundfarbe"
+
+#: admin/partials/views/settings-view/mega-settings.php:137
+msgid "The secondary background color for Mega Forms email templates."
+msgstr "Die sekundäre Hintergrundfarbe für Mega Forms-E-Mail-Vorlagen."
+
+#: admin/partials/views/settings-view/mega-settings.php:147
+msgid "Timetrap Error"
+msgstr "Timetrap-Fehler"
+
+#: admin/partials/views/settings-view/mega-settings.php:148
+msgid "Type the error message for spam entries detected by Timetrap."
+msgstr ""
+"Gib die Fehlermeldung für Spameinträge ein, die von Timetrap erkannt wurden."
+
+#: admin/partials/views/settings-view/mega-settings.php:156
+msgid "Honeypot Error"
+msgstr "Honeypot-Fehler"
+
+#: admin/partials/views/settings-view/mega-settings.php:157
+msgid "Type the error message for spam entries detected by Honeypot trap."
+msgstr ""
+"Gib die Fehlermeldung für Spameinträge ein, die von Honeypot Trap erkannt "
+"wurden."
+
+#: admin/partials/views/settings-view/mega-settings.php:165
+#: common/partials/form/fields/base/class-mega-forms-field.php:567
+#: common/partials/form/fields/class-mega-forms-field-question.php:94
+msgid "Required Field"
+msgstr "Pflichtfeld"
+
+#: admin/partials/views/settings-view/mega-settings.php:166
+msgid "Type the error message for required single entry fields."
+msgstr "Gib die Fehlermeldung für erforderliche Einzeleingabefelder ein."
+
+#: admin/partials/views/settings-view/mega-settings.php:174
+msgid "Required Fields"
+msgstr "Pflichtfelder"
+
+#: admin/partials/views/settings-view/mega-settings.php:175
+msgid ""
+"Type the error message for required multiple entry fields (e.g. name, email, "
+"password ...etc)."
+msgstr ""
+"Gib die Fehlermeldung für erforderliche Mehrfacheingabefelder ein (z. B. "
+"Name, E-Mail, Passwort usw.)."
+
+#: admin/partials/views/settings-view/mega-settings.php:183
+msgid "Required Option"
+msgstr "Erforderliche Option"
+
+#: admin/partials/views/settings-view/mega-settings.php:184
+msgid ""
+"Type the error message for required option fields (e.g. radios, checkboxes, "
+"selectboxes)."
+msgstr ""
+"Gib die Fehlermeldung für erforderliche Optionsfelder (z. B. Radio-Buttons, "
+"Checkboxen, Auswahlfelder) ein."
+
+#: admin/partials/views/settings-view/mega-settings.php:192
+msgid "Required Address"
+msgstr "Erforderliche Adresse"
+
+#: admin/partials/views/settings-view/mega-settings.php:193
+msgid "Type the error message for required address field."
+msgstr "Gib die Fehlermeldung für erforderliche Adressfelder ein."
+
+#: admin/partials/views/settings-view/mega-settings.php:201
+msgid "Invalid Email"
+msgstr "Ungültige E-Mail"
+
+#: admin/partials/views/settings-view/mega-settings.php:202
+msgid "Type the error message for invalid email address."
+msgstr "Gib die Fehlermeldung für eine ungültige E-Mail-Adresse ein."
+
+#: admin/partials/views/settings-view/mega-settings.php:203
+#: common/partials/form/fields/class-mega-forms-field-email.php:283
+msgid "Please enter a valid email."
+msgstr "Bitte gib deine E-Mail ein."
+
+#: admin/partials/views/settings-view/mega-settings.php:210
+msgid "Invalid Website"
+msgstr "Ungültige Website"
+
+#: admin/partials/views/settings-view/mega-settings.php:211
+msgid "Type the error message for invalid web address."
+msgstr "Gib die Fehlermeldung für eine ungültige Webadresse ein."
+
+#: admin/partials/views/settings-view/mega-settings.php:212
+#: common/partials/form/fields/class-mega-forms-field-website.php:86
+msgid "Please enter a valid url."
+msgstr "Bitte gib eine gültige URL ein."
+
+#: admin/partials/views/settings-view/mega-settings.php:219
+msgid "Invalid Date"
+msgstr "Ungültiges Datum"
+
+#: admin/partials/views/settings-view/mega-settings.php:220
+msgid "Type the error message for invalid date."
+msgstr "Gib die Fehlermeldung für ein ungültiges Datum ein."
+
+#: admin/partials/views/settings-view/mega-settings.php:221
+#: common/partials/form/fields/class-mega-forms-field-date.php:312
+msgid "Please enter a valid date."
+msgstr "Bitte gib ein gültiges Datum ein."
+
+#: admin/partials/views/settings-view/mega-settings.php:228
+msgid "Invalid Date Range"
+msgstr "Ungültiger Datumsbereich"
+
+#: admin/partials/views/settings-view/mega-settings.php:229
+msgid "Type the error message for invalid date range."
+msgstr "Gib die Fehlermeldung für einen ungültigen Datumsbereich ein."
+
+#: admin/partials/views/settings-view/mega-settings.php:230
+#: common/partials/form/fields/class-mega-forms-field-date.php:312
+msgid "Please enter a valid date range."
+msgstr "Bitte gib einen gültigen Datumsbereich ein."
+
+#: admin/partials/views/settings-view/mega-settings.php:239
+msgid "Uninstall"
+msgstr "Deinstallieren"
+
+#: admin/partials/views/settings-view/mega-settings.php:240
+msgid "Permanently delete all Mega Forms data upon uninstallation."
+msgstr "Bei der Deinstallation alle Mega Forms-Daten dauerhaft löschen."
+
+#: admin/partials/views/single-entry-view/mega-entry-render.php:77
+msgid "The entry you're trying to view doesn't exit."
+msgstr "Der Eintrag, den du anzeigen möchtest, existiert nicht."
+
+#: admin/partials/views/single-entry-view/mega-entry-render.php:87
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: admin/partials/views/single-entry-view/mega-entry-render.php:88
+#: admin/partials/views/single-form-view/mega-form-render.php:76
+msgid "Full Screen"
+msgstr "Vollbild"
+
+#: admin/partials/views/single-entry-view/mega-entry-render.php:136
+msgid "Show empty fields"
+msgstr "Leere Felder zeigen"
+
+#: admin/partials/views/single-entry-view/mega-entry-render.php:209
+msgid "Entry Details"
+msgstr "Details zum Eintrag"
+
+#: admin/partials/views/single-entry-view/mega-entry-render.php:218
+#: common/partials/class-mega-forms-tags.php:85
+msgid "Form"
+msgstr "Formular"
+
+#: admin/partials/views/single-entry-view/mega-entry-render.php:222
+msgid "Submitted On"
+msgstr "Eingereicht am"
+
+#: admin/partials/views/single-entry-view/mega-entry-render.php:226
+msgid "Submitted By"
+msgstr "Eingereicht von"
+
+#: admin/partials/views/single-entry-view/mega-entry-render.php:231
+msgid "Guest"
+msgstr "Gast"
+
+#: admin/partials/views/single-entry-view/mega-entry-render.php:256
+msgid "Entry Actions"
+msgstr "Eintrags-Aktionen"
+
+#: admin/partials/views/single-entry-view/mega-entry-render.php:260
+msgid "Trash entry"
+msgstr "Eintrag in Papierkorb verschieben"
+
+#: admin/partials/views/single-entry-view/mega-entry-render.php:264
+msgid "Edit Entry"
+msgstr "Eintrag bearbeiten"
+
+#: admin/partials/views/single-entry-view/mega-entry-render.php:268
+msgid "View Entry"
+msgstr "Eintrag ansehen"
+
+#: admin/partials/views/single-entry-view/mega-entry-render.php:272
+msgid "Print entry"
+msgstr "Eintrag drucken"
+
+#: admin/partials/views/single-entry-view/mega-entry-render.php:277
+msgid "Resend emails"
+msgstr "E-Mails erneut senden"
+
+#: admin/partials/views/single-entry-view/mega-entry-render.php:282
+msgid "Entry Notes"
+msgstr "Eintrags-Notizen"
+
+#: admin/partials/views/single-entry-view/mega-entry-render.php:306
+msgid "You haven't added notes!"
+msgstr "Du hast keine Notizen hinzugefügt!"
+
+#: admin/partials/views/single-entry-view/mega-entry-render.php:314
+msgid "Add Note"
+msgstr "Notiz hinzufügen"
+
+#: admin/partials/views/single-form-view/mega-form-actions.php:92
+msgid "Form Actions"
+msgstr "Formular-Aktionen"
+
+#: admin/partials/views/single-form-view/mega-form-fields.php:50
+#: common/partials/class-mega-forms-tags.php:58
+msgid "All Fields"
+msgstr "Alle Felder"
+
+#: admin/partials/views/single-form-view/mega-form-fields.php:53
+msgid "Edit Field"
+msgstr "Feld bearbeiten"
+
+#: admin/partials/views/single-form-view/mega-form-fields.php:80
+msgid "No Field Selected"
+msgstr "Kein Feld ausgewählt"
+
+#: admin/partials/views/single-form-view/mega-form-fields.php:150
+msgid "Add Container"
+msgstr "Container hinzufügen"
+
+#: admin/partials/views/single-form-view/mega-form-fields.php:150
+msgid "Add Row"
+msgstr "Zeile hinzufügen"
+
+#: admin/partials/views/single-form-view/mega-form-fields.php:186
+msgid "Common Fields"
+msgstr "Häufig verwendete Felder"
+
+#: admin/partials/views/single-form-view/mega-form-fields.php:202
+msgid "User Fields"
+msgstr "Benutzerfelder"
+
+#: admin/partials/views/single-form-view/mega-form-fields.php:214
+msgid "Misc Fields"
+msgstr "Sonstige Felder"
+
+#: admin/partials/views/single-form-view/mega-form-render.php:51
+msgid ""
+"Mega Forms is optimized for desktop. Please use a different device to manage "
+"your forms."
+msgstr ""
+"Mega Forms ist für den Desktop optimiert. Bitte verwende ein anderes Gerät, "
+"um deine Formulare zu verwalten."
+
+#: admin/partials/views/single-form-view/mega-form-render.php:57
+msgid "The form you're trying to view doesn't exit."
+msgstr "Das Formular, das du anzeigen möchtest, existiert nicht."
+
+#: admin/partials/views/single-form-view/mega-form-render.php:65
+#: common/partials/class-mega-forms-tags.php:56
+msgid "Fields"
+msgstr "Felder"
+
+#: admin/partials/views/single-form-view/mega-form-render.php:67
+msgid "Actions"
+msgstr "Aktionen"
+
+#: admin/partials/views/single-form-view/mega-form-render.php:75
+msgid "Save Form"
+msgstr "Formular speichern"
+
+#: admin/partials/views/single-form-view/mega-form-render.php:77
+msgid "Embed"
+msgstr "Einbetten"
+
+#: admin/partials/views/single-form-view/mega-form-settings.php:60
+msgid "Restrictions"
+msgstr "Beschränkungen"
+
+#: admin/partials/views/single-form-view/mega-form-settings.php:61
+msgid "Confirmation"
+msgstr "Bestätigung"
+
+#: admin/partials/views/single-form-view/mega-form-settings.php:83
+msgid "Form Description"
+msgstr "Formularbeschreibung"
+
+#: admin/partials/views/single-form-view/mega-form-settings.php:90
+msgid "Submit Text"
+msgstr "Absenden-Text"
+
+#: admin/partials/views/single-form-view/mega-form-settings.php:91
+msgid "Submit"
+msgstr "Absenden"
+
+#: admin/partials/views/single-form-view/mega-form-settings.php:97
+msgid "CSS Class"
+msgstr "CSS-Klasse"
+
+#: admin/partials/views/single-form-view/mega-form-settings.php:98
+msgid ""
+"Add custom CSS class names here to use on your form wrappers. Multiple "
+"classes should be separated by space."
+msgstr ""
+"Füge hier benutzerdefinierte CSS-Klassennamen hinzu, die im Formular-Wrapper "
+"verwendet werden. Mehrere Klassen sollten durch Leerzeichen getrennt werden."
+
+#: admin/partials/views/single-form-view/mega-form-settings.php:105
+msgid "Stop Entries"
+msgstr "Einträge stoppen"
+
+#: admin/partials/views/single-form-view/mega-form-settings.php:107
+msgid ""
+"Enable this option to prevent entries from being stored in the database."
+msgstr ""
+"Aktiviere diese Option, um zu verhindern, dass Einträge in der Datenbank "
+"gespeichert werden."
+
+#: admin/partials/views/single-form-view/mega-form-settings.php:115
+msgid "Timetrap ( Anti-Spam )"
+msgstr "Timetrap ( Anti-Spam )"
+
+#: admin/partials/views/single-form-view/mega-form-settings.php:117
+msgid ""
+"Enable time trap technique to help with spam prevention. Spam bots usually "
+"fills out forms very fast. The timetrap prevents form submission until a "
+"number of seconds has passed."
+msgstr ""
+"Aktiviere die Timetrap-Methode, um Spam zu verhindern. Spam-Bots füllen "
+"Formulare in der Regel sehr schnell aus. Timetrap verhindert das Senden von "
+"Formularen, bis einige Sekunden vergangen sind."
+
+#: admin/partials/views/single-form-view/mega-form-settings.php:123
+msgid "Timetrap Seconds"
+msgstr "Timetrap-Sekunden"
+
+#: admin/partials/views/single-form-view/mega-form-settings.php:124
+msgid ""
+"The minimum time after which a normal user can submit the form (in seconds)."
+msgstr ""
+"Die Mindestzeit, nach der ein normaler Benutzer das Formular absenden kann "
+"(in Sekunden)."
+
+#: admin/partials/views/single-form-view/mega-form-settings.php:134
+msgid "Limited Entries"
+msgstr "Begrenzte Einträge"
+
+#: admin/partials/views/single-form-view/mega-form-settings.php:136
+msgid ""
+"Enable this option to allow a specific number of entries for this form that "
+"can not be exceeded."
+msgstr ""
+"Aktiviere diese Option, um eine bestimmte Anzahl von Einträgen für dieses "
+"Formular zuzulassen, die nicht überschritten werden darf."
+
+#: admin/partials/views/single-form-view/mega-form-settings.php:142
+#: admin/partials/views/single-form-view/mega-form-settings.php:151
+msgid "Submissions Limit"
+msgstr "Einreichungslimit"
+
+#: admin/partials/views/single-form-view/mega-form-settings.php:160
+msgid "Login Restricted"
+msgstr "Login-beschränkt"
+
+#: admin/partials/views/single-form-view/mega-form-settings.php:162
+msgid "Enable this option to require login to view the form."
+msgstr ""
+"Aktiviere diese Option, um das Formular nur für eingeloggte Benutzer "
+"anzuzeigen."
+
+#: admin/partials/views/single-form-view/mega-form-settings.php:168
+msgid "Require Login Message"
+msgstr "Erfordere Login-Nachricht"
+
+#: admin/partials/views/single-form-view/mega-form-settings.php:179
+msgid "Confirmation Type"
+msgstr "Bestätigungstyp"
+
+#: admin/partials/views/single-form-view/mega-form-settings.php:183
+msgid ""
+"Select confirmation type for this form. This will be the result after the "
+"user submits the form."
+msgstr ""
+"Wähle den Bestätigungstyp für dieses Formular aus. Dies ist das Ergebnis, "
+"nachdem der Benutzer das Formular abgeschickt hat."
+
+#: admin/partials/views/single-form-view/mega-form-settings.php:184
+msgid "Message: "
+msgstr "Nachricht: "
+
+#: admin/partials/views/single-form-view/mega-form-settings.php:185
+msgid "The text users will see after submitting the form."
+msgstr "Der Text, den Benutzer nach dem Absenden des Formulars sehen."
+
+#: admin/partials/views/single-form-view/mega-form-settings.php:186
+msgid "Page: "
+msgstr "Seite: "
+
+#: admin/partials/views/single-form-view/mega-form-settings.php:187
+msgid "The page users will be redirected to after submitting the form."
+msgstr ""
+"Die Seite, zu der Benutzer nach dem Absenden des Formulars weitergeleitet "
+"werden."
+
+#: admin/partials/views/single-form-view/mega-form-settings.php:188
+msgid "Redirection: "
+msgstr "Weiterleitung: "
+
+#: admin/partials/views/single-form-view/mega-form-settings.php:189
+msgid ""
+"The URL of webpage users will be redirected to after submitting the form."
+msgstr ""
+"Die URL der Seite, zu der Benutzer nach dem Absenden des Formulars "
+"weitergeleitet werden."
+
+#: admin/partials/views/single-form-view/mega-form-settings.php:192
+#: common/partials/form/actions/class-mega-forms-action-email.php:185
+msgid "Message"
+msgstr "Nachricht"
+
+#: admin/partials/views/single-form-view/mega-form-settings.php:193
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:32
+msgid "Page"
+msgstr "Seite"
+
+#: admin/partials/views/single-form-view/mega-form-settings.php:194
+msgid "Redirect"
+msgstr "Weiterleitung"
+
+#: admin/partials/views/single-form-view/mega-form-settings.php:201
+msgid "Confirmation Message"
+msgstr "Bestätigungsmeldung"
+
+#: admin/partials/views/single-form-view/mega-form-settings.php:202
+msgid "Form has been successfully submitted. Thank you."
+msgstr "Das Formular wurde erfolgreich versendet. Vielen Dank."
+
+#: admin/partials/views/single-form-view/mega-form-settings.php:210
+msgid "Keep Form"
+msgstr "Formular beibehalten"
+
+#: admin/partials/views/single-form-view/mega-form-settings.php:212
+msgid ""
+"This option allows you to keep or hide the form fields after successful "
+"submission."
+msgstr ""
+"Mit dieser Option kannst du die Formularfelder nach erfolgreichem Absenden "
+"beibehalten oder ausblenden."
+
+#: admin/partials/views/single-form-view/mega-form-settings.php:220
+msgid "Confirmation Page"
+msgstr "Bestätigungsseite"
+
+#: admin/partials/views/single-form-view/mega-form-settings.php:230
+msgid "Confirmation Redirect URL"
+msgstr "Weiterleitungs-URL zur Bestätigung"
+
+#: common/partials/class-mega-forms-ajax.php:45
+msgid "The callback method is not defined in your request."
+msgstr "Die Rückrufmethode ist in deiner Anforderung nicht definiert."
+
+#: common/partials/class-mega-forms-ajax.php:69
+msgid ""
+"Mega Forms could not process this request. Please make sure the callback "
+"method is ending the AJAX process by either calling error() or success()"
+msgstr ""
+"Mega Forms konnte diese Anfrage nicht bearbeiten. Stelle sicher, dass die "
+"Callback-Methode den AJAX-Prozess beendet, indem sie entweder error() oder "
+"success() aufruft"
+
+#: common/partials/class-mega-forms-ajax.php:209
+msgid "You don't have the permissions to perform this request."
+msgstr ""
+"Du verfügst nicht über die Berechtigungen, um diese Anforderung auszuführen."
+
+#. translators: The callback method name.
+#: common/partials/class-mega-forms-ajax.php:228
+msgid "The callback method ( %s ) does not exist."
+msgstr "Die Callback-Methode ( %s ) ist nicht vorhanden."
+
+#: common/partials/class-mega-forms-api.php:1806
+msgid "Invalid submission. Please refresh the page and try again."
+msgstr ""
+"Ungültige Übermittlung. Bitte aktualisiere die Seite und versuche es erneut."
+
+#: common/partials/class-mega-forms-api.php:1807
+msgid "Your submission is not valid. Please refresh the page and try again."
+msgstr ""
+"Deine Einsendung ist ungültig. Bitte aktualisiere die Seite und versuche es "
+"erneut."
+
+#: common/partials/class-mega-forms-api.php:1808
+msgid "Your session has expired, please refresh the page and try again."
+msgstr ""
+"Deine Sitzung ist abgelaufen, bitte aktualisiere die Seite und versuche es "
+"erneut."
+
+#: common/partials/class-mega-forms-api.php:1809
+msgid ""
+"We were unable to process your submission, please refresh the page and try "
+"again."
+msgstr ""
+"Wir konnten deine Einsendung nicht verarbeiten, bitte aktualisiere die Seite "
+"und versuche es erneut."
+
+#: common/partials/class-mega-forms-api.php:1810
+msgid "We couldn't process your submission, try again in few seconds."
+msgstr ""
+"Wir konnten deine Einsendung nicht verarbeiten, versuche es in einigen "
+"Sekunden erneut."
+
+#: common/partials/class-mega-forms-api.php:1811
+msgid "We couldn't process your submission, try again later."
+msgstr ""
+"Wir konnten deine Einsendung nicht bearbeiten, versuche es später noch "
+"einmal."
+
+#: common/partials/class-mega-forms-api.php:1812
+msgid "Sorry, you need to be logged in to view the form."
+msgstr "Entschuldigung, du musst angemeldet sein, um das Formular anzuzeigen."
+
+#: common/partials/class-mega-forms-api.php:1813
+msgid "Sorry, new submissions are no longer accepted."
+msgstr "Entschuldigung, neue Einsendungen werden leider nicht mehr akzeptiert."
+
+#: common/partials/class-mega-forms-api.php:1814
+msgid "Please correct the highlighted errors before submitting this form."
+msgstr ""
+"Bitte korrigiere die hervorgehobenen Fehler, bevor du dieses Formular "
+"absendest."
+
+#: common/partials/class-mega-forms-api.php:1815
+msgid "We have recieved your submission, thank you!"
+msgstr "Wir haben deine Einsendung erhalten, vielen Dank!"
+
+#: common/partials/class-mega-forms-api.php:1816
+msgid "Error: this field can't be validated!"
+msgstr "Fehler: Dieses Feld kann nicht validiert werden!"
+
+#: common/partials/class-mega-forms-api.php:1817
+msgid "Error: this field can't be submitted."
+msgstr "Fehler: Dieses Feld kann nicht übermittelt werden."
+
+#: common/partials/class-mega-forms-api.php:1818
+msgid "Error: this field can't be empty."
+msgstr "Fehler: Dieses Feld darf nicht leer sein."
+
+#: common/partials/class-mega-forms-api.php:1819
+msgid "Invalid entry. Please refresh the page and try again."
+msgstr ""
+"Ungültiger Eintrag. Bitte aktualisiere die Seite und versuche es erneut."
+
+#: common/partials/class-mega-forms-api.php:1820
+msgid ""
+"We were unable to process your changes, please refresh the page and try "
+"again."
+msgstr ""
+"Wir konnten deine Änderungen nicht verarbeiten, bitte aktualisiere die Seite "
+"und versuche es erneut."
+
+#: common/partials/class-mega-forms-api.php:1869
+msgid "Please select at least one option."
+msgstr "Bitte wähle mindestens eine Option aus."
+
+#: common/partials/class-mega-forms-api.php:1869
+msgid "Please select an option."
+msgstr "Bitte wähle eine Option."
+
+#. translators: field label.
+#: common/partials/class-mega-forms-api.php:1878
+#: common/partials/form/fields/base/class-mega-forms-field.php:1198
+msgid "%s is required."
+msgstr "%s ist ein Pflichtfeld."
+
+#: common/partials/class-mega-forms-api.php:1878
+msgid "This field"
+msgstr "Dieses Feld"
+
+#: common/partials/class-mega-forms-api.php:1900
+msgid "Please enter a complete address."
+msgstr "Bitte gib eine vollständige Adresse ein."
+
+#: common/partials/class-mega-forms-api.php:1908
+msgid "Please fill out the required fields."
+msgstr "Bitte fülle die erforderlichen Felder aus."
+
+#: common/partials/class-mega-forms-api.php:2161
+msgid "Select a Template"
+msgstr "Wähle eine Vorlage"
+
+#: common/partials/class-mega-forms-api.php:2162
+msgid ""
+"Create a form by selecting one of the pre-made templates, or start with a <a "
+"href=\"#\" data-hook=\"create-form\" data-template-parent=\"main\" data-"
+"template-type=\"blank\" data-template-title=\"Blank Form\">blank form</a>."
+msgstr ""
+"Erstelle ein Formular, indem du eine der vorgefertigten Vorlagen auswählst, "
+"oder beginne mit einem <a href=\"#\" data-hook=\"create-form\" data-template-"
+"parent=\"main\" data-template-type=\"blank\" data-template-title=\"Blank "
+"Form\">leeren Formular</a>."
+
+#: common/partials/class-mega-forms-api.php:2165
+msgid "Blank Form"
+msgstr "Leeres Formular"
+
+#: common/partials/class-mega-forms-api.php:2168
+msgid "Simple Contact Form"
+msgstr "Einfaches Kontaktformular"
+
+#: common/partials/class-mega-forms-api.php:2172
+msgid "Advanced Contact Form"
+msgstr "Erweitertes Kontaktformular"
+
+#: common/partials/class-mega-forms-api.php:2176
+msgid "Job Application Form"
+msgstr "Bewerbungsformular"
+
+#: common/partials/class-mega-forms-api.php:2180
+msgid "Feedback Form"
+msgstr "Feedback-Formular"
+
+#: common/partials/class-mega-forms-api.php:2187
+msgid "Additional Templates"
+msgstr "Zusätzliche Vorlagen"
+
+#: common/partials/class-mega-forms-crons.php:39
+msgid "Once a week"
+msgstr "Einmal pro Woche"
+
+#: common/partials/class-mega-forms-crons.php:44
+msgid "Once a month"
+msgstr "Einmal pro Monat"
+
+#: common/partials/class-mega-forms-files-api.php:397
+msgid "There was an problem while verifying your file."
+msgstr "Bei der Überprüfung deiner Datei trat ein Fehler auf."
+
+#: common/partials/class-mega-forms-files-api.php:400
+msgid "Sorry, this file extension is not permitted for security reasons."
+msgstr ""
+"Entschuldigung, aber diese Dateierweiterung ist aus Sicherheitsgründen nicht "
+"erlaubt."
+
+#: common/partials/class-mega-forms-files-api.php:403
+msgid "Sorry, this file type is not permitted for security reasons."
+msgstr ""
+"Entschuldigung, aber dieser Dateityp ist aus Sicherheitsgründen nicht "
+"erlaubt."
+
+#: common/partials/class-mega-forms-submit.php:317
+msgid "Changes were successfully saved! Refreshing..."
+msgstr "Änderungen wurden erfolgreich gespeichert! Lade neu..."
+
+#: common/partials/class-mega-forms-submit.php:544
+msgid "We couldn't process your submission."
+msgstr "Wir konnten deine Einsendung nicht verarbeiten."
+
+#: common/partials/class-mega-forms-tags.php:62
+msgid "WordPress"
+msgstr "WordPress"
+
+#: common/partials/class-mega-forms-tags.php:64
+msgid "Site Title"
+msgstr "Seitentitel"
+
+#: common/partials/class-mega-forms-tags.php:65
+msgid "Site URL"
+msgstr "Seiten-URL"
+
+#: common/partials/class-mega-forms-tags.php:66
+msgid "Admin Email"
+msgstr "Administrator E-Mail"
+
+#: common/partials/class-mega-forms-tags.php:67
+msgid "Post ID"
+msgstr "Beitrags-ID"
+
+#: common/partials/class-mega-forms-tags.php:68
+msgid "Post Title"
+msgstr "Beitragstitel"
+
+#: common/partials/class-mega-forms-tags.php:69
+msgid "Post URL"
+msgstr "Beitrags-URL"
+
+#: common/partials/class-mega-forms-tags.php:70
+msgid "Post Meta"
+msgstr "Beitrags-Meta"
+
+#: common/partials/class-mega-forms-tags.php:72
+msgid "User First Name"
+msgstr "Benutzer Vorname"
+
+#: common/partials/class-mega-forms-tags.php:73
+msgid "User Last Name"
+msgstr "Benutzer Nachname"
+
+#: common/partials/class-mega-forms-tags.php:74
+msgid "User Email"
+msgstr "Benutzer E-Mail"
+
+#: common/partials/class-mega-forms-tags.php:75
+msgid "User Meta"
+msgstr "Benutzer Meta"
+
+#: common/partials/class-mega-forms-tags.php:76
+msgid "HTTP Referer"
+msgstr "HTTP-Referer"
+
+#: common/partials/class-mega-forms-tags.php:77
+msgid "Login URL"
+msgstr "Anmeldelink"
+
+#: common/partials/class-mega-forms-tags.php:78
+msgid "Logout URL"
+msgstr "Abmeldelink"
+
+#: common/partials/class-mega-forms-tags.php:79
+msgid "Registration URL"
+msgstr "Registrierungslink"
+
+#: common/partials/class-mega-forms-tags.php:80
+msgid "Password Lost URL"
+msgstr "Passwort vergessen-Link"
+
+#: common/partials/class-mega-forms-tags.php:87
+msgid "Form ID"
+msgstr "Formular-ID"
+
+#: common/partials/class-mega-forms-tags.php:88
+msgid "Form Title"
+msgstr "Formulartitel"
+
+#: common/partials/class-mega-forms-tags.php:89
+msgid "View Count"
+msgstr "Ansichten-Anzahl"
+
+#: common/partials/class-mega-forms-tags.php:90
+msgid "Submission Count"
+msgstr "Einsendungs-Anzahl"
+
+#: common/partials/class-mega-forms-tags.php:96
+msgid "GET"
+msgstr "GET"
+
+#: common/partials/class-mega-forms-tags.php:97
+msgid "POST"
+msgstr "POST"
+
+#: common/partials/class-mega-forms-tags.php:98
+msgid "User IP Address"
+msgstr "IP-Adresse des Benutzers"
+
+#: common/partials/class-mega-forms-tags.php:99
+msgid "Current Date"
+msgstr "Aktuelles Datum"
+
+#: common/partials/form/actions/class-mega-forms-action-email.php:40
+#: common/partials/form/fields/class-mega-forms-field-email.php:44
+#: common/partials/form/fields/class-mega-forms-field-email.php:211
+msgid "Email"
+msgstr "E-Mail"
+
+#: common/partials/form/actions/class-mega-forms-action-email.php:121
+msgid "Enter the name of the sender, or leave empty to use the default name."
+msgstr ""
+"Gib den Namen des Absenders ein, oder lasse das Feld leer, um den "
+"Standardnamen zu verwenden."
+
+#: common/partials/form/actions/class-mega-forms-action-email.php:137
+msgid "From Email"
+msgstr "Absender E-Mail"
+
+#: common/partials/form/actions/class-mega-forms-action-email.php:138
+msgid ""
+"Enter the email address of the sender, or leave empty to use the default "
+"email address."
+msgstr ""
+"Gib die E-Mail-Adresse des Absenders ein, oder lasse das Feld leer, um die "
+"Standard-E-Mail-Adresse zu verwenden."
+
+#: common/partials/form/actions/class-mega-forms-action-email.php:155
+msgid "To"
+msgstr "An"
+
+#: common/partials/form/actions/class-mega-forms-action-email.php:156
+msgid ""
+"Enter the recipient address ( you can enter multiple addresses separated by "
+"comma \",\")."
+msgstr ""
+"Gib die Empfängeradresse ein (du kannst mehrere Adressen eingeben, die durch "
+"Komma \",\" getrennt sind)."
+
+#: common/partials/form/actions/class-mega-forms-action-email.php:170
+msgid "Subject"
+msgstr "Betreff"
+
+#: common/partials/form/actions/class-mega-forms-action-email.php:171
+msgid ""
+"Enter the email subject ( If left empty, it will default to the form title )."
+msgstr ""
+"Gib den E-Mail-Betreff ein (wenn er leer gelassen wird, wird standardmäßig "
+"der Formulartitel verwendet)."
+
+#: common/partials/form/actions/class-mega-forms-action-email.php:178
+msgid "New Submission: {mf:form title}"
+msgstr "Neue Einsendung: {mf:form title}"
+
+#: common/partials/form/actions/class-mega-forms-action-email.php:199
+msgid "More Options"
+msgstr "Weitere Optionen"
+
+#: common/partials/form/actions/class-mega-forms-action-email.php:200
+msgid ""
+"Enable additional options for this email notification by highlighting the "
+"ones you would like to activate."
+msgstr ""
+"Aktiviere zusätzliche Optionen für diese E-Mail-Benachrichtigung, indem du "
+"diejenigen markierst, die du aktivieren möchtest."
+
+#: common/partials/form/actions/class-mega-forms-action-email.php:210
+#: common/partials/form/actions/class-mega-forms-action-email.php:219
+msgid "CC"
+msgstr "CC"
+
+#: common/partials/form/actions/class-mega-forms-action-email.php:211
+#: common/partials/form/actions/class-mega-forms-action-email.php:238
+msgid "BCC"
+msgstr "BCC"
+
+#: common/partials/form/actions/class-mega-forms-action-email.php:212
+#: common/partials/form/actions/class-mega-forms-action-email.php:257
+msgid "Reply To"
+msgstr "Antwort an"
+
+#: common/partials/form/actions/class-mega-forms-action-hook.php:32
+msgid "WP Hook"
+msgstr "WP-Hook"
+
+#: common/partials/form/actions/class-mega-forms-action-hook.php:61
+msgid "Hook Tag"
+msgstr "Hook-Tag"
+
+#: common/partials/form/actions/class-mega-forms-action-hook.php:62
+msgid "Enter the name of the action hook you’re hooking to."
+msgstr "Gib den Namen des Action-Hooks ein, den du verwenden möchtest."
+
+#: common/partials/form/actions/class-mega-forms-action.php:263
+msgid "Action Label"
+msgstr "Action-Bezeichnung"
+
+#: common/partials/form/actions/class-mega-forms-action.php:264
+msgid ""
+"Enter the label for the action. This is how you can identify this action."
+msgstr ""
+"Gib die Bezeichnung für die Aktion ein. So kannst du diese Aktion "
+"identifizieren."
+
+#: common/partials/form/containers/class-mega-forms-container-row.php:30
+msgid "Row"
+msgstr "Zeile"
+
+#: common/partials/form/containers/class-mega-forms-container-row.php:127
+msgid "Columns"
+msgstr "Spalten"
+
+#: common/partials/form/fields/base/class-mega-forms-field-choice.php:82
+msgid "Choices"
+msgstr "Auswahlmöglichkeiten"
+
+#: common/partials/form/fields/base/class-mega-forms-field-choice.php:86
+msgid "Add choices to this field using the repeatable inputs below."
+msgstr ""
+"Füge diesem Feld Auswahlmöglichkeiten hinzu, indem du die wiederholbaren "
+"Eingabefelder unten verwendest."
+
+#: common/partials/form/fields/base/class-mega-forms-field-choice.php:96
+msgid "Label"
+msgstr "Bezeichnung"
+
+#: common/partials/form/fields/base/class-mega-forms-field-choice.php:97
+msgid "Value"
+msgstr "Wert"
+
+#: common/partials/form/fields/base/class-mega-forms-field-choice.php:182
+msgid "Please select a valid option."
+msgstr "Bitte wähle eine gültige Option aus."
+
+#: common/partials/form/fields/base/class-mega-forms-field.php:185
+msgid "Display"
+msgstr "Darstellung"
+
+#: common/partials/form/fields/base/class-mega-forms-field.php:186
+msgid "Advanced"
+msgstr "Erweitert"
+
+#: common/partials/form/fields/base/class-mega-forms-field.php:545
+msgid "Field Label"
+msgstr "Feldbezeichnung"
+
+#: common/partials/form/fields/base/class-mega-forms-field.php:546
+msgid ""
+"Enter the label of the form field. This is how users can identify single "
+"fields."
+msgstr ""
+"Gib die Bezeichnung des Formularfeldes ein. Auf diese Weise können Benutzer "
+"einzelne Felder identifizieren."
+
+#: common/partials/form/fields/base/class-mega-forms-field.php:568
+#: common/partials/form/fields/class-mega-forms-field-question.php:95
+msgid ""
+"Enable this option to make this field required. Required fields prevent the "
+"form from being submitted if it is not completed."
+msgstr ""
+"Aktiviere diese Option, um dieses Feld zu einem Pflichtfeld zu machen. Wenn "
+"Pflichtfelder nicht ausgefüllt sind, kann das Formular nicht abgesendet "
+"werden."
+
+#: common/partials/form/fields/base/class-mega-forms-field.php:588
+#: common/partials/form/fields/class-mega-forms-field-textarea.php:81
+#: public/class-mega-forms-public.php:88
+msgid "Placeholder"
+msgstr "Platzhalter"
+
+#: common/partials/form/fields/base/class-mega-forms-field.php:589
+#: common/partials/form/fields/class-mega-forms-field-textarea.php:82
+msgid ""
+"Use this to specify a short hint that describes the expected value of this "
+"field "
+msgstr ""
+"Verwende diese Option, um einen kurzen Hinweis anzugeben, der den erwarteten "
+"Wert dieses Felds beschreibt "
+
+#: common/partials/form/fields/base/class-mega-forms-field.php:610
+#: common/partials/form/fields/class-mega-forms-field-textarea.php:104
+#: common/partials/form/fields/class-mega-forms-field-website.php:64
+msgid "Default Value"
+msgstr "Standardwert"
+
+#: common/partials/form/fields/base/class-mega-forms-field.php:611
+#: common/partials/form/fields/class-mega-forms-field-textarea.php:105
+#: common/partials/form/fields/class-mega-forms-field-website.php:65
+msgid "Use this to pre-populate this field value."
+msgstr "Verwende diese Option, um diesen Feldwert vorauszufüllen."
+
+#: common/partials/form/fields/base/class-mega-forms-field.php:632
+msgid "CSS Classes"
+msgstr "CSS-Klassen"
+
+#: common/partials/form/fields/base/class-mega-forms-field.php:633
+msgid "Add extra CSS class to this field"
+msgstr "Füge diesem Feld eine zusätzliche CSS-Klasse hinzu"
+
+#: common/partials/form/fields/base/class-mega-forms-field.php:653
+#: common/partials/form/fields/class-mega-forms-field-section.php:100
+#: pro/common/partials/form/fields/class-mega-forms-field-file.php:268
+msgid "Description"
+msgstr "Beschreibung"
+
+#: common/partials/form/fields/base/class-mega-forms-field.php:654
+#: pro/common/partials/form/fields/class-mega-forms-field-file.php:269
+msgid ""
+"Write a description to provide users with directions on how this field "
+"should be completed."
+msgstr ""
+"Gib eine Beschreibung ein, um Nutzern Hinweise zum Ausfüllen dieses Feldes "
+"zu geben."
+
+#: common/partials/form/fields/base/class-mega-forms-field.php:675
+msgid "Description Position"
+msgstr "Beschreibungsposition"
+
+#: common/partials/form/fields/base/class-mega-forms-field.php:676
+msgid "Specify the position of the field description."
+msgstr "Gib die Position der Feldbeschreibung an."
+
+#: common/partials/form/fields/base/class-mega-forms-field.php:684
+#: common/partials/form/fields/base/class-mega-forms-field.php:739
+#: pro/common/partials/form/fields/class-mega-forms-field-consent.php:111
+msgid "Above"
+msgstr "Oberhalb"
+
+#: common/partials/form/fields/base/class-mega-forms-field.php:685
+#: common/partials/form/fields/base/class-mega-forms-field.php:740
+#: pro/common/partials/form/fields/class-mega-forms-field-consent.php:112
+msgid "Below"
+msgstr "Unterhalb"
+
+#: common/partials/form/fields/base/class-mega-forms-field.php:686
+#: common/partials/form/fields/base/class-mega-forms-field.php:741
+#: common/partials/form/fields/class-mega-forms-field-date.php:234
+#: pro/common/partials/form/fields/class-mega-forms-field-consent.php:113
+msgid "Hide"
+msgstr "Verstecken"
+
+#: common/partials/form/fields/base/class-mega-forms-field.php:702
+msgid "Field Label Visibility"
+msgstr "Sichtbarkeit der Feldbezeichnung"
+
+#: common/partials/form/fields/base/class-mega-forms-field.php:703
+msgid "Choose whether this field label should be visible or hidden."
+msgstr ""
+"Wähle aus, ob diese Feldbezeichnung sichtbar oder ausgeblendet werden soll."
+
+#: common/partials/form/fields/base/class-mega-forms-field.php:711
+msgid "Visible"
+msgstr "Sichtbar"
+
+#: common/partials/form/fields/base/class-mega-forms-field.php:712
+#: common/partials/form/fields/base/class-mega-forms-field.php:795
+#: common/partials/form/fields/class-mega-forms-field-hidden.php:47
+msgid "Hidden"
+msgstr "Versteckt"
+
+#: common/partials/form/fields/base/class-mega-forms-field.php:729
+msgid "Sub-label Position"
+msgstr "Position der Unterbezeichnung"
+
+#: common/partials/form/fields/base/class-mega-forms-field.php:730
+msgid "Specify the position of sub labels contained in this field."
+msgstr ""
+"Gib die Position der Unterbezeichnungen an, die in diesem Feld enthalten "
+"sind."
+
+#: common/partials/form/fields/base/class-mega-forms-field.php:757
+msgid "Field Size"
+msgstr "Feldgröße"
+
+#: common/partials/form/fields/base/class-mega-forms-field.php:759
+msgid ""
+"Select your preferred size from the available options to determine width of "
+"the inputs in this field."
+msgstr ""
+"Wähle deine bevorzugte Größe aus den verfügbaren Optionen aus, um die Breite "
+"der Eingabemasken in diesem Feld festlegen."
+
+#: common/partials/form/fields/base/class-mega-forms-field.php:783
+msgid "Visibility"
+msgstr "Sichtbarkeit"
+
+#: common/partials/form/fields/base/class-mega-forms-field.php:784
+msgid ""
+"Select visibility option for this field. Fields are visible to everyone by "
+"default, use \"Hidden\" option to hide this field from users while viewing "
+"the form and \"Administrator\" to only make it available and functional for "
+"website admin."
+msgstr ""
+"Wähle die Sichtbarkeitsoption für dieses Feld aus. Felder sind standardmäßig "
+"für alle sichtbar. Die Option \"Ausgeblendet\" versteckt dieses Feld für "
+"normale Benutzer, die sich das Formular ansehen. Die Option "
+"\"Administrator\" macht es nur für Website-Administratoren verfügbar und "
+"funktionsfähig."
+
+#: common/partials/form/fields/base/class-mega-forms-field.php:793
+msgid "Everyone"
+msgstr "Alle"
+
+#: common/partials/form/fields/base/class-mega-forms-field.php:794
+msgid "Administrator"
+msgstr "Administrator"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:43
+#: common/partials/form/fields/class-mega-forms-field-address.php:806
+msgid "Address"
+msgstr "Adresse"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:103
+#: common/partials/form/fields/class-mega-forms-field-address.php:168
+#: common/partials/form/fields/class-mega-forms-field-address.php:855
+msgid "-- Select Country --"
+msgstr "-- Land auswählen --"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:139
+msgid "Address Inputs"
+msgstr "Adress-Eingaben"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:141
+#: common/partials/form/fields/class-mega-forms-field-email.php:127
+#: common/partials/form/fields/class-mega-forms-field-name.php:125
+#: common/partials/form/fields/class-mega-forms-field-password.php:126
+msgid ""
+"Select the fields you want to display and customize them as needed by "
+"entering the appropriate values in their respective inputs."
+msgstr ""
+"Wählen die Felder aus, die du anzeigen möchtest und passe sie nach Bedarf "
+"an, indem du die entsprechenden Werte in die jeweiligen Eingabefelder "
+"einträgst."
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:155
+#: common/partials/form/fields/class-mega-forms-field-email.php:142
+#: common/partials/form/fields/class-mega-forms-field-name.php:139
+#: common/partials/form/fields/class-mega-forms-field-password.php:140
+#: common/partials/form/fields/class-mega-forms-field-text.php:131
+#: pro/common/partials/form/fields/options/class-mega-forms-field-conditional-logic.php:41
+msgid "Enable"
+msgstr "Aktivieren"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:160
+#: common/partials/form/fields/class-mega-forms-field-email.php:147
+#: common/partials/form/fields/class-mega-forms-field-name.php:144
+#: common/partials/form/fields/class-mega-forms-field-password.php:145
+msgid "Sub Labels"
+msgstr "Unterbezeichungen"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:161
+#: common/partials/form/fields/class-mega-forms-field-email.php:148
+#: common/partials/form/fields/class-mega-forms-field-name.php:145
+msgid "Default Values"
+msgstr "Standardwerte"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:162
+#: common/partials/form/fields/class-mega-forms-field-email.php:149
+#: common/partials/form/fields/class-mega-forms-field-name.php:146
+#: common/partials/form/fields/class-mega-forms-field-password.php:146
+msgid "Placeholders"
+msgstr "Platzhalter"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:285
+msgid "Afghanistan"
+msgstr "Afghanistan"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:286
+msgid "Aland Islands"
+msgstr "Ålandinseln"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:287
+msgid "Albania"
+msgstr "Albanien"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:288
+msgid "Algeria"
+msgstr "Algerien"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:289
+msgid "American Samoa"
+msgstr "Amerikanisch-Samoa"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:290
+msgid "Andorra"
+msgstr "Andorra"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:291
+msgid "Angola"
+msgstr "Angola"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:292
+msgid "Anguilla"
+msgstr "Anguilla"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:293
+msgid "Antarctica"
+msgstr "Antarktis"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:294
+msgid "Antigua and Barbuda"
+msgstr "Antigua und Barbuda"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:295
+#: common/partials/form/fields/class-mega-forms-field-phone.php:120
+msgid "Argentina"
+msgstr "Argentinien"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:296
+msgid "Armenia"
+msgstr "Armenien"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:297
+msgid "Aruba"
+msgstr "Aruba"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:298
+#: common/partials/form/fields/class-mega-forms-field-phone.php:121
+msgid "Australia"
+msgstr "Australien"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:299
+#: common/partials/form/fields/class-mega-forms-field-phone.php:122
+msgid "Austria"
+msgstr "Österreich"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:300
+msgid "Azerbaijan"
+msgstr "Aserbaidschan"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:301
+msgid "Bahamas"
+msgstr "Bahamas"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:302
+msgid "Bahrain"
+msgstr "Bahrain"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:303
+msgid "Bangladesh"
+msgstr "Bangladesch"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:304
+msgid "Barbados"
+msgstr "Barbados"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:305
+msgid "Belarus"
+msgstr "Weißrussland"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:306
+#: common/partials/form/fields/class-mega-forms-field-phone.php:123
+msgid "Belgium"
+msgstr "Belgien"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:307
+msgid "Belize"
+msgstr "Belize"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:308
+msgid "Benin"
+msgstr "Benin"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:309
+msgid "Bermuda"
+msgstr "Bermuda"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:310
+msgid "Bhutan"
+msgstr "Bhutan"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:311
+msgid "Bolivia"
+msgstr "Bolivien"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:312
+msgid "Bonaire, Sint Eustatius and Saba"
+msgstr "Bonaire, St Eustatius und Saba"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:313
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnien und Herzegowina"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:314
+msgid "Botswana"
+msgstr "Botswana"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:315
+msgid "Bouvet Island"
+msgstr "Bouvet Island"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:316
+#: common/partials/form/fields/class-mega-forms-field-phone.php:124
+msgid "Brazil"
+msgstr "Brasilien"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:317
+msgid "British Indian Ocean Territory"
+msgstr "Britisches Territorium im Indischen Ozean"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:318
+msgid "Brunei"
+msgstr "Brunei"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:319
+#: common/partials/form/fields/class-mega-forms-field-phone.php:125
+msgid "Bulgaria"
+msgstr "Bulgarien"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:320
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:321
+msgid "Burundi"
+msgstr "Burundi"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:322
+msgid "Cambodia"
+msgstr "Kambodscha"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:323
+msgid "Cameroon"
+msgstr "Kamerun"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:324
+#: common/partials/form/fields/class-mega-forms-field-phone.php:126
+msgid "Canada"
+msgstr "Kanada"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:325
+msgid "Cape Verde"
+msgstr "Kap Verde"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:326
+msgid "Cayman Islands"
+msgstr "Kaimaninseln"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:327
+msgid "Central African Republic"
+msgstr "Zentralafrikanische Republik"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:328
+msgid "Chad"
+msgstr "Tschad"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:329
+msgid "Chile"
+msgstr "Chile"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:330
+msgid "China"
+msgstr "China"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:331
+msgid "Christmas Island"
+msgstr "Weihnachtsinsel"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:332
+msgid "Cocos (Keeling) Islands"
+msgstr "Kokosinseln"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:333
+#: common/partials/form/fields/class-mega-forms-field-phone.php:127
+msgid "Colombia"
+msgstr "Kolumbien"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:334
+msgid "Comoros"
+msgstr "Komoren"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:335
+msgid "Congo"
+msgstr "Kongo"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:336
+msgid "Cook Islands"
+msgstr "Cookinseln"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:337
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:338
+msgid "C&ocirc;te d'Ivoire"
+msgstr "Côte d'Ivoire"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:339
+#: common/partials/form/fields/class-mega-forms-field-phone.php:128
+msgid "Croatia"
+msgstr "Kroatien"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:340
+msgid "Cuba"
+msgstr "Cuba"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:341
+msgid "Curacao"
+msgstr "Curacao"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:342
+#: common/partials/form/fields/class-mega-forms-field-phone.php:129
+msgid "Cyprus"
+msgstr "Zypern"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:343
+#: common/partials/form/fields/class-mega-forms-field-phone.php:130
+#: common/partials/form/fields/class-mega-forms-field-phone.php:131
+msgid "Czech Republic"
+msgstr "Tschechien"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:344
+#: common/partials/form/fields/class-mega-forms-field-phone.php:132
+msgid "Denmark"
+msgstr "Dänemark"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:345
+msgid "Djibouti"
+msgstr "Dschibuti"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:346
+msgid "Dominica"
+msgstr "Dominica"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:347
+#: common/partials/form/fields/class-mega-forms-field-phone.php:133
+msgid "Dominican Republic"
+msgstr "Dominikanische Republik"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:348
+msgid "East Timor"
+msgstr "Osttimor"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:349
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:350
+msgid "Egypt"
+msgstr "Ägypten"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:351
+#: common/partials/form/fields/class-mega-forms-field-phone.php:134
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:352
+msgid "Equatorial Guinea"
+msgstr "Äquatorialguinea"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:353
+msgid "Eritrea"
+msgstr "Eritrea"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:354
+#: common/partials/form/fields/class-mega-forms-field-phone.php:135
+msgid "Estonia"
+msgstr "Estland"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:355
+msgid "Ethiopia"
+msgstr "Äthiopien"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:356
+msgid "Falkland Islands (Malvinas)"
+msgstr "Falklandinseln (Malvinas)"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:357
+msgid "Faroe Islands"
+msgstr "Färöer Inseln"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:358
+msgid "Fiji"
+msgstr "Fidschi"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:359
+#: common/partials/form/fields/class-mega-forms-field-phone.php:136
+msgid "Finland"
+msgstr "Finnland"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:360
+#: common/partials/form/fields/class-mega-forms-field-phone.php:137
+msgid "France"
+msgstr "Frankreich"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:361
+msgid "French Guiana"
+msgstr "Französisch-Guayana"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:362
+msgid "French Polynesia"
+msgstr "Französisch-Polynesien"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:363
+msgid "French Southern Territories"
+msgstr "Französische Süd- und Antarktisgebiete"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:364
+msgid "Gabon"
+msgstr "Gabun"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:365
+msgid "Gambia"
+msgstr "Gambia"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:366
+msgid "Georgia"
+msgstr "Georgien"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:367
+#: common/partials/form/fields/class-mega-forms-field-phone.php:138
+msgid "Germany"
+msgstr "Deutschland"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:368
+msgid "Ghana"
+msgstr "Ghana"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:369
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:370
+#: common/partials/form/fields/class-mega-forms-field-phone.php:139
+msgid "Greece"
+msgstr "Griechenland"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:371
+msgid "Greenland"
+msgstr "Grönland"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:372
+msgid "Grenada"
+msgstr "Grenada"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:373
+msgid "Guadeloupe"
+msgstr "Guadeloupe"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:374
+msgid "Guam"
+msgstr "Guam"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:375
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:376
+msgid "Guernsey"
+msgstr "Guernsey"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:377
+msgid "Guinea"
+msgstr "Guinea"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:378
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:379
+msgid "Guyana"
+msgstr "Guyana"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:380
+msgid "Haiti"
+msgstr "Haiti"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:381
+msgid "Heard Island and McDonald Islands"
+msgstr "Heard und McDonald Inseln"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:382
+msgid "Holy See"
+msgstr "Liechtenstein"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:383
+msgid "Honduras"
+msgstr "Honduras"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:384
+#: common/partials/form/fields/class-mega-forms-field-phone.php:140
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:385
+#: common/partials/form/fields/class-mega-forms-field-phone.php:141
+msgid "Hungary"
+msgstr "Ungarn"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:386
+msgid "Iceland"
+msgstr "Island"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:387
+msgid "India"
+msgstr "Indien"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:388
+msgid "Indonesia"
+msgstr "Indonesien"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:389
+msgid "Iran"
+msgstr "Iran"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:390
+msgid "Iraq"
+msgstr "Irak"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:391
+#: common/partials/form/fields/class-mega-forms-field-phone.php:142
+msgid "Ireland"
+msgstr "Irland"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:392
+#: common/partials/form/fields/class-mega-forms-field-phone.php:143
+msgid "Israel"
+msgstr "Israel"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:393
+msgid "Isle of Man"
+msgstr "Isle of Man"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:394
+#: common/partials/form/fields/class-mega-forms-field-phone.php:144
+msgid "Italy"
+msgstr "Italien"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:395
+msgid "Jamaica"
+msgstr "Jamaika"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:396
+#: common/partials/form/fields/class-mega-forms-field-phone.php:145
+msgid "Japan"
+msgstr "Japan"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:397
+msgid "Jersey"
+msgstr "Jersey"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:398
+msgid "Jordan"
+msgstr "Jordanien"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:399
+msgid "Kazakhstan"
+msgstr "Kasachstan"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:400
+msgid "Kenya"
+msgstr "Kenia"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:401
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:402
+msgid "North Korea"
+msgstr "Nordkorea"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:403
+#: common/partials/form/fields/class-mega-forms-field-phone.php:165
+msgid "South Korea"
+msgstr "Südkorea"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:404
+msgid "Kosovo"
+msgstr "Kosovo"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:405
+msgid "Kuwait"
+msgstr "Kuwait"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:406
+msgid "Kyrgyzstan"
+msgstr "Kirgisistan"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:407
+msgid "Laos"
+msgstr "Laos"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:408
+#: common/partials/form/fields/class-mega-forms-field-phone.php:146
+msgid "Latvia"
+msgstr "Lettland"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:409
+msgid "Lebanon"
+msgstr "Libanon"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:410
+msgid "Lesotho"
+msgstr "Lesotho"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:411
+msgid "Liberia"
+msgstr "Liberia"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:412
+msgid "Libya"
+msgstr "Libyen"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:413
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:414
+#: common/partials/form/fields/class-mega-forms-field-phone.php:147
+msgid "Lithuania"
+msgstr "Litauen"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:415
+#: common/partials/form/fields/class-mega-forms-field-phone.php:148
+msgid "Luxembourg"
+msgstr "Luxemburg"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:416
+msgid "Macao"
+msgstr "Macau"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:417
+msgid "Macedonia"
+msgstr "Mazedonien"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:418
+msgid "Madagascar"
+msgstr "Madagaskar"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:419
+msgid "Malawi"
+msgstr "Malawi"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:420
+#: common/partials/form/fields/class-mega-forms-field-phone.php:149
+msgid "Malaysia"
+msgstr "Malaysia"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:421
+msgid "Maldives"
+msgstr "Malediven"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:422
+msgid "Mali"
+msgstr "Mali"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:423
+#: common/partials/form/fields/class-mega-forms-field-phone.php:150
+msgid "Malta"
+msgstr "Malta"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:424
+msgid "Marshall Islands"
+msgstr "Marshallinseln"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:425
+msgid "Martinique"
+msgstr "Martinique"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:426
+msgid "Mauritania"
+msgstr "Mauretanien"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:427
+msgid "Mauritius"
+msgstr "Mauritius"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:428
+msgid "Mayotte"
+msgstr "Mayotte"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:429
+#: common/partials/form/fields/class-mega-forms-field-phone.php:151
+msgid "Mexico"
+msgstr "Mexiko"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:430
+msgid "Micronesia"
+msgstr "Mikronesien"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:431
+msgid "Moldova"
+msgstr "Moldawien"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:432
+msgid "Monaco"
+msgstr "Monaco"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:433
+msgid "Mongolia"
+msgstr "Mongolei"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:434
+msgid "Montenegro"
+msgstr "Montenegro"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:435
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:436
+msgid "Morocco"
+msgstr "Marokko"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:437
+msgid "Mozambique"
+msgstr "Mosambik"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:438
+msgid "Myanmar"
+msgstr "Myanmar"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:439
+msgid "Namibia"
+msgstr "Namibien"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:440
+msgid "Nauru"
+msgstr "Nauru"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:441
+msgid "Nepal"
+msgstr "Nepal"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:442
+#: common/partials/form/fields/class-mega-forms-field-phone.php:152
+msgid "Netherlands"
+msgstr "Niederlande"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:443
+msgid "New Caledonia"
+msgstr "Neukaledonien"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:444
+#: common/partials/form/fields/class-mega-forms-field-phone.php:153
+msgid "New Zealand"
+msgstr "Neuseeland"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:445
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:446
+msgid "Niger"
+msgstr "Niger"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:447
+msgid "Nigeria"
+msgstr "Nigeria"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:448
+msgid "Niue"
+msgstr "Niue"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:449
+msgid "Norfolk Island"
+msgstr "Norfolkinsel"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:450
+msgid "Northern Mariana Islands"
+msgstr "Nördliche Marianen"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:451
+#: common/partials/form/fields/class-mega-forms-field-phone.php:154
+msgid "Norway"
+msgstr "Norwegen"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:452
+msgid "Oman"
+msgstr "Oman"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:453
+msgid "Pakistan"
+msgstr "Pakistan"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:454
+msgid "Palau"
+msgstr "Palau"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:455
+msgid "Palestine"
+msgstr "Palästina"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:456
+#: common/partials/form/fields/class-mega-forms-field-phone.php:155
+msgid "Panama"
+msgstr "Panama"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:457
+msgid "Papua New Guinea"
+msgstr "Papua-Neuguinea"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:458
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:459
+#: common/partials/form/fields/class-mega-forms-field-phone.php:156
+msgid "Peru"
+msgstr "Peru"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:460
+msgid "Philippines"
+msgstr "Philippinen"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:461
+msgid "Pitcairn"
+msgstr "Pitcairn"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:462
+#: common/partials/form/fields/class-mega-forms-field-phone.php:157
+msgid "Poland"
+msgstr "Polen"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:463
+#: common/partials/form/fields/class-mega-forms-field-phone.php:158
+msgid "Portugal"
+msgstr "Portugal"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:464
+#: common/partials/form/fields/class-mega-forms-field-phone.php:159
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:465
+msgid "Qatar"
+msgstr "Katar"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:466
+msgid "Reunion"
+msgstr "Réunion"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:467
+#: common/partials/form/fields/class-mega-forms-field-phone.php:160
+msgid "Romania"
+msgstr "Rumänien"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:468
+msgid "Russia"
+msgstr "Russland"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:469
+msgid "Rwanda"
+msgstr "Ruanda"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:470
+msgid "Saint Barthelemy"
+msgstr "Saint-Barthélemy"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:471
+msgid "Saint Helena, Ascension and Tristan da Cunha"
+msgstr "﻿St. Helena, Ascension und Tristan Da Cunha"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:472
+msgid "Saint Kitts and Nevis"
+msgstr "St. Kitts und Nevis"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:473
+msgid "Saint Lucia"
+msgstr "St. Lucia"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:474
+msgid "Saint Martin (French part)"
+msgstr "Saint-Martin (französischer Teil)"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:475
+msgid "Saint Pierre and Miquelon"
+msgstr "Saint-Pierre und Miquelon"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:476
+msgid "Saint Vincent and the Grenadines"
+msgstr "St. Vincent und die Grenadinen"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:477
+msgid "Samoa"
+msgstr "Samoa"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:478
+msgid "San Marino"
+msgstr "San Marino"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:479
+msgid "Sao Tome and Principe"
+msgstr "Sao Tome und Principe"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:480
+msgid "Saudi Arabia"
+msgstr "Saudi-Arabien"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:481
+msgid "Senegal"
+msgstr "Senegal"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:482
+msgid "Serbia"
+msgstr "Serbien"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:483
+msgid "Seychelles"
+msgstr "Seychellen"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:484
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:485
+#: common/partials/form/fields/class-mega-forms-field-phone.php:161
+msgid "Singapore"
+msgstr "Singapur"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:486
+msgid "Sint Maarten (Dutch part)"
+msgstr "﻿Sint Maarten (niederländischer Teil)"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:487
+#: common/partials/form/fields/class-mega-forms-field-phone.php:162
+msgid "Slovakia"
+msgstr "Slowakei"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:488
+#: common/partials/form/fields/class-mega-forms-field-phone.php:163
+msgid "Slovenia"
+msgstr "Slowenien"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:489
+msgid "Solomon Islands"
+msgstr "Salomonen"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:490
+msgid "Somalia"
+msgstr "Somalia"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:491
+#: common/partials/form/fields/class-mega-forms-field-phone.php:164
+msgid "South Africa"
+msgstr "Südafrika"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:492
+msgid "South Georgia and the South Sandwich Islands"
+msgstr "Südgeorgien und die Südlichen Sandwichinseln"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:493
+msgid "South Sudan"
+msgstr "Südsudan"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:494
+#: common/partials/form/fields/class-mega-forms-field-phone.php:166
+msgid "Spain"
+msgstr "Spanien"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:495
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:496
+msgid "Sudan"
+msgstr "Sudan"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:497
+msgid "Suriname"
+msgstr "Suriname"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:498
+msgid "Svalbard and Jan Mayen"
+msgstr "Svalbard und Jan Mayen"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:499
+msgid "Swaziland"
+msgstr "Swasiland"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:500
+#: common/partials/form/fields/class-mega-forms-field-phone.php:167
+msgid "Sweden"
+msgstr "Schweden"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:501
+#: common/partials/form/fields/class-mega-forms-field-phone.php:168
+msgid "Switzerland"
+msgstr "Schweiz"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:502
+msgid "Syria"
+msgstr "Syrien"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:503
+msgid "Taiwan"
+msgstr "Taiwan"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:504
+msgid "Tajikistan"
+msgstr "Tadschikistan"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:505
+msgid "Tanzania"
+msgstr "Tansania"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:506
+msgid "Thailand"
+msgstr "Thailand"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:507
+msgid "Timor-Leste"
+msgstr "Timor-Leste"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:508
+msgid "Togo"
+msgstr "Togo"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:509
+msgid "Tokelau"
+msgstr "Tokelau"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:510
+msgid "Tonga"
+msgstr "Tonga"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:511
+msgid "Trinidad and Tobago"
+msgstr "Trinidad und Tobago"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:512
+msgid "Tunisia"
+msgstr "Tunesien"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:513
+msgid "Turkey"
+msgstr "Türkei"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:514
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:515
+msgid "Turks and Caicos Islands"
+msgstr "Turks- und Caicosinseln"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:516
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:517
+msgid "Uganda"
+msgstr "Uganda"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:518
+msgid "Ukraine"
+msgstr "Ukraine"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:519
+msgid "United Arab Emirates"
+msgstr "Vereinigte Arabische Emirate"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:520
+#: common/partials/form/fields/class-mega-forms-field-phone.php:170
+msgid "United Kingdom"
+msgstr "Großbritannien"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:521
+#: common/partials/form/fields/class-mega-forms-field-phone.php:171
+msgid "United States"
+msgstr "Vereinigte Staaten"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:522
+msgid "United States Minor Outlying Islands"
+msgstr "Vereinigte Staaten Kleinere Ausgelagerte Inseln"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:523
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:524
+msgid "Uzbekistan"
+msgstr "Usbekistan"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:525
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:526
+msgid "Vatican City"
+msgstr "Vatikanstadt"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:527
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:528
+msgid "Vietnam"
+msgstr "Vietnam"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:529
+msgid "Virgin Islands, British"
+msgstr "Britische Jungferninseln"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:530
+msgid "Virgin Islands, U.S."
+msgstr "Amerikanische Jungferninseln."
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:531
+msgid "Wallis and Futuna"
+msgstr "Wallis und Futuna"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:532
+msgid "Western Sahara"
+msgstr "Westsahara"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:533
+msgid "Yemen"
+msgstr "Jemen"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:534
+msgid "Zambia"
+msgstr "Sambia"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:535
+msgid "Zimbabwe"
+msgstr "Simbabwe"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:548
+msgid "AFGHANISTAN"
+msgstr "AFGHANISTAN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:549
+msgid "ALBANIA"
+msgstr "ALBANIEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:550
+msgid "ALGERIA"
+msgstr "ALGERIEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:551
+msgid "AMERICAN SAMOA"
+msgstr "AMERIKANISCH-SAMOA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:552
+msgid "ANDORRA"
+msgstr "ANDORRA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:553
+msgid "ANGOLA"
+msgstr "ANGOLA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:554
+msgid "ANTIGUA AND BARBUDA"
+msgstr "ANTIGUA UND BARBUDA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:555
+msgid "ARGENTINA"
+msgstr "ARGENTINIEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:556
+msgid "ARMENIA"
+msgstr "ARMENIEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:557
+msgid "AUSTRALIA"
+msgstr "AUSTRALIEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:558
+msgid "AUSTRIA"
+msgstr "ÖSTERREICH"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:559
+msgid "AZERBAIJAN"
+msgstr "ASERBAIDSCHAN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:560
+msgid "BAHAMAS"
+msgstr "BAHAMAS"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:561
+msgid "BAHRAIN"
+msgstr "BAHRAIN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:562
+msgid "BANGLADESH"
+msgstr "BANGLADESCH"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:563
+msgid "BARBADOS"
+msgstr "BARBADOS"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:564
+msgid "BELARUS"
+msgstr "WEISSRUSSLAND"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:565
+msgid "BELGIUM"
+msgstr "BELGIEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:566
+msgid "BELIZE"
+msgstr "BELIZE"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:567
+msgid "BENIN"
+msgstr "BENIN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:568
+msgid "BERMUDA"
+msgstr "BERMUDA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:569
+msgid "BHUTAN"
+msgstr "BHUTAN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:570
+msgid "BOLIVIA"
+msgstr "BOLIVIEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:571
+msgid "BOSNIA AND HERZEGOVINA"
+msgstr "BOSNIEN UND HERZEGOWINA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:572
+msgid "BOTSWANA"
+msgstr "BOTSWANA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:573
+msgid "BRAZIL"
+msgstr "BRASILIEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:574
+msgid "BRUNEI"
+msgstr "BRUNEI"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:575
+msgid "BULGARIA"
+msgstr "BULGARIEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:576
+msgid "BURKINA FASO"
+msgstr "BURKINA FASO"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:577
+msgid "BURUNDI"
+msgstr "BURUNDI"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:578
+msgid "CAMBODIA"
+msgstr "KAMBODSCHA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:579
+msgid "CAMEROON"
+msgstr "KAMERUN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:580
+msgid "CANADA"
+msgstr "KANADA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:581
+msgid "CAPE VERDE"
+msgstr "KAP VERDE"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:582
+msgid "CAYMAN ISLANDS"
+msgstr "KAIMANINSELN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:583
+msgid "CENTRAL AFRICAN REPUBLIC"
+msgstr "ZENTRALAFRIKANISCHE REPUBLIK"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:584
+msgid "CHAD"
+msgstr "TSCHAD"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:585
+msgid "CHILE"
+msgstr "CHILE"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:586
+msgid "CHINA"
+msgstr "CHINA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:587
+msgid "COLOMBIA"
+msgstr "KOLUMBIEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:588
+msgid "COMOROS"
+msgstr "KOMOREN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:589
+msgid "CONGO, DEMOCRATIC REPUBLIC OF THE"
+msgstr "KONGO, DEMOKRATISCHE REPUBLIK KONGO"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:590
+msgid "CONGO, REPUBLIC OF THE"
+msgstr "KONGO, REPUBLIK KONGO"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:591
+msgid "COSTA RICA"
+msgstr "COSTA RICA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:592
+msgid "CÔTE D'IVOIRE"
+msgstr "CÔTE D'IVOIRE"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:593
+msgid "CROATIA"
+msgstr "KROATIEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:594
+msgid "CUBA"
+msgstr "KUBA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:595
+msgid "CURAÇAO"
+msgstr "CURAÇAO"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:596
+msgid "CYPRUS"
+msgstr "ZYPERN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:597
+msgid "CZECH REPUBLIC"
+msgstr "TSCHECHIEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:598
+msgid "DENMARK"
+msgstr "DÄNEMARK"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:599
+msgid "DJIBOUTI"
+msgstr "DSCHIBUTI"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:600
+msgid "DOMINICA"
+msgstr "DOMINICA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:601
+msgid "DOMINICAN REPUBLIC"
+msgstr "DOMINIKANISCHE REPUBLIK"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:602
+msgid "EAST TIMOR"
+msgstr "OSTTIMOR"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:603
+msgid "ECUADOR"
+msgstr "ECUADOR"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:604
+msgid "EGYPT"
+msgstr "ÄGYPTEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:605
+msgid "EL SALVADOR"
+msgstr "EL SALVADOR"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:606
+msgid "EQUATORIAL GUINEA"
+msgstr "ÄQUATORIALGUINEA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:607
+msgid "ERITREA"
+msgstr "ERITREA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:608
+msgid "ESTONIA"
+msgstr "ESTLAND"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:609
+msgid "ETHIOPIA"
+msgstr "ÄTHIOPIEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:610
+msgid "FAROE ISLANDS"
+msgstr "FÄROER INSELN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:611
+msgid "FIJI"
+msgstr "FIDSCHI"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:612
+msgid "FINLAND"
+msgstr "FINNLAND"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:613
+msgid "FRANCE"
+msgstr "FRANKREICH"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:614
+msgid "FRENCH POLYNESIA"
+msgstr "FRANZÖSISCH-POLYNESIEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:615
+msgid "GABON"
+msgstr "GABUN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:616
+msgid "GAMBIA"
+msgstr "GAMBIA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:617
+msgid "GEORGIA"
+msgstr "GEORGIEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:618
+msgid "GERMANY"
+msgstr "DEUTSCHLAND"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:619
+msgid "GHANA"
+msgstr "GHANA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:620
+msgid "GREECE"
+msgstr "GRIECHENLAND"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:621
+msgid "GREENLAND"
+msgstr "GRÖNLAND"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:622
+msgid "GRENADA"
+msgstr "GRENADA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:623
+msgid "GUAM"
+msgstr "GUAM"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:624
+msgid "GUATEMALA"
+msgstr "GUATEMALA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:625
+msgid "GUINEA"
+msgstr "GUINEA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:626
+msgid "GUINEA-BISSAU"
+msgstr "GUINEA-BISSAU"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:627
+msgid "GUYANA"
+msgstr "GUYANA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:628
+msgid "HAITI"
+msgstr "HAITI"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:629
+msgid "HONDURAS"
+msgstr "HONDURAS"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:630
+msgid "HONG KONG"
+msgstr "HONGKONG"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:631
+msgid "HUNGARY"
+msgstr "UNGARN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:632
+msgid "ICELAND"
+msgstr "ISLAND"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:633
+msgid "INDIA"
+msgstr "INDIEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:634
+msgid "INDONESIA"
+msgstr "INDONESIEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:635
+msgid "IRAN"
+msgstr "IRAN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:636
+msgid "IRAQ"
+msgstr "IRAK"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:637
+msgid "IRELAND"
+msgstr "IRLAND"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:638
+msgid "ISRAEL"
+msgstr "ISRAEL"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:639
+msgid "ITALY"
+msgstr "ITALIEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:640
+msgid "JAMAICA"
+msgstr "JAMAIKA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:641
+msgid "JAPAN"
+msgstr "JAPAN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:642
+msgid "JORDAN"
+msgstr "JORDANIEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:643
+msgid "KAZAKHSTAN"
+msgstr "KAZACHSTAN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:644
+msgid "KENYA"
+msgstr "KENIA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:645
+msgid "KIRIBATI"
+msgstr "KIRIBATI"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:646
+msgid "NORTH KOREA"
+msgstr "NORDKOREA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:647
+msgid "SOUTH KOREA"
+msgstr "SÜDKOREA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:648
+msgid "KOSOVO"
+msgstr "KOSOVO"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:649
+msgid "KUWAIT"
+msgstr "KUWAIT"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:650
+msgid "KYRGYZSTAN"
+msgstr "KIRGISISTAN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:651
+msgid "LAOS"
+msgstr "LAOS"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:652
+msgid "LATVIA"
+msgstr "LETTLAND"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:653
+msgid "LEBANON"
+msgstr "LIBANON"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:654
+msgid "LESOTHO"
+msgstr "LESOTHO"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:655
+msgid "LIBERIA"
+msgstr "LIBERIA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:656
+msgid "LIBYA"
+msgstr "LIBYEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:657
+msgid "LIECHTENSTEIN"
+msgstr "LIECHTENSTEIN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:658
+msgid "LITHUANIA"
+msgstr "LITAUEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:659
+msgid "LUXEMBOURG"
+msgstr "LUXEMBURG"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:660
+msgid "MACEDONIA"
+msgstr "MAZEDONIEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:661
+msgid "MADAGASCAR"
+msgstr "MADAGASKAR"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:662
+msgid "MALAWI"
+msgstr "MALAWI"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:663
+msgid "MALAYSIA"
+msgstr "MALAYSIA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:664
+msgid "MALDIVES"
+msgstr "MALEDIVEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:665
+msgid "MALI"
+msgstr "MALI"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:666
+msgid "MALTA"
+msgstr "MALTA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:667
+msgid "MARSHALL ISLANDS"
+msgstr "MARSHALLINSELN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:668
+msgid "MAURITANIA"
+msgstr "MAURETANIEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:669
+msgid "MAURITIUS"
+msgstr "MAURITIUS"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:670
+msgid "MEXICO"
+msgstr "MEXIKO"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:671
+msgid "MICRONESIA"
+msgstr "MIKRONESIEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:672
+msgid "MOLDOVA"
+msgstr "MOLDAWIEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:673
+msgid "MONACO"
+msgstr "MONACO"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:674
+msgid "MONGOLIA"
+msgstr "MONGOLEI"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:675
+msgid "MONTENEGRO"
+msgstr "MONTENEGRO"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:676
+msgid "MOROCCO"
+msgstr "MAROKKO"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:677
+msgid "MOZAMBIQUE"
+msgstr "MOSAMBIK"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:678
+msgid "MYANMAR"
+msgstr "MYANMAR"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:679
+msgid "NAMIBIA"
+msgstr "NAMIBIEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:680
+msgid "NAURU"
+msgstr "NAURU"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:681
+msgid "NEPAL"
+msgstr "NEPAL"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:682
+msgid "NETHERLANDS"
+msgstr "NIEDERLANDE"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:683
+msgid "NEW ZEALAND"
+msgstr "NEUSEELAND"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:684
+msgid "NICARAGUA"
+msgstr "NICARAGUA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:685
+msgid "NIGER"
+msgstr "NIGER"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:686
+msgid "NIGERIA"
+msgstr "NIGERIA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:687
+msgid "NORTHERN MARIANA ISLANDS"
+msgstr "NÖRDLICHE MARIANA INSELN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:688
+msgid "NORWAY"
+msgstr "NORWEGEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:689
+msgid "OMAN"
+msgstr "OMAN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:690
+msgid "PAKISTAN"
+msgstr "PAKISTAN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:691
+msgid "PALAU"
+msgstr "PALAU"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:692
+msgid "PALESTINE, STATE OF"
+msgstr "PALÄSTINA, STAAT VON"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:693
+msgid "PANAMA"
+msgstr "PANAMA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:694
+msgid "PAPUA NEW GUINEA"
+msgstr "PAPUA-NEUGUINEA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:695
+msgid "PARAGUAY"
+msgstr "PARAGUAY"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:696
+msgid "PERU"
+msgstr "PERU"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:697
+msgid "PHILIPPINES"
+msgstr "PHILIPPINEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:698
+msgid "POLAND"
+msgstr "POLEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:699
+msgid "PORTUGAL"
+msgstr "PORTUGAL"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:700
+msgid "PUERTO RICO"
+msgstr "PUERTO RICO"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:701
+msgid "QATAR"
+msgstr "KATAR"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:702
+msgid "ROMANIA"
+msgstr "RUMÄNIEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:703
+msgid "RUSSIA"
+msgstr "RUSSLAND"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:704
+msgid "RWANDA"
+msgstr "RUANDA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:705
+msgid "SAINT KITTS AND NEVIS"
+msgstr "SAINT KITTS UND NEVIS"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:706
+msgid "SAINT LUCIA"
+msgstr "ST. LUCIA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:707
+msgid "SAINT MARTIN"
+msgstr "SAINT MARTIN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:708
+msgid "SAINT VINCENT AND THE GRENADINES"
+msgstr "ST. VINCENT UND DIE GRENADINEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:709
+msgid "SAMOA"
+msgstr "SAMOA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:710
+msgid "SAN MARINO"
+msgstr "SAN MARINO"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:711
+msgid "SAO TOME AND PRINCIPE"
+msgstr "SAO TOME UND PRINCIPE"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:712
+msgid "SAUDI ARABIA"
+msgstr "SAUDI ARABIEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:713
+msgid "SENEGAL"
+msgstr "SENEGAL"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:714
+msgid "SERBIA"
+msgstr "SERBIEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:715
+msgid "SEYCHELLES"
+msgstr "SEYCHELLEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:716
+msgid "SIERRA LEONE"
+msgstr "SIERRA LEONE"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:717
+msgid "SINGAPORE"
+msgstr "SINGAPUR"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:718
+msgid "SINT MAARTEN"
+msgstr "SINT MAARTEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:719
+msgid "SLOVAKIA"
+msgstr "SLOWAKEI"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:720
+msgid "SLOVENIA"
+msgstr "SLOWENIEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:721
+msgid "SOLOMON ISLANDS"
+msgstr "SALOMONEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:722
+msgid "SOMALIA"
+msgstr "SOMALIA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:723
+msgid "SOUTH AFRICA"
+msgstr "SÜDAFRIKA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:724
+msgid "SPAIN"
+msgstr "SPANIEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:725
+msgid "SRI LANKA"
+msgstr "SRI LANKA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:726
+msgid "SUDAN"
+msgstr "SUDAN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:727
+msgid "SUDAN, SOUTH"
+msgstr "SUDAN, SÜD"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:728
+msgid "SURINAME"
+msgstr "SURINAME"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:729
+msgid "SWAZILAND"
+msgstr "SWASILAND"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:730
+msgid "SWEDEN"
+msgstr "SCHWEDEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:731
+msgid "SWITZERLAND"
+msgstr "SCHWEIZ"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:732
+msgid "SYRIA"
+msgstr "SYRIEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:733
+msgid "TAIWAN"
+msgstr "TAIWAN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:734
+msgid "TAJIKISTAN"
+msgstr "TADSCHIKISTAN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:735
+msgid "TANZANIA"
+msgstr "TANSANIA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:736
+msgid "THAILAND"
+msgstr "THAILAND"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:737
+msgid "TOGO"
+msgstr "TOGO"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:738
+msgid "TONGA"
+msgstr "TONGA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:739
+msgid "TRINIDAD AND TOBAGO"
+msgstr "TRINIDAD UND TOBAGO"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:740
+msgid "TUNISIA"
+msgstr "TUNESIEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:741
+msgid "TURKEY"
+msgstr "TÜRKEI"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:742
+msgid "TURKMENISTAN"
+msgstr "TURKMENISTAN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:743
+msgid "TUVALU"
+msgstr "TUVALU"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:744
+msgid "UGANDA"
+msgstr "UGANDA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:745
+msgid "UKRAINE"
+msgstr "UKRAINE"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:746
+msgid "UNITED ARAB EMIRATES"
+msgstr "VEREINIGTE ARABISCHE EMIRATE"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:747
+msgid "UNITED KINGDOM"
+msgstr "VEREINIGTES KÖNIGREICH"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:748
+msgid "UNITED STATES"
+msgstr "VEREINIGTE STAATEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:749
+msgid "URUGUAY"
+msgstr "URUGUAY"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:750
+msgid "UZBEKISTAN"
+msgstr "USBEKISTAN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:751
+msgid "VANUATU"
+msgstr "VANUATU"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:752
+msgid "VATICAN CITY"
+msgstr "VATIKAN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:753
+msgid "VENEZUELA"
+msgstr "VENEZUELA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:754
+msgid "VIRGIN ISLANDS, BRITISH"
+msgstr "BRITISCHE JUNGFERNINSELN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:755
+msgid "VIRGIN ISLANDS, U.S."
+msgstr "VIRGIN ISLANDS, U.S.A"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:756
+msgid "VIETNAM"
+msgstr "VIETNAM"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:757
+msgid "YEMEN"
+msgstr "JEMEN"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:758
+msgid "ZAMBIA"
+msgstr "SAMBIA"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:759
+msgid "ZIMBABWE"
+msgstr "SIMBABWE"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:815
+msgid "Address Line 2"
+msgstr "Adresszeile 2"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:824
+msgid "City"
+msgstr "Ort"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:833
+msgid "State / Province / Region"
+msgstr "Bundesland / Provinz / Region"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:842
+msgid "ZIP / Postal Code"
+msgstr "PLZ / Postleitzahl"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:851
+msgid "Country"
+msgstr "Land"
+
+#: common/partials/form/fields/class-mega-forms-field-address.php:925
+msgid "Please enter a valid zip code."
+msgstr "Bitte gib eine gültige Postleitzahl ein."
+
+#: common/partials/form/fields/class-mega-forms-field-checkboxes.php:31
+msgid "Checkboxes"
+msgstr "Kontrollkästchen"
+
+#: common/partials/form/fields/class-mega-forms-field-date.php:49
+#: common/partials/form/fields/class-mega-forms-field-text.php:234
+msgid "Date"
+msgstr "Datum"
+
+#: common/partials/form/fields/class-mega-forms-field-date.php:131
+msgid "Date Format"
+msgstr "Datumsformat"
+
+#: common/partials/form/fields/class-mega-forms-field-date.php:133
+msgid "Select the format you'd like to use for the date field."
+msgstr "Wähle das Format aus, das du für das Datumsfeld verwenden möchtest."
+
+#: common/partials/form/fields/class-mega-forms-field-date.php:155
+msgid "Date Mode"
+msgstr "Datumsmodus"
+
+#: common/partials/form/fields/class-mega-forms-field-date.php:157
+msgid ""
+"Choose whether you want to allow users to select a single date or a date "
+"range."
+msgstr ""
+"Wähle aus, ob Benutzer ein einzelnes Datum oder einen Datumsbereich "
+"auswählen können."
+
+#: common/partials/form/fields/class-mega-forms-field-date.php:164
+msgid "Single"
+msgstr "Einzeln"
+
+#: common/partials/form/fields/class-mega-forms-field-date.php:165
+msgid "Range"
+msgstr "Bereich"
+
+#: common/partials/form/fields/class-mega-forms-field-date.php:182
+msgid "Year Range"
+msgstr "Zeitraum (Jahre)"
+
+#: common/partials/form/fields/class-mega-forms-field-date.php:184
+msgid "Limit the year range appearing in the date picker."
+msgstr "Begrenze den Jahresbereich, der in der Datumsauswahl angezeigt wird."
+
+#: common/partials/form/fields/class-mega-forms-field-date.php:224
+msgid "Calendar Icon"
+msgstr "Kalendersymbol"
+
+#: common/partials/form/fields/class-mega-forms-field-date.php:226
+msgid ""
+"Choose whether the calendar icon should appear on the date field or not."
+msgstr ""
+"Wähle aus, ob das Kalendersymbol im Datumsfeld angezeigt werden soll oder "
+"nicht."
+
+#: common/partials/form/fields/class-mega-forms-field-date.php:233
+msgid "Show"
+msgstr "Anzeigen"
+
+#: common/partials/form/fields/class-mega-forms-field-date.php:259
+msgid "22/03/1999"
+msgstr "22/03/1999"
+
+#: common/partials/form/fields/class-mega-forms-field-date.php:260
+msgid "22-03-1999"
+msgstr "22-03-1999"
+
+#: common/partials/form/fields/class-mega-forms-field-date.php:261
+msgid "22.03.1999"
+msgstr "22.03.1999"
+
+#: common/partials/form/fields/class-mega-forms-field-date.php:262
+msgid "1999/03/22"
+msgstr "1999/03/22"
+
+#: common/partials/form/fields/class-mega-forms-field-date.php:263
+msgid "1999-03-22"
+msgstr "1999-03-22"
+
+#: common/partials/form/fields/class-mega-forms-field-date.php:264
+msgid "1999.03.22"
+msgstr "1999.03.22"
+
+#: common/partials/form/fields/class-mega-forms-field-date.php:265
+msgid "03/22/1999"
+msgstr "03/22/1999"
+
+#: common/partials/form/fields/class-mega-forms-field-date.php:266
+msgid "Mar 22, 1999"
+msgstr "Mär 22, 1999"
+
+#: common/partials/form/fields/class-mega-forms-field-date.php:267
+msgid "March 22, 1999"
+msgstr "März 22, 1999"
+
+#: common/partials/form/fields/class-mega-forms-field-date.php:268
+msgid "March 22 1999"
+msgstr "März 22 1999"
+
+#: common/partials/form/fields/class-mega-forms-field-date.php:269
+msgid "22 Mar 1999"
+msgstr "22 Mär 1999"
+
+#: common/partials/form/fields/class-mega-forms-field-date.php:270
+msgid "22 Mar, 1999"
+msgstr "22 Mär, 1999"
+
+#: common/partials/form/fields/class-mega-forms-field-divider.php:31
+msgid "Divider"
+msgstr "Trennelement"
+
+#: common/partials/form/fields/class-mega-forms-field-divider.php:103
+msgid "Divider Options"
+msgstr "Trenner-Optionen"
+
+#: common/partials/form/fields/class-mega-forms-field-divider.php:105
+msgid "Customize the divider."
+msgstr "Passe den Trenner an."
+
+#: common/partials/form/fields/class-mega-forms-field-divider.php:123
+msgid "Height"
+msgstr "Höhe"
+
+#: common/partials/form/fields/class-mega-forms-field-divider.php:124
+msgid "Width"
+msgstr "Breite"
+
+#: common/partials/form/fields/class-mega-forms-field-divider.php:141
+msgid "Top Margin"
+msgstr "Oberer Abstand"
+
+#: common/partials/form/fields/class-mega-forms-field-divider.php:142
+msgid "Bottom Margin"
+msgstr "Unterer Abstand"
+
+#: common/partials/form/fields/class-mega-forms-field-divider.php:174
+msgid "Transparent"
+msgstr "Transparent"
+
+#: common/partials/form/fields/class-mega-forms-field-divider.php:175
+msgid ""
+"Enable this option to make the divider invisible, this will maintain the "
+"empty space without showing the actual divider."
+msgstr ""
+"Aktiviere diese Option, um die Trennlinie unsichtbar zu machen, dadurch "
+"bleibt der leere Raum erhalten, ohne die eigentliche Trennlinie anzuzeigen."
+
+#: common/partials/form/fields/class-mega-forms-field-email.php:125
+msgid "Email Inputs"
+msgstr "E-Mail-Eingaben"
+
+#: common/partials/form/fields/class-mega-forms-field-email.php:220
+msgid "Email Confirmation"
+msgstr "E-Mail-Bestätigung"
+
+#: common/partials/form/fields/class-mega-forms-field-email.php:276
+msgid "The entered values do not match."
+msgstr "Die eingegebenen Werte stimmen nicht überein."
+
+#: common/partials/form/fields/class-mega-forms-field-honeypot.php:35
+msgid "Do not fill this field."
+msgstr "Fülle dieses Feld nicht aus."
+
+#: common/partials/form/fields/class-mega-forms-field-html.php:45
+msgid "HTML"
+msgstr "HTML"
+
+#: common/partials/form/fields/class-mega-forms-field-html.php:62
+msgid "HTML Code is only displayed when viewing the form on the frontend."
+msgstr ""
+"HTML-Code wird nur angezeigt, wenn das Formular im Frontend angezeigt wird."
+
+#: common/partials/form/fields/class-mega-forms-field-html.php:90
+msgid "HTML Content"
+msgstr "HTML-Inhalt"
+
+#: common/partials/form/fields/class-mega-forms-field-html.php:92
+msgid "Enter the HTML code you want displayed on your form."
+msgstr "Gib den HTML-Code ein, der in deinem Formular angezeigt werden soll."
+
+#: common/partials/form/fields/class-mega-forms-field-html.php:112
+msgid "Process Shortcode"
+msgstr "Shortcodes verarbeiten"
+
+#: common/partials/form/fields/class-mega-forms-field-html.php:114
+msgid "Enable or disable WordPress shortcode processing for the HTML content."
+msgstr ""
+"Aktiviere oder deaktiviere die WordPress-Shortcode-Verarbeitung für den HTML-"
+"Inhalt."
+
+#: common/partials/form/fields/class-mega-forms-field-name.php:42
+msgid "Name"
+msgstr "Name"
+
+#: common/partials/form/fields/class-mega-forms-field-name.php:123
+msgid "Name Inputs"
+msgstr "Namens-Eingaben"
+
+#: common/partials/form/fields/class-mega-forms-field-name.php:204
+msgid "Mr."
+msgstr "Herr"
+
+#: common/partials/form/fields/class-mega-forms-field-name.php:205
+msgid "Mrs."
+msgstr "Frau"
+
+#: common/partials/form/fields/class-mega-forms-field-name.php:206
+msgid "Ms."
+msgstr "Frau"
+
+#: common/partials/form/fields/class-mega-forms-field-name.php:207
+msgid "Miss"
+msgstr "Frau"
+
+#: common/partials/form/fields/class-mega-forms-field-name.php:208
+msgid "Dr."
+msgstr "Dr."
+
+#: common/partials/form/fields/class-mega-forms-field-name.php:209
+msgid "Prof."
+msgstr "Prof."
+
+#: common/partials/form/fields/class-mega-forms-field-name.php:219
+msgid "Prefix"
+msgstr "Präfix"
+
+#: common/partials/form/fields/class-mega-forms-field-name.php:228
+msgid "First Name"
+msgstr "Vorname"
+
+#: common/partials/form/fields/class-mega-forms-field-name.php:237
+msgid "Middle Name"
+msgstr "Zweiter Vorname"
+
+#: common/partials/form/fields/class-mega-forms-field-name.php:246
+msgid "Last Name"
+msgstr "Nachname"
+
+#: common/partials/form/fields/class-mega-forms-field-number.php:34
+msgid "Number"
+msgstr "Nummer"
+
+#: common/partials/form/fields/class-mega-forms-field-number.php:77
+msgid "Number Options"
+msgstr "Nummernoptionen"
+
+#: common/partials/form/fields/class-mega-forms-field-number.php:79
+msgid ""
+"Use number options to force a minimum and maximum value for this field. You "
+"can use step input to specify the legal number intervals for the field."
+msgstr ""
+"Verwende Nummernoptionen, um einen Minimal- und Maximalwert für dieses Feld "
+"zu erzwingen. Du kannst die Schritteingabe verwenden, um die zulässigen "
+"Nummernintervalle für das Feld anzugeben."
+
+#: common/partials/form/fields/class-mega-forms-field-number.php:96
+msgid "Min"
+msgstr "Min"
+
+#: common/partials/form/fields/class-mega-forms-field-number.php:97
+msgid "Max"
+msgstr "Max"
+
+#: common/partials/form/fields/class-mega-forms-field-number.php:98
+msgid "Step"
+msgstr "Schrittweite"
+
+#: common/partials/form/fields/class-mega-forms-field-number.php:135
+msgid "Please enter a valid number."
+msgstr "Bitte gib eine gültige Nummer ein."
+
+#: common/partials/form/fields/class-mega-forms-field-password.php:44
+#: common/partials/form/fields/class-mega-forms-field-password.php:205
+msgid "Password"
+msgstr "Passwort"
+
+#: common/partials/form/fields/class-mega-forms-field-password.php:124
+msgid "Password Inputs"
+msgstr "Passwort-Eingaben"
+
+#: common/partials/form/fields/class-mega-forms-field-password.php:212
+msgid "Password Confirmation"
+msgstr "Passwort-Bestätigung"
+
+#: common/partials/form/fields/class-mega-forms-field-password.php:265
+msgid "The entered passwords do not match."
+msgstr "Die eingegebenen Passwörter stimmen nicht überein."
+
+#: common/partials/form/fields/class-mega-forms-field-password.php:272
+msgid "The entered password is not valid."
+msgstr "Das eingegebene Passwort ist ungültig."
+
+#: common/partials/form/fields/class-mega-forms-field-phone.php:40
+msgid "Phone"
+msgstr "Telefon"
+
+#: common/partials/form/fields/class-mega-forms-field-phone.php:99
+msgid "Phone Format"
+msgstr "Telefonformat"
+
+#: common/partials/form/fields/class-mega-forms-field-phone.php:101
+#: common/partials/form/fields/class-mega-forms-field-text.php:124
+msgid ""
+"Input mask gives the user visual guidance to easily type data in a specific "
+"format."
+msgstr ""
+"Die Eingabemaske gibt dem Benutzer eine visuelle Hilfe, um Daten einfach in "
+"einem bestimmten Format einzugeben."
+
+#: common/partials/form/fields/class-mega-forms-field-phone.php:119
+msgid "International"
+msgstr "International"
+
+#: common/partials/form/fields/class-mega-forms-field-phone.php:169
+msgid "Taiwan, Province of China"
+msgstr "﻿Taiwan, Provinz von China"
+
+#. translators: field label.
+#: common/partials/form/fields/class-mega-forms-field-phone.php:190
+#: common/partials/form/fields/class-mega-forms-field-text.php:258
+msgid "The entered %s is not valid."
+msgstr "Die eingegebene %s ist ungültig."
+
+#: common/partials/form/fields/class-mega-forms-field-question.php:40
+#: common/partials/form/fields/class-mega-forms-field-question.php:73
+msgid "Question"
+msgstr "Frage"
+
+#: common/partials/form/fields/class-mega-forms-field-question.php:74
+msgid "The question you want answered."
+msgstr "Die Frage, die du beantwortet haben möchtest."
+
+#: common/partials/form/fields/class-mega-forms-field-question.php:102
+msgid "Question field must be required."
+msgstr "Das Fragefeld muss ausgefüllt sein."
+
+#: common/partials/form/fields/class-mega-forms-field-question.php:115
+msgid "Answer"
+msgstr "Antwort"
+
+#: common/partials/form/fields/class-mega-forms-field-question.php:117
+msgid ""
+"A case sensitive answer. The form will not be submitted if user entry does "
+"not match this asnwer."
+msgstr ""
+"Eine Antwort unter Berücksichtigung der Groß-/Kleinschreibung. Das Formular "
+"wird nicht abgeschickt, wenn die Benutzereingabe nicht mit dieser Antwort "
+"übereinstimmt."
+
+#: common/partials/form/fields/class-mega-forms-field-question.php:138
+msgid "The entered answer is not valid."
+msgstr "Die eingegebene Antwort ist ungültig."
+
+#: common/partials/form/fields/class-mega-forms-field-radios.php:32
+msgid "Radio Buttons"
+msgstr "Optionsfelder"
+
+#: common/partials/form/fields/class-mega-forms-field-section.php:44
+msgid "Section"
+msgstr "Abschnitt"
+
+#: common/partials/form/fields/class-mega-forms-field-section.php:84
+msgid "Section Title"
+msgstr "Abschnitts-Titel"
+
+#: common/partials/form/fields/class-mega-forms-field-section.php:85
+msgid "Enter the section title."
+msgstr "Gib den Titel des Abschnitts ein."
+
+#: common/partials/form/fields/class-mega-forms-field-section.php:101
+msgid ""
+"Write a description to provide users with more information about this "
+"section."
+msgstr ""
+"Gib eine Beschreibung ein, um Benutzern weitere Informationen zu diesem "
+"Abschnitt zur Verfügung zu stellen."
+
+#: common/partials/form/fields/class-mega-forms-field-select.php:31
+msgid "Select Dropdown"
+msgstr "Auswahl-Dropdown"
+
+#: common/partials/form/fields/class-mega-forms-field-text.php:49
+msgid "One Line Text"
+msgstr "Einzeiliger Text"
+
+#: common/partials/form/fields/class-mega-forms-field-text.php:122
+msgid "Input Mask"
+msgstr "Eingabemaske"
+
+#: common/partials/form/fields/class-mega-forms-field-text.php:132
+msgid "Disable"
+msgstr "Deaktivieren"
+
+#: common/partials/form/fields/class-mega-forms-field-text.php:147
+#: common/partials/form/fields/class-mega-forms-field-textarea.php:125
+msgid "Maximum Length"
+msgstr "Maximale Länge"
+
+#: common/partials/form/fields/class-mega-forms-field-text.php:149
+#: common/partials/form/fields/class-mega-forms-field-textarea.php:127
+msgid "Specify the maximum number of characters allowed in this field."
+msgstr ""
+"Gib die maximale Anzahl von Zeichen an, die in diesem Feld zulässig sind."
+
+#: common/partials/form/fields/class-mega-forms-field-text.php:176
+msgid "Input Mask Type"
+msgstr "Eingabemasken-Typ"
+
+#: common/partials/form/fields/class-mega-forms-field-text.php:178
+msgid ""
+"Select mask type from predefined ones, or select custom to use your own."
+msgstr ""
+"Wähle den Maskentyp aus den vordefinierten oder wähle Benutzerdefiniert aus, "
+"um deinen eigenen zu verwenden."
+
+#: common/partials/form/fields/class-mega-forms-field-text.php:206
+msgid "Input Custom Mask"
+msgstr "Benutzerdefinierte Eingabemaske"
+
+#: common/partials/form/fields/class-mega-forms-field-text.php:208
+msgid "See examples & documentation."
+msgstr "Siehe Beispiele & Dokumentation."
+
+#: common/partials/form/fields/class-mega-forms-field-text.php:233
+msgid "Select mask type"
+msgstr "Maskentyp auswählen"
+
+#: common/partials/form/fields/class-mega-forms-field-text.php:235
+msgid "US Telephone"
+msgstr "US-Telefon"
+
+#: common/partials/form/fields/class-mega-forms-field-text.php:236
+msgid "Money"
+msgstr "Geld"
+
+#: common/partials/form/fields/class-mega-forms-field-text.php:237
+msgid "Custom"
+msgstr "Benutzerdefiniert"
+
+#. translators: field label.
+#: common/partials/form/fields/class-mega-forms-field-text.php:268
+#: common/partials/form/fields/class-mega-forms-field-textarea.php:151
+msgid "The entered %s is too long."
+msgstr "Der eingegebene %s ist zu lang."
+
+#: common/partials/form/fields/class-mega-forms-field-textarea.php:35
+msgid "Paragraph Text"
+msgstr "Mehrzeiliger Text"
+
+#: common/partials/form/fields/class-mega-forms-field-website.php:30
+msgid "Website"
+msgstr "Webseite"
+
+#: common/partials/libraries/wp-background-processing/wp-background-process.php:425
+msgid "Every %d Minutes"
+msgstr "Alle %d Minuten"
+
+#: pro/admin/class-mega-forms-admin-pro.php:94
+msgid "Integrations"
+msgstr "Integrationen"
+
+#: pro/admin/class-mega-forms-admin-pro.php:96
+msgid "reCAPTCHA v2"
+msgstr "reCAPTCHA v2"
+
+#: pro/admin/class-mega-forms-admin-pro.php:115
+msgid "Enable AJAX"
+msgstr "AJAX aktivieren"
+
+#: pro/admin/class-mega-forms-admin-pro.php:116
+msgid "Switch this on to enable form submission without page refresh."
+msgstr ""
+"Aktiviere diese Option, um die Formularübermittlung ohne "
+"Seitenaktualisierung zu aktivieren."
+
+#: pro/admin/class-mega-forms-admin-pro.php:126
+msgid "Enable reCaptcha v2"
+msgstr "Aktiviere reCaptcha v2"
+
+#: pro/admin/class-mega-forms-admin-pro.php:127
+msgid "Switch this on to enable Google reCaptcha v2 on all froms."
+msgstr ""
+"Schalte diese Option ein, um Google reCaptcha v2 auf allen Formularen zu "
+"aktivieren."
+
+#: pro/admin/class-mega-forms-admin-pro.php:134
+msgid "Site Key"
+msgstr "Websiteschlüssel (Site Key)"
+
+#: pro/admin/class-mega-forms-admin-pro.php:135
+msgid ""
+"The site key used in the HTML code that the plugin serves to users. Create "
+"your key from <a href=\"%s\" target=\"_blank\">Google reCAPTCHA Admin</a>"
+msgstr ""
+"Der Site-Schlüssel, der im HTML-Code des Plugins verwendet wird. Erstellen "
+"deinen Schlüssel im <a href=\"%s\" target=\"_blank\">Google reCAPTCHA Admin</"
+"a>"
+
+#: pro/admin/class-mega-forms-admin-pro.php:142
+msgid "Secret Key"
+msgstr "Geheimer Schlüssel (Secret Key)"
+
+#: pro/admin/class-mega-forms-admin-pro.php:143
+msgid ""
+"The secret key used for communication between your site and reCAPTCHA. "
+"Create your key from <a href=\"%s\" target=\"_blank\">Google reCAPTCHA "
+"Admin</a>"
+msgstr ""
+"Der geheime Schlüssel, der für die Kommunikation zwischen deiner Seite und "
+"reCAPTCHA verwendet wird. Erstelle deinen Schlüssel im <a href=\"%s\" "
+"target=\"_blank\">Google reCAPTCHA Admin</a>"
+
+#: pro/admin/class-mega-forms-admin-pro.php:163
+msgid "Save and Continue"
+msgstr "Speichern und Fortfahren"
+
+#: pro/admin/class-mega-forms-admin-pro.php:164
+msgid ""
+"Switch this on to allow the user to save the form and continue with the "
+"submission later."
+msgstr ""
+"Aktivieren diese Option, damit der Benutzer das Formular speichern und "
+"später mit der Übermittlung fortfahren kann."
+
+#: pro/admin/class-mega-forms-admin-pro.php:172
+msgid "Save and Continue Text"
+msgstr "Text für \"Speichern und Fortfahren\""
+
+#: pro/admin/class-mega-forms-admin-pro.php:173
+msgid "The text for save and continue button."
+msgstr "Der Text für die Schaltfläche \"Speichern und Fortfahren\"."
+
+#: pro/admin/class-mega-forms-admin-pro.php:174
+#: pro/common/class-mega-forms-common-pro.php:101
+msgid "Save and Continue Later"
+msgstr "Speichern und später fortfahren"
+
+#: pro/admin/class-mega-forms-admin-pro.php:193
+msgid "Validation failed."
+msgstr "Überprüfung fehlgeschlagen."
+
+#: pro/admin/class-mega-forms-admin-pro.php:234
+msgid "File deleted succesfully."
+msgstr "Datei erfolgreich gelöscht."
+
+#: pro/admin/class-mega-forms-admin-pro.php:238
+msgid "File deletion failed."
+msgstr "Das Löschen der Datei ist fehlgeschlagen."
+
+#: pro/admin/class-mega-forms-admin-pro.php:245
+msgid "Request failed."
+msgstr "Die Anfrage ist fehlgeschlagen."
+
+#: pro/common/class-mega-forms-common-pro.php:135
+msgid "Submission failed, please complete verification challenge to continue."
+msgstr ""
+"Die Übermittlung ist fehlgeschlagen, bitte schließe die "
+"Verifizierungsabfrage ab, um fortzufahren."
+
+#: pro/common/class-mega-forms-common-pro.php:148
+msgid ""
+"Submission failed, you didn't complete the captcha challenge successfully."
+msgstr ""
+"Die Übermittlung ist fehlgeschlagen, du hast das Captcha nicht korrekt "
+"eingegeben."
+
+#: pro/common/class-mega-forms-common-pro.php:152
+msgid "Submission failed, the reCaptcha secret key is missing."
+msgstr ""
+"Die Übermittlung ist fehlgeschlagen, der geheime Schlüssel von reCaptcha "
+"fehlt."
+
+#: pro/common/class-mega-forms-common-pro.php:155
+msgid ""
+"Submission failed, the provided reCaptcha secret key is invalid or malformed."
+msgstr ""
+"Die Übermittlung ist fehlgeschlagen, der angegebene geheime reCaptcha-"
+"Schlüssel ist ungültig oder falsch formatiert."
+
+#: pro/common/class-mega-forms-common-pro.php:158
+msgid "Submission failed, the reCaptcha response is missing."
+msgstr "Die Übermittlung ist fehlgeschlagen, die reCaptcha-Antwort fehlt."
+
+#: pro/common/class-mega-forms-common-pro.php:161
+msgid "Submission failed, the reCaptcha response is invalid or malformed."
+msgstr ""
+"Die Übermittlung ist fehlgeschlagen, die reCaptcha-Antwort ist ungültig oder "
+"fehlerhaft."
+
+#: pro/common/class-mega-forms-common-pro.php:164
+msgid ""
+"Submission failed, the captcha challenge evaluation failed, please refresh "
+"and try again."
+msgstr ""
+"Die Übermittlung ist fehlgeschlagen, die Auswertung der Captcha-"
+"Herausforderung ist fehlgeschlagen, bitte aktualisiere und versuche es "
+"erneut."
+
+#: pro/common/class-mega-forms-common-pro.php:167
+msgid "Submission failed, the captcha challenge timed out."
+msgstr ""
+"Die Übermittlung ist fehlgeschlagen, die Captcha-Herausforderung ist "
+"abgelaufen."
+
+#: pro/common/class-mega-forms-common-pro.php:174
+msgid ""
+"Submission failed, could not validate the captcha challenge, please refresh "
+"and try again."
+msgstr ""
+"Die Übermittlung ist fehlgeschlagen, die Captcha-Abfrage konnte nicht "
+"validiert werden, bitte aktualisiere und versuche es erneut."
+
+#: pro/common/class-mega-forms-common-pro.php:205
+msgid "There was an error, please refresh the page and try again."
+msgstr ""
+"Es ist ein Fehler aufgetreten, bitte aktualisiere die Seite und versuche es "
+"erneut."
+
+#: pro/common/class-mega-forms-common-pro.php:295
+msgid ""
+"Please use the following link to return and complete this form from any "
+"computer."
+msgstr ""
+"Bitte verwende den folgenden Link, um dieses Formular von einem beliebigen "
+"Computer aus auszufüllen."
+
+#: pro/common/class-mega-forms-common-pro.php:297
+msgid "Note: This link will expire after 30 days."
+msgstr "Hinweis: Dieser Link wird nach 30 Tagen ungültig."
+
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:48
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:173
+msgid "Page 1"
+msgstr "Seite 1"
+
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:49
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:174
+msgid "Page 2"
+msgstr "Seite 2"
+
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:57
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:75
+msgid "Page "
+msgstr "Seite "
+
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:93
+msgid "Progress Indicator"
+msgstr "Fortschrittsindikator"
+
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:94
+msgid ""
+"Choose what type of visual progress indicator you would like to display."
+msgstr ""
+"Wähle aus, welche Art von visueller Fortschrittsanzeige du anzeigen möchtest."
+
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:97
+msgid "Progress Bar"
+msgstr "Fortschrittsbalken"
+
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:98
+msgid "Steps"
+msgstr "Schritte"
+
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:99
+msgid "None"
+msgstr "Keine"
+
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:105
+msgid "Page Names"
+msgstr "Namen der Seiten"
+
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:106
+msgid ""
+"Name each of the pages on your form. Page names are displayed with the steps "
+"progress indicator."
+msgstr ""
+"Benenne jede der Seiten in deinem Formular. Seitennamen werden in der "
+"Fortschrittsanzeige angezeigt."
+
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:112
+msgid "Progress Indicator Position"
+msgstr "Position der Fortschrittsanzeige"
+
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:113
+msgid ""
+"Choose whether to display the progress indicator above or below the form."
+msgstr ""
+"Wähle aus, ob die Fortschrittsanzeige über oder unter dem Formular angezeigt "
+"werden soll."
+
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:116
+msgid "Top"
+msgstr "Oben"
+
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:117
+msgid "Bottom"
+msgstr "Unten"
+
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:126
+msgid "Last Page Prev Button"
+msgstr "Zurück-Schaltfläche (letzte Seite)"
+
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:127
+msgid "Last page previous button text."
+msgstr "Text für die Zurück-Schaltfläche (letzte Seite)"
+
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:140
+msgid "Next Button Text"
+msgstr "Text für die Weiter-Schaltfläche"
+
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:146
+msgid "Previous Button Text"
+msgstr "Text für die Zurück-Schaltfläche"
+
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:297
+msgid "Page Options"
+msgstr "Seitenoptionen"
+
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:297
+msgid "Manage page options."
+msgstr "Verwalten von Seitenoptionen."
+
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:420
+msgid "Previous"
+msgstr "Zurück"
+
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:430
+msgid "Next"
+msgstr "Weiter"
+
+#: pro/common/partials/form/fields/class-mega-forms-field-consent.php:42
+msgid "Consent"
+msgstr "Einwilligung"
+
+#: pro/common/partials/form/fields/class-mega-forms-field-consent.php:85
+msgid "Consent agreement"
+msgstr "Einwilligungsvereinbarung"
+
+#: pro/common/partials/form/fields/class-mega-forms-field-consent.php:86
+msgid "Enter consent agreement text here."
+msgstr "Gib hier den Text der Einwilligungsvereinbarung ein."
+
+#: pro/common/partials/form/fields/class-mega-forms-field-consent.php:102
+msgid "Consent Agreement Position"
+msgstr "Position der Einwilligungsvereinbarung"
+
+#: pro/common/partials/form/fields/class-mega-forms-field-consent.php:103
+msgid "Specify the position of consent agreement."
+msgstr "Gib die Position der Einwilligungsvereinbarung an."
+
+#: pro/common/partials/form/fields/class-mega-forms-field-consent.php:130
+msgid "Checkbox Label"
+msgstr "Checkbox-Bezeichnung"
+
+#: pro/common/partials/form/fields/class-mega-forms-field-consent.php:132
+msgid "Text of the consent checkbox."
+msgstr "Text der Zustimmungs-Checkbox."
+
+#: pro/common/partials/form/fields/class-mega-forms-field-consent.php:163
+msgid "I agree to the privacy policy."
+msgstr "Ich stimme der Datenschutzerklärung zu."
+
+#: pro/common/partials/form/fields/class-mega-forms-field-file.php:48
+msgid "File Upload"
+msgstr "Datei-Upload"
+
+#: pro/common/partials/form/fields/class-mega-forms-field-file.php:105
+msgid "Drop files here, or"
+msgstr "Dateien hier hinziehen oder"
+
+#: pro/common/partials/form/fields/class-mega-forms-field-file.php:106
+msgid "Browse..."
+msgstr "Durchsuchen ..."
+
+#: pro/common/partials/form/fields/class-mega-forms-field-file.php:170
+msgid "Allowed File Extensions"
+msgstr "Erlaubte Dateierweiterungen"
+
+#: pro/common/partials/form/fields/class-mega-forms-field-file.php:172
+msgid ""
+"Enter the allowed file extensions. This will limit the type of files a user "
+"can upload."
+msgstr ""
+"Gib die zulässigen Dateierweiterungen ein. Dies schränkt die Art der Dateien "
+"ein, die ein Benutzer hochladen kann."
+
+#: pro/common/partials/form/fields/class-mega-forms-field-file.php:173
+msgid "Separated with commas (i.e. jpg, gif, png, pdf)"
+msgstr "Getrennt mit Kommas (d.h. jpg, gif, png, pdf)"
+
+#: pro/common/partials/form/fields/class-mega-forms-field-file.php:193
+msgid "Maximum File Size"
+msgstr "Maximale Dateigröße"
+
+#: pro/common/partials/form/fields/class-mega-forms-field-file.php:197
+msgid "Maximum upload size allowed on this server: %sMB"
+msgstr "Maximal zulässige Upload-Größe auf diesem Server: %sMB"
+
+#: pro/common/partials/form/fields/class-mega-forms-field-file.php:218
+msgid "Multiple Files"
+msgstr "Mehrere Dateien"
+
+#: pro/common/partials/form/fields/class-mega-forms-field-file.php:220
+msgid ""
+"Select this option to enable multiple files to be uploaded for this field."
+msgstr ""
+"Wähle diese Option aus, damit mehrere Dateien für dieses Feld hochgeladen "
+"werden können."
+
+#: pro/common/partials/form/fields/class-mega-forms-field-file.php:241
+msgid "Max Number of Files"
+msgstr "Maximale Anzahl von Dateien"
+
+#: pro/common/partials/form/fields/class-mega-forms-field-file.php:243
+msgid "Enter the maximum number of files that can be uploaded for this field."
+msgstr ""
+"Gib für dieses Feld die maximale Anzahl von Dateien ein, die hochgeladen "
+"werden können."
+
+#: pro/common/partials/form/fields/class-mega-forms-field-file.php:278
+msgid "Max. file size: %s MB."
+msgstr "Max. Dateigröße: %s MB."
+
+#: pro/common/partials/form/fields/class-mega-forms-field-file.php:297
+msgid "This type of file is not allowed. Must be one of the following: "
+msgstr ""
+"Dieser Dateityp kann nicht hochgeladen werden. Zulässig sind die folgenden: "
+
+#: pro/common/partials/form/fields/class-mega-forms-field-file.php:298
+msgid "File exceeds size limit."
+msgstr "Die Datei überschreitet die Größenbeschränkung."
+
+#: pro/common/partials/form/fields/class-mega-forms-field-file.php:299
+msgid "File exceeds size limit. Maximum file size is "
+msgstr ""
+"Die Datei überschreitet die Größenbeschränkung. Die maximale Dateigröße "
+"beträgt "
+
+#: pro/common/partials/form/fields/class-mega-forms-field-file.php:300
+msgid "This type of file is not allowed."
+msgstr "Dieser Datei-Typ ist nicht erlaubt."
+
+#: pro/common/partials/form/fields/class-mega-forms-field-file.php:301
+msgid "The uploaded file type is not allowed."
+msgstr "Der hochgeladene Dateityp ist nicht erlaubt."
+
+#: pro/common/partials/form/fields/class-mega-forms-field-file.php:302
+msgid "File exceeds size limit & type of the file is not allowed."
+msgstr ""
+"Die Datei überschreitet die Größenbeschränkung und der Dateityp ist nicht "
+"zulässig."
+
+#: pro/common/partials/form/fields/class-mega-forms-field-file.php:303
+msgid "Maximum number of files reached."
+msgstr "Die maximale Anzahl von Dateien ist erreicht."
+
+#: pro/common/partials/form/fields/class-mega-forms-field-file.php:304
+msgid "There was a problem while saving the file on the server."
+msgstr "Beim Speichern der Datei auf dem Server ist ein Problem aufgetreten."
+
+#: pro/common/partials/form/fields/class-mega-forms-field-file.php:305
+msgid "Please wait for the uploading to complete."
+msgstr "Bitte warte, bis der Upload abgeschlossen ist."
+
+#: pro/common/partials/form/fields/class-mega-forms-field-file.php:306
+msgid "Upload in progress, you need to cancel to upload a different file."
+msgstr ""
+"Der Upload läuft. Du musst diesen abbrechen, um eine andere Datei "
+"hochzuladen."
+
+#: pro/common/partials/form/fields/class-mega-forms-field-file.php:307
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: pro/common/partials/form/fields/class-mega-forms-field-file.php:463
+msgid "Maximum number of files exceeded."
+msgstr "Maximale Anzahl von Dateien überschritten."
+
+#: pro/common/partials/form/fields/class-mega-forms-field-file.php:473
+msgid ""
+"There was an error while uploading. Please refresh the page and try again."
+msgstr ""
+"Beim Hochladen ist ein Fehler aufgetreten. Bitte aktualisiere die Seite und "
+"versuche es erneut."
+
+#: pro/common/partials/form/fields/class-mega-forms-field-file.php:597
+msgid "Failed to upload the file."
+msgstr "Fehler beim Hochladen der Datei."
+
+#: pro/common/partials/form/fields/class-mega-forms-field-file.php:608
+msgid "There was an error while uploading the file. Error code: %d"
+msgstr "Beim Hochladen der Datei ist ein Fehler aufgetreten. Fehlercode: %d"
+
+#: pro/common/partials/form/fields/class-mega-forms-field-file.php:670
+msgid "File could not be uploaded."
+msgstr "Die Datei konnte nicht hochgeladen werden."
+
+#: pro/common/partials/form/fields/class-mega-forms-field-file.php:699
+msgid "The file upload failed."
+msgstr "Der Datei-Upload ist fehlgeschlagen."
+
+#: pro/common/partials/form/fields/options/class-mega-forms-field-conditional-logic.php:28
+msgid "Conditional Logic"
+msgstr "Bedingte Logik"
+
+#: pro/common/partials/form/fields/options/class-mega-forms-field-conditional-logic.php:29
+msgid ""
+"Create a set of rules to determine which if and when this field will be "
+"shown or hidden."
+msgstr ""
+"Erstelle eine Reihe von Regeln, um festzulegen, ob und wann dieses Feld ein- "
+"oder ausgeblendet wird."
+
+#: pro/common/partials/form/fields/options/class-mega-forms-field-conditional-logic.php:52
+msgid "Show this field if"
+msgstr "Zeige dieses Feld wenn"
+
+#: pro/common/partials/form/fields/options/class-mega-forms-field-conditional-logic.php:79
+msgid "Add rules group"
+msgstr "Regelgruppe hinzufügen"
+
+#: pro/common/partials/form/fields/options/class-mega-forms-field-conditional-logic.php:137
+msgid "Or"
+msgstr "oder"
+
+#. Plugin URI of the plugin/theme
+msgid "http://wpmegaforms.com/"
+msgstr "http://wpmegaforms.com/"
+
+#. Description of the plugin/theme
+msgid ""
+"Megaforms is an easy to use, feature rich, drag and drop form builder for "
+"WordPress."
+msgstr ""
+"Megaforms ist ein einfach zu bedienender, funktionsreicher Drag-and-Drop-"
+"Formularbaukasten für WordPress."
+
+#. Author of the plugin/theme
+msgid "Ali Khallad"
+msgstr "Ali Khallad"
+
+#. Author URI of the plugin/theme
+msgid "https://alikhallad.com"
+msgstr "https://alikhallad.com"
+
+#: admin/partials/class-mega-forms-admin-list.php:186
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr "%1$s von %2$s"
+
+#: admin/partials/views/entries-view/mega-entries-table.php:279
+msgctxt "Entry List"
+msgid "All"
+msgstr "Alle"
+
+#: admin/partials/views/entries-view/mega-entries-table.php:280
+msgctxt "Entry List"
+msgid "Unread"
+msgstr "Ungelesen"
+
+#: admin/partials/views/entries-view/mega-entries-table.php:281
+msgctxt "Entry List"
+msgid "Starred"
+msgstr "Favorisiert"
+
+#: admin/partials/views/entries-view/mega-entries-table.php:282
+msgctxt "Entry List"
+msgid "Spam"
+msgstr "Spam"
+
+#: admin/partials/views/entries-view/mega-entries-table.php:283
+msgctxt "Entry List"
+msgid "Trash"
+msgstr "Papierkorb"
+
+#: admin/partials/views/forms-view/mega-forms-table.php:193
+msgctxt "Form List"
+msgid "All"
+msgstr "Alle"
+
+#: admin/partials/views/forms-view/mega-forms-table.php:194
+msgctxt "Form List"
+msgid "Active"
+msgstr "Aktiv"
+
+#: admin/partials/views/forms-view/mega-forms-table.php:195
+msgctxt "Form List"
+msgid "Inactive"
+msgstr "Inaktiv"
+
+#: admin/partials/views/forms-view/mega-forms-table.php:196
+msgctxt "Form List"
+msgid "Trash"
+msgstr "Papierkorb"
