@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mega Forms 1.2.9\n"
 "Report-Msgid-Bugs-To: https://wpmegaforms.com/support/\n"
-"POT-Creation-Date: 2022-12-05 19:29:56+00:00\n"
-"PO-Revision-Date: 2023-06-05 15:02+0200\n"
+"POT-Creation-Date: 2023-08-29 15:59:54+00:00\n"
+"PO-Revision-Date: 2023-08-31 13:34+0200\n"
 "Last-Translator: Danny Schmarsel <dsc@qbus.de>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -19,7 +19,7 @@ msgstr ""
 "esc_html_x:1,2c\n"
 "X-Poedit-Basepath: ..\n"
 "X-Textdomain-Support: yes\n"
-"X-Generator: Poedit 3.3.1\n"
+"X-Generator: Poedit 3.3.2\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: admin/class-mega-forms-admin.php:125
@@ -38,12 +38,12 @@ msgstr "z.B. Kontaktformular"
 msgid "Display Your Form"
 msgstr "Zeige dein Formular an"
 
-#: admin/class-mega-forms-admin.php:131 admin/class-mega-forms-admin.php:153
-#: admin/class-mega-forms-admin.php:163
+#: admin/class-mega-forms-admin.php:131 admin/class-mega-forms-admin.php:154
+#: admin/class-mega-forms-admin.php:164
 msgid "Yes"
 msgstr "Ja"
 
-#: admin/class-mega-forms-admin.php:132 admin/class-mega-forms-admin.php:154
+#: admin/class-mega-forms-admin.php:132 admin/class-mega-forms-admin.php:155
 msgid "No"
 msgstr "Nein"
 
@@ -76,78 +76,83 @@ msgid "The main conditional rule can't be removed."
 msgstr "Die Hauptbedingungsregel kann nicht entfernt werden."
 
 #: admin/class-mega-forms-admin.php:140
+msgid "The main custom field inputs can't be removed."
+msgstr ""
+"Die benutzerdefinierten Haupteingabefelder können nicht entfernt werden."
+
+#: admin/class-mega-forms-admin.php:141
 msgid "Enter a new name for your form, and continue building!"
 msgstr ""
 "Gib einen neuen Namen für dein Formular ein und fahre mit der Erstellung "
 "fort!"
 
-#: admin/class-mega-forms-admin.php:141
+#: admin/class-mega-forms-admin.php:142
 msgid "Form name can't be empty!"
 msgstr "Der Formularname darf nicht leer sein!"
 
-#: admin/class-mega-forms-admin.php:142
+#: admin/class-mega-forms-admin.php:143
 msgid "Please use this shortcode to display the form on a page or post."
 msgstr ""
 "Bitte verwende diesen Shortcode, um das Formular auf einer Seite oder einem "
 "Beitrag anzuzeigen."
 
-#: admin/class-mega-forms-admin.php:143
+#: admin/class-mega-forms-admin.php:144
 msgid "Do you really want to delete this container?"
 msgstr "Möchtest du diesen Container wirklich löschen?"
 
-#: admin/class-mega-forms-admin.php:155
+#: admin/class-mega-forms-admin.php:156
 #: admin/partials/views/entries-view/mega-entries-table.php:356
 #: admin/partials/views/forms-view/mega-forms-table.php:236
-#: admin/partials/views/single-entry-view/mega-entry-render.php:297
+#: admin/partials/views/single-entry-view/mega-entry-render.php:298
 #: common/partials/form/containers/class-mega-forms-container.php:321
 msgid "Delete"
 msgstr "Löschen"
 
-#: admin/class-mega-forms-admin.php:156
+#: admin/class-mega-forms-admin.php:157
 msgid "Do you really want to delete this note?"
 msgstr "Möchtest du diese Notiz wirklich löschen?"
 
-#: admin/class-mega-forms-admin.php:157
+#: admin/class-mega-forms-admin.php:158
 msgid "You can't add an empty note!"
 msgstr "Du kannst keine leere Notiz hinzufügen!"
 
-#: admin/class-mega-forms-admin.php:164
+#: admin/class-mega-forms-admin.php:165
 msgid "Save"
 msgstr "Speichern"
 
-#: admin/class-mega-forms-admin.php:165
+#: admin/class-mega-forms-admin.php:166
 msgid "Type a Title"
 msgstr "Gib einen Titel ein"
 
-#: admin/class-mega-forms-admin.php:166
+#: admin/class-mega-forms-admin.php:167
 msgid "E.g., My Form"
 msgstr "z.B. Mein Formular"
 
-#: admin/class-mega-forms-admin.php:167
+#: admin/class-mega-forms-admin.php:168
 msgid ""
 "Please enter a name for your form, or select a template from the list below!"
 msgstr ""
 "Bitte gib einen Namen für dein Formular ein oder wähle eine Vorlage aus der "
 "Liste unten aus!"
 
-#: admin/class-mega-forms-admin.php:168
+#: admin/class-mega-forms-admin.php:169
 msgid "Change columns visibility"
 msgstr "Ändern der Sichtbarkeit von Spalten"
 
-#: admin/class-mega-forms-admin.php:169
+#: admin/class-mega-forms-admin.php:170
 msgid "Enable columns that you wish to display in the entries table."
 msgstr ""
 "Aktiviere die Spalten, die in der Tabelle mit Einträgen angezeigt werden "
 "sollen."
 
-#: admin/class-mega-forms-admin.php:170
+#: admin/class-mega-forms-admin.php:171
 msgid ""
 "Are you sure you want to permanently delete all data upon uninstallation."
 msgstr ""
 "Bist du sicher, dass du alle Daten bei der Deinstallation dauerhaft löschen "
 "möchtest?"
 
-#: admin/class-mega-forms-admin.php:171
+#: admin/class-mega-forms-admin.php:172
 msgid ""
 "Are you sure you want to permanently delete all entries for the selected "
 "form(s)."
@@ -155,24 +160,24 @@ msgstr ""
 "Bist du sicher, dass du alle Einträge für das/die ausgewählte(n) Formular(e) "
 "dauerhaft löschen möchtest?"
 
-#: admin/class-mega-forms-admin.php:172
+#: admin/class-mega-forms-admin.php:173
 msgid "Select a file to import."
 msgstr "Wähle eine Datei für den Import aus."
 
-#: admin/class-mega-forms-admin.php:173
+#: admin/class-mega-forms-admin.php:174
 msgid "Please make sure the selected file is in JSON format."
 msgstr ""
 "Bitte stelle sicher, dass die ausgewählte Datei im JSON-Format vorliegt."
 
-#: admin/class-mega-forms-admin.php:174
+#: admin/class-mega-forms-admin.php:175
 msgid "Please select the form(s) you want to export."
 msgstr "Bitte wählen das/die Formular(e) für den Export."
 
-#: admin/class-mega-forms-admin.php:175
+#: admin/class-mega-forms-admin.php:176
 msgid "Please select a form."
 msgstr "Bitte wähle ein Formular aus."
 
-#: admin/class-mega-forms-admin.php:176
+#: admin/class-mega-forms-admin.php:177
 msgid "Please select the fields that you want to export."
 msgstr "Bitte wähle die Felder aus, die du exportieren möchtest."
 
@@ -180,24 +185,29 @@ msgstr "Bitte wähle die Felder aus, die du exportieren möchtest."
 msgid "Mega Forms"
 msgstr "Mega Forms"
 
-#: admin/class-mega-forms-admin.php:228 admin/class-mega-forms-admin.php:229
+#: admin/class-mega-forms-admin.php:229 admin/class-mega-forms-admin.php:230
 #: admin/partials/views/entries-view/mega-entries-render.php:71
 #: admin/partials/views/forms-view/mega-forms-table.php:40
 #: admin/partials/views/mega-forms-header-render.php:96
 msgid "Entries"
 msgstr "Einträge"
 
-#: admin/class-mega-forms-admin.php:237 admin/class-mega-forms-admin.php:238
+#: admin/class-mega-forms-admin.php:238 admin/class-mega-forms-admin.php:239
 #: admin/partials/views/mega-forms-header-render.php:98
 #: admin/partials/views/settings-view/mega-settings-render.php:61
 #: admin/partials/views/single-form-view/mega-form-render.php:66
 msgid "Settings"
 msgstr "Einstellungen"
 
-#: admin/class-mega-forms-admin.php:246 admin/class-mega-forms-admin.php:247
+#: admin/class-mega-forms-admin.php:247 admin/class-mega-forms-admin.php:248
 #: admin/partials/views/import-export-view/mega-import-export-render.php:71
 msgid "Import / Export"
 msgstr "Importieren / Exportieren"
+
+#: admin/class-mega-forms-admin.php:256 admin/class-mega-forms-admin.php:257
+#: admin/partials/views/help-view/mega-help-render.php:32
+msgid "Support"
+msgstr "Unterstützung"
 
 #: admin/partials/class-mega-forms-admin-ajax.php:32
 #: admin/partials/class-mega-forms-admin-ajax.php:188
@@ -271,37 +281,37 @@ msgstr ""
 "hast."
 
 #: admin/partials/class-mega-forms-admin-ajax.php:343
-#: admin/partials/views/single-entry-view/mega-entry-render.php:214
-#: common/partials/class-mega-forms-api.php:716
+#: admin/partials/views/single-entry-view/mega-entry-render.php:215
+#: common/partials/class-mega-forms-api.php:723
 msgid "Entry ID"
 msgstr "Eintrags-ID"
 
 #: admin/partials/class-mega-forms-admin-ajax.php:344
-#: common/partials/class-mega-forms-api.php:717
+#: common/partials/class-mega-forms-api.php:724
 #: common/partials/class-mega-forms-tags.php:71
 msgid "User ID"
 msgstr "Benutzer-ID"
 
 #: admin/partials/class-mega-forms-admin-ajax.php:345
-#: common/partials/class-mega-forms-api.php:718
+#: common/partials/class-mega-forms-api.php:725
 msgid "Date Created"
 msgstr "Erstellungsdatum"
 
 #: admin/partials/class-mega-forms-admin-ajax.php:346
-#: admin/partials/views/single-entry-view/mega-entry-render.php:249
-#: common/partials/class-mega-forms-api.php:719
+#: admin/partials/views/single-entry-view/mega-entry-render.php:250
+#: common/partials/class-mega-forms-api.php:726
 msgid "Referrer"
 msgstr "Bezug (Referrer)"
 
 #: admin/partials/class-mega-forms-admin-ajax.php:347
-#: admin/partials/views/single-entry-view/mega-entry-render.php:245
-#: common/partials/class-mega-forms-api.php:720
+#: admin/partials/views/single-entry-view/mega-entry-render.php:246
+#: common/partials/class-mega-forms-api.php:727
 msgid "User IP"
 msgstr "Benutzer-IP"
 
 #: admin/partials/class-mega-forms-admin-ajax.php:348
-#: admin/partials/views/single-entry-view/mega-entry-render.php:241
-#: common/partials/class-mega-forms-api.php:721
+#: admin/partials/views/single-entry-view/mega-entry-render.php:242
+#: common/partials/class-mega-forms-api.php:728
 msgid "User Agent"
 msgstr "User-Agent"
 
@@ -704,6 +714,29 @@ msgstr "Formular wurde als aktiv markiert."
 msgid "Form has been marked as inactive."
 msgstr "Formular wurde als inaktiv markiert."
 
+#: admin/partials/views/help-view/mega-help-render.php:39
+msgid "Need help?"
+msgstr "Benötigst du Hilfe?"
+
+#: admin/partials/views/help-view/mega-help-render.php:40
+msgid ""
+"We offer free support and also customization service to modify Mega Forms to "
+"do something special, <br>whether it is an API integration, custom feature, "
+"or anything else, we are here to help!"
+msgstr ""
+"Wir bieten kostenlosen (englischsprachigen) Support und Anpassungsservices "
+"an, um Mega Forms zu modifizieren. <br>Egal, ob es sich um eine API-"
+"Integration, eine benutzerdefinierte Funktion oder etwas anderes handelt, "
+"wir sind hier, um dir zu helfen!"
+
+#: admin/partials/views/help-view/mega-help-render.php:41
+msgid "Open a Ticket"
+msgstr "Eröffne ein Ticket"
+
+#: admin/partials/views/help-view/mega-help-render.php:42
+msgid "Send us an Email"
+msgstr "Sende uns eine E-Mail"
+
 #: admin/partials/views/import-export-view/mega-import-export-render.php:43
 msgid "Import Forms"
 msgstr "Formulare importieren"
@@ -770,7 +803,7 @@ msgstr "Einstellungen speichern"
 #: admin/partials/views/settings-view/mega-settings.php:26
 #: admin/partials/views/single-form-view/mega-form-settings.php:59
 #: common/partials/form/fields/base/class-mega-forms-field.php:184
-#: pro/common/partials/form/containers/class-mega-forms-container-page.php:87
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:83
 msgid "General"
 msgstr "Allgemein"
 
@@ -1031,77 +1064,77 @@ msgstr "Deinstallieren"
 msgid "Permanently delete all Mega Forms data upon uninstallation."
 msgstr "Bei der Deinstallation alle Mega Forms-Daten dauerhaft löschen."
 
-#: admin/partials/views/single-entry-view/mega-entry-render.php:77
+#: admin/partials/views/single-entry-view/mega-entry-render.php:78
 msgid "The entry you're trying to view doesn't exit."
 msgstr "Der Eintrag, den du anzeigen möchtest, existiert nicht."
 
-#: admin/partials/views/single-entry-view/mega-entry-render.php:87
+#: admin/partials/views/single-entry-view/mega-entry-render.php:88
 msgid "Save Changes"
 msgstr "Änderungen speichern"
 
-#: admin/partials/views/single-entry-view/mega-entry-render.php:88
+#: admin/partials/views/single-entry-view/mega-entry-render.php:89
 #: admin/partials/views/single-form-view/mega-form-render.php:76
 msgid "Full Screen"
 msgstr "Vollbild"
 
-#: admin/partials/views/single-entry-view/mega-entry-render.php:136
+#: admin/partials/views/single-entry-view/mega-entry-render.php:137
 msgid "Show empty fields"
 msgstr "Leere Felder zeigen"
 
-#: admin/partials/views/single-entry-view/mega-entry-render.php:209
+#: admin/partials/views/single-entry-view/mega-entry-render.php:210
 msgid "Entry Details"
 msgstr "Details zum Eintrag"
 
-#: admin/partials/views/single-entry-view/mega-entry-render.php:218
+#: admin/partials/views/single-entry-view/mega-entry-render.php:219
 #: common/partials/class-mega-forms-tags.php:85
 msgid "Form"
 msgstr "Formular"
 
-#: admin/partials/views/single-entry-view/mega-entry-render.php:222
+#: admin/partials/views/single-entry-view/mega-entry-render.php:223
 msgid "Submitted On"
 msgstr "Eingereicht am"
 
-#: admin/partials/views/single-entry-view/mega-entry-render.php:226
+#: admin/partials/views/single-entry-view/mega-entry-render.php:227
 msgid "Submitted By"
 msgstr "Eingereicht von"
 
-#: admin/partials/views/single-entry-view/mega-entry-render.php:231
+#: admin/partials/views/single-entry-view/mega-entry-render.php:232
 msgid "Guest"
 msgstr "Gast"
 
-#: admin/partials/views/single-entry-view/mega-entry-render.php:256
+#: admin/partials/views/single-entry-view/mega-entry-render.php:257
 msgid "Entry Actions"
 msgstr "Eintrags-Aktionen"
 
-#: admin/partials/views/single-entry-view/mega-entry-render.php:260
+#: admin/partials/views/single-entry-view/mega-entry-render.php:261
 msgid "Trash entry"
 msgstr "Eintrag in Papierkorb verschieben"
 
-#: admin/partials/views/single-entry-view/mega-entry-render.php:264
+#: admin/partials/views/single-entry-view/mega-entry-render.php:265
 msgid "Edit Entry"
 msgstr "Eintrag bearbeiten"
 
-#: admin/partials/views/single-entry-view/mega-entry-render.php:268
+#: admin/partials/views/single-entry-view/mega-entry-render.php:269
 msgid "View Entry"
 msgstr "Eintrag ansehen"
 
-#: admin/partials/views/single-entry-view/mega-entry-render.php:272
+#: admin/partials/views/single-entry-view/mega-entry-render.php:273
 msgid "Print entry"
 msgstr "Eintrag drucken"
 
-#: admin/partials/views/single-entry-view/mega-entry-render.php:277
+#: admin/partials/views/single-entry-view/mega-entry-render.php:278
 msgid "Resend emails"
 msgstr "E-Mails erneut senden"
 
-#: admin/partials/views/single-entry-view/mega-entry-render.php:282
+#: admin/partials/views/single-entry-view/mega-entry-render.php:283
 msgid "Entry Notes"
 msgstr "Eintrags-Notizen"
 
-#: admin/partials/views/single-entry-view/mega-entry-render.php:306
+#: admin/partials/views/single-entry-view/mega-entry-render.php:307
 msgid "You haven't added notes!"
 msgstr "Du hast keine Notizen hinzugefügt!"
 
-#: admin/partials/views/single-entry-view/mega-entry-render.php:314
+#: admin/partials/views/single-entry-view/mega-entry-render.php:315
 msgid "Add Note"
 msgstr "Notiz hinzufügen"
 
@@ -1317,7 +1350,7 @@ msgid "Message"
 msgstr "Nachricht"
 
 #: admin/partials/views/single-form-view/mega-form-settings.php:193
-#: pro/common/partials/form/containers/class-mega-forms-container-page.php:32
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:28
 msgid "Page"
 msgstr "Seite"
 
@@ -1376,24 +1409,24 @@ msgstr ""
 msgid "The callback method ( %s ) does not exist."
 msgstr "Die Callback-Methode ( %s ) ist nicht vorhanden."
 
-#: common/partials/class-mega-forms-api.php:1806
+#: common/partials/class-mega-forms-api.php:1822
 msgid "Invalid submission. Please refresh the page and try again."
 msgstr ""
 "Ungültige Übermittlung. Bitte aktualisiere die Seite und versuche es erneut."
 
-#: common/partials/class-mega-forms-api.php:1807
+#: common/partials/class-mega-forms-api.php:1823
 msgid "Your submission is not valid. Please refresh the page and try again."
 msgstr ""
 "Deine Einsendung ist ungültig. Bitte aktualisiere die Seite und versuche es "
 "erneut."
 
-#: common/partials/class-mega-forms-api.php:1808
+#: common/partials/class-mega-forms-api.php:1824
 msgid "Your session has expired, please refresh the page and try again."
 msgstr ""
 "Deine Sitzung ist abgelaufen, bitte aktualisiere die Seite und versuche es "
 "erneut."
 
-#: common/partials/class-mega-forms-api.php:1809
+#: common/partials/class-mega-forms-api.php:1825
 msgid ""
 "We were unable to process your submission, please refresh the page and try "
 "again."
@@ -1401,54 +1434,54 @@ msgstr ""
 "Wir konnten deine Einsendung nicht verarbeiten, bitte aktualisiere die Seite "
 "und versuche es erneut."
 
-#: common/partials/class-mega-forms-api.php:1810
+#: common/partials/class-mega-forms-api.php:1826
 msgid "We couldn't process your submission, try again in few seconds."
 msgstr ""
 "Wir konnten deine Einsendung nicht verarbeiten, versuche es in einigen "
 "Sekunden erneut."
 
-#: common/partials/class-mega-forms-api.php:1811
+#: common/partials/class-mega-forms-api.php:1827
 msgid "We couldn't process your submission, try again later."
 msgstr ""
 "Wir konnten deine Einsendung nicht bearbeiten, versuche es später noch "
 "einmal."
 
-#: common/partials/class-mega-forms-api.php:1812
+#: common/partials/class-mega-forms-api.php:1828
 msgid "Sorry, you need to be logged in to view the form."
 msgstr "Entschuldigung, du musst angemeldet sein, um das Formular anzuzeigen."
 
-#: common/partials/class-mega-forms-api.php:1813
+#: common/partials/class-mega-forms-api.php:1829
 msgid "Sorry, new submissions are no longer accepted."
 msgstr "Entschuldigung, neue Einsendungen werden leider nicht mehr akzeptiert."
 
-#: common/partials/class-mega-forms-api.php:1814
+#: common/partials/class-mega-forms-api.php:1830
 msgid "Please correct the highlighted errors before submitting this form."
 msgstr ""
 "Bitte korrigiere die hervorgehobenen Fehler, bevor du dieses Formular "
 "absendest."
 
-#: common/partials/class-mega-forms-api.php:1815
+#: common/partials/class-mega-forms-api.php:1831
 msgid "We have recieved your submission, thank you!"
 msgstr "Wir haben deine Einsendung erhalten, vielen Dank!"
 
-#: common/partials/class-mega-forms-api.php:1816
+#: common/partials/class-mega-forms-api.php:1832
 msgid "Error: this field can't be validated!"
 msgstr "Fehler: Dieses Feld kann nicht validiert werden!"
 
-#: common/partials/class-mega-forms-api.php:1817
+#: common/partials/class-mega-forms-api.php:1833
 msgid "Error: this field can't be submitted."
 msgstr "Fehler: Dieses Feld kann nicht übermittelt werden."
 
-#: common/partials/class-mega-forms-api.php:1818
+#: common/partials/class-mega-forms-api.php:1834
 msgid "Error: this field can't be empty."
 msgstr "Fehler: Dieses Feld darf nicht leer sein."
 
-#: common/partials/class-mega-forms-api.php:1819
+#: common/partials/class-mega-forms-api.php:1835
 msgid "Invalid entry. Please refresh the page and try again."
 msgstr ""
 "Ungültiger Eintrag. Bitte aktualisiere die Seite und versuche es erneut."
 
-#: common/partials/class-mega-forms-api.php:1820
+#: common/partials/class-mega-forms-api.php:1836
 msgid ""
 "We were unable to process your changes, please refresh the page and try "
 "again."
@@ -1456,37 +1489,37 @@ msgstr ""
 "Wir konnten deine Änderungen nicht verarbeiten, bitte aktualisiere die Seite "
 "und versuche es erneut."
 
-#: common/partials/class-mega-forms-api.php:1869
+#: common/partials/class-mega-forms-api.php:1885
 msgid "Please select at least one option."
 msgstr "Bitte wähle mindestens eine Option aus."
 
-#: common/partials/class-mega-forms-api.php:1869
+#: common/partials/class-mega-forms-api.php:1885
 msgid "Please select an option."
 msgstr "Bitte wähle eine Option."
 
 #. translators: field label.
-#: common/partials/class-mega-forms-api.php:1878
+#: common/partials/class-mega-forms-api.php:1894
 #: common/partials/form/fields/base/class-mega-forms-field.php:1198
 msgid "%s is required."
 msgstr "%s ist ein Pflichtfeld."
 
-#: common/partials/class-mega-forms-api.php:1878
+#: common/partials/class-mega-forms-api.php:1894
 msgid "This field"
 msgstr "Dieses Feld"
 
-#: common/partials/class-mega-forms-api.php:1900
+#: common/partials/class-mega-forms-api.php:1916
 msgid "Please enter a complete address."
 msgstr "Bitte gib eine vollständige Adresse ein."
 
-#: common/partials/class-mega-forms-api.php:1908
+#: common/partials/class-mega-forms-api.php:1924
 msgid "Please fill out the required fields."
 msgstr "Bitte fülle die erforderlichen Felder aus."
 
-#: common/partials/class-mega-forms-api.php:2161
+#: common/partials/class-mega-forms-api.php:2177
 msgid "Select a Template"
 msgstr "Wähle eine Vorlage"
 
-#: common/partials/class-mega-forms-api.php:2162
+#: common/partials/class-mega-forms-api.php:2178
 msgid ""
 "Create a form by selecting one of the pre-made templates, or start with a <a "
 "href=\"#\" data-hook=\"create-form\" data-template-parent=\"main\" data-"
@@ -1497,27 +1530,27 @@ msgstr ""
 "parent=\"main\" data-template-type=\"blank\" data-template-title=\"Blank "
 "Form\">leeren Formular</a>."
 
-#: common/partials/class-mega-forms-api.php:2165
+#: common/partials/class-mega-forms-api.php:2181
 msgid "Blank Form"
 msgstr "Leeres Formular"
 
-#: common/partials/class-mega-forms-api.php:2168
+#: common/partials/class-mega-forms-api.php:2184
 msgid "Simple Contact Form"
 msgstr "Einfaches Kontaktformular"
 
-#: common/partials/class-mega-forms-api.php:2172
+#: common/partials/class-mega-forms-api.php:2188
 msgid "Advanced Contact Form"
 msgstr "Erweitertes Kontaktformular"
 
-#: common/partials/class-mega-forms-api.php:2176
+#: common/partials/class-mega-forms-api.php:2192
 msgid "Job Application Form"
 msgstr "Bewerbungsformular"
 
-#: common/partials/class-mega-forms-api.php:2180
+#: common/partials/class-mega-forms-api.php:2196
 msgid "Feedback Form"
 msgstr "Feedback-Formular"
 
-#: common/partials/class-mega-forms-api.php:2187
+#: common/partials/class-mega-forms-api.php:2203
 msgid "Additional Templates"
 msgstr "Zusätzliche Vorlagen"
 
@@ -1545,11 +1578,19 @@ msgstr ""
 "Entschuldigung, aber dieser Dateityp ist aus Sicherheitsgründen nicht "
 "erlaubt."
 
-#: common/partials/class-mega-forms-submit.php:317
+#: common/partials/class-mega-forms-submit.php:332
 msgid "Changes were successfully saved! Refreshing..."
 msgstr "Änderungen wurden erfolgreich gespeichert! Lade neu..."
 
 #: common/partials/class-mega-forms-submit.php:544
+msgid ""
+"Something went wrong processing this submission, please contact us if the "
+"problem persists"
+msgstr ""
+"Bei der Bearbeitung dieser Einsendung ist etwas schief gelaufen, bitte "
+"kontaktiere uns wenn das Problem weiterhin besteht"
+
+#: common/partials/class-mega-forms-submit.php:597
 msgid "We couldn't process your submission."
 msgstr "Wir konnten deine Einsendung nicht verarbeiten."
 
@@ -1574,6 +1615,7 @@ msgid "Post ID"
 msgstr "Beitrags-ID"
 
 #: common/partials/class-mega-forms-tags.php:68
+#: pro/common/partials/form/actions/class-mega-forms-action-post-submission.php:222
 msgid "Post Title"
 msgstr "Beitragstitel"
 
@@ -1653,9 +1695,21 @@ msgstr "IP-Adresse des Benutzers"
 msgid "Current Date"
 msgstr "Aktuelles Datum"
 
+#: common/partials/form/actions/base/class-mega-forms-action.php:321
+msgid "Action Label"
+msgstr "Action-Bezeichnung"
+
+#: common/partials/form/actions/base/class-mega-forms-action.php:322
+msgid ""
+"Enter the label for the action. This is how you can identify this action."
+msgstr ""
+"Gib die Bezeichnung für die Aktion ein. So kannst du diese Aktion "
+"identifizieren."
+
 #: common/partials/form/actions/class-mega-forms-action-email.php:40
 #: common/partials/form/fields/class-mega-forms-field-email.php:44
 #: common/partials/form/fields/class-mega-forms-field-email.php:211
+#: pro/common/partials/form/actions/class-mega-forms-action-registration.php:143
 msgid "Email"
 msgstr "E-Mail"
 
@@ -1742,17 +1796,6 @@ msgstr "Hook-Tag"
 #: common/partials/form/actions/class-mega-forms-action-hook.php:62
 msgid "Enter the name of the action hook you’re hooking to."
 msgstr "Gib den Namen des Action-Hooks ein, den du verwenden möchtest."
-
-#: common/partials/form/actions/class-mega-forms-action.php:263
-msgid "Action Label"
-msgstr "Action-Bezeichnung"
-
-#: common/partials/form/actions/class-mega-forms-action.php:264
-msgid ""
-"Enter the label for the action. This is how you can identify this action."
-msgstr ""
-"Gib die Bezeichnung für die Aktion ein. So kannst du diese Aktion "
-"identifizieren."
 
 #: common/partials/form/containers/class-mega-forms-container-row.php:30
 msgid "Row"
@@ -1874,20 +1917,20 @@ msgstr "Gib die Position der Feldbeschreibung an."
 
 #: common/partials/form/fields/base/class-mega-forms-field.php:684
 #: common/partials/form/fields/base/class-mega-forms-field.php:739
-#: pro/common/partials/form/fields/class-mega-forms-field-consent.php:111
+#: pro/common/partials/form/fields/class-mega-forms-field-consent.php:108
 msgid "Above"
 msgstr "Oberhalb"
 
 #: common/partials/form/fields/base/class-mega-forms-field.php:685
 #: common/partials/form/fields/base/class-mega-forms-field.php:740
-#: pro/common/partials/form/fields/class-mega-forms-field-consent.php:112
+#: pro/common/partials/form/fields/class-mega-forms-field-consent.php:109
 msgid "Below"
 msgstr "Unterhalb"
 
 #: common/partials/form/fields/base/class-mega-forms-field.php:686
 #: common/partials/form/fields/base/class-mega-forms-field.php:741
 #: common/partials/form/fields/class-mega-forms-field-date.php:234
-#: pro/common/partials/form/fields/class-mega-forms-field-consent.php:113
+#: pro/common/partials/form/fields/class-mega-forms-field-consent.php:110
 msgid "Hide"
 msgstr "Verstecken"
 
@@ -1989,6 +2032,8 @@ msgstr ""
 #: common/partials/form/fields/class-mega-forms-field-name.php:139
 #: common/partials/form/fields/class-mega-forms-field-password.php:140
 #: common/partials/form/fields/class-mega-forms-field-text.php:131
+#: pro/common/partials/form/actions/class-mega-forms-action-post-submission.php:313
+#: pro/common/partials/form/actions/options/class-mega-forms-action-conditional-logic.php:45
 #: pro/common/partials/form/fields/options/class-mega-forms-field-conditional-logic.php:41
 msgid "Enable"
 msgstr "Aktivieren"
@@ -4394,7 +4439,12 @@ msgstr "Mehrzeiliger Text"
 msgid "Website"
 msgstr "Webseite"
 
-#: common/partials/libraries/wp-background-processing/wp-background-process.php:425
+#: common/partials/libraries/wp-background-processing/wp-background-process.php:653
+msgid "Every Minute"
+msgstr "Jede Minute"
+
+#: common/partials/libraries/wp-background-processing/wp-background-process.php:655
+#: common/partials/libraries/wp-background-processing/wp-background-process_old.php:425
 msgid "Every %d Minutes"
 msgstr "Alle %d Minuten"
 
@@ -4559,7 +4609,7 @@ msgstr ""
 "Es ist ein Fehler aufgetreten, bitte aktualisiere die Seite und versuche es "
 "erneut."
 
-#: pro/common/class-mega-forms-common-pro.php:295
+#: pro/common/class-mega-forms-common-pro.php:326
 msgid ""
 "Please use the following link to return and complete this form from any "
 "computer."
@@ -4567,52 +4617,211 @@ msgstr ""
 "Bitte verwende den folgenden Link, um dieses Formular von einem beliebigen "
 "Computer aus auszufüllen."
 
-#: pro/common/class-mega-forms-common-pro.php:297
+#: pro/common/class-mega-forms-common-pro.php:328
 msgid "Note: This link will expire after 30 days."
 msgstr "Hinweis: Dieser Link wird nach 30 Tagen ungültig."
 
-#: pro/common/partials/form/containers/class-mega-forms-container-page.php:48
-#: pro/common/partials/form/containers/class-mega-forms-container-page.php:173
+#: pro/common/partials/form/actions/class-mega-forms-action-post-submission.php:35
+msgid "Post Submission"
+msgstr "Beitragseinreichung"
+
+#: pro/common/partials/form/actions/class-mega-forms-action-post-submission.php:109
+msgid "A title is required."
+msgstr "Ein Titel ist erforderlich."
+
+#: pro/common/partials/form/actions/class-mega-forms-action-post-submission.php:176
+msgid "Post Type"
+msgstr "Beitragstyp"
+
+#: pro/common/partials/form/actions/class-mega-forms-action-post-submission.php:177
+msgid "Enter the default post type where the submission will go."
+msgstr ""
+"Gib den Standardbeitragstyp ein, an den die Einreichung gesendet werden soll."
+
+#: pro/common/partials/form/actions/class-mega-forms-action-post-submission.php:204
+msgid "Post Status"
+msgstr "Beitragsstatus"
+
+#: pro/common/partials/form/actions/class-mega-forms-action-post-submission.php:205
+msgid "Enter the default post status for the created post."
+msgstr "Gib den Standard-Beitragsstatus für den erstellten Beitrag ein."
+
+#: pro/common/partials/form/actions/class-mega-forms-action-post-submission.php:223
+msgid "Enter the title that will be assignned to the post."
+msgstr "Gib den Titel ein, der dem Beitrag zugewiesen werden soll."
+
+#: pro/common/partials/form/actions/class-mega-forms-action-post-submission.php:237
+msgid "Post Content"
+msgstr "Beitragsinhalt"
+
+#: pro/common/partials/form/actions/class-mega-forms-action-post-submission.php:238
+msgid "Enter the content that will be assignned to the post."
+msgstr "Gib den Inhalt ein, der dem Beitrag zugewiesen werden soll."
+
+#: pro/common/partials/form/actions/class-mega-forms-action-post-submission.php:252
+msgid "Post Excerpt"
+msgstr "Beitragsauszug"
+
+#: pro/common/partials/form/actions/class-mega-forms-action-post-submission.php:253
+msgid "Enter the post excerpt."
+msgstr "Gib den Beitragsauszug ein."
+
+#: pro/common/partials/form/actions/class-mega-forms-action-post-submission.php:267
+msgid "Featured Image"
+msgstr "Beitragsbild"
+
+#: pro/common/partials/form/actions/class-mega-forms-action-post-submission.php:268
+msgid "Enter a link to the post featured image."
+msgstr "Gib einen Link zum Beitragsbild ein."
+
+#: pro/common/partials/form/actions/class-mega-forms-action-post-submission.php:282
+msgid "Custom Fields"
+msgstr "Benutzerdefinierte Felder"
+
+#: pro/common/partials/form/actions/class-mega-forms-action-post-submission.php:283
+msgid ""
+"Add any additional custom fields or the post meta that should be saved to "
+"the post."
+msgstr ""
+"Gib zusätzliche benutzerdefinierte Felder oder Metadaten ein, die im Beitrag "
+"gespeichert werden sollen."
+
+#: pro/common/partials/form/actions/class-mega-forms-action-post-submission.php:325
+msgid "Meta key"
+msgstr "Meta-Key"
+
+#: pro/common/partials/form/actions/class-mega-forms-action-post-submission.php:325
+msgid "Meta value"
+msgstr "Meta-Wert"
+
+#: pro/common/partials/form/actions/class-mega-forms-action-post-submission.php:325
+msgid "Type"
+msgstr "Typ"
+
+#: pro/common/partials/form/actions/class-mega-forms-action-registration.php:33
+msgid "User Registration"
+msgstr "Benutzerregistrierung"
+
+#: pro/common/partials/form/actions/class-mega-forms-action-registration.php:79
+msgid "Please use a valid email."
+msgstr "Bitte verwende eine gültige E-Mail-Adresse."
+
+#: pro/common/partials/form/actions/class-mega-forms-action-registration.php:83
+msgid "The email you entered already exists."
+msgstr "Die von dir eingegebene E-Mail-Adresse existiert bereits."
+
+#: pro/common/partials/form/actions/class-mega-forms-action-registration.php:93
+msgid "Your username is not valid."
+msgstr "Dein Benutzername ist ungültig."
+
+#: pro/common/partials/form/actions/class-mega-forms-action-registration.php:97
+msgid "The username you entered already exists."
+msgstr "Der von dir eingegebene Benutzername existiert bereits."
+
+#: pro/common/partials/form/actions/class-mega-forms-action-registration.php:128
+msgid "Username"
+msgstr "Benutzername"
+
+#: pro/common/partials/form/actions/class-mega-forms-action-registration.php:129
+msgid "Enter the username that will be assignned to the user."
+msgstr "Gib den Benutzernamen ein, der dem Benutzer zugewiesen wird."
+
+#: pro/common/partials/form/actions/class-mega-forms-action-registration.php:144
+msgid "Enter the email that will be assignned to the user."
+msgstr "Gib die E-Mail-Adresse ein, die dem Benutzer zugewiesen wird."
+
+#: pro/common/partials/form/actions/class-mega-forms-action-registration.php:158
+msgid "First name"
+msgstr "Vorname"
+
+#: pro/common/partials/form/actions/class-mega-forms-action-registration.php:159
+msgid "Enter the user first name."
+msgstr "Gib den Vornamen des Benutzers ein."
+
+#: pro/common/partials/form/actions/class-mega-forms-action-registration.php:173
+msgid "Last name"
+msgstr "Nachname"
+
+#: pro/common/partials/form/actions/class-mega-forms-action-registration.php:174
+msgid "Enter the user last name."
+msgstr "Gib den Nachnamen des Benutzers ein."
+
+#: pro/common/partials/form/actions/class-mega-forms-action-registration.php:188
+msgid "Role"
+msgstr "Benutzerrolle"
+
+#: pro/common/partials/form/actions/class-mega-forms-action-registration.php:189
+msgid "Enter the default role that will be assigned to the user."
+msgstr "Gib die Standard-Benutzerrolle ein, die dem Benutzer zugewiesen wird."
+
+#: pro/common/partials/form/actions/options/class-mega-forms-action-conditional-logic.php:32
+#: pro/common/partials/form/fields/options/class-mega-forms-field-conditional-logic.php:28
+msgid "Conditional Logic"
+msgstr "Bedingte Logik"
+
+#: pro/common/partials/form/actions/options/class-mega-forms-action-conditional-logic.php:33
+msgid ""
+"Create a set of rules to determine if and when this action will be triggered."
+msgstr ""
+"Erstelle eine Reihe von Regeln, um zu bestimmen, ob und wann diese Aktion "
+"ausgelöst wird."
+
+#: pro/common/partials/form/actions/options/class-mega-forms-action-conditional-logic.php:56
+msgid "Trigger this action if"
+msgstr "Löse diese Aktion aus, wenn"
+
+#: pro/common/partials/form/actions/options/class-mega-forms-action-conditional-logic.php:83
+#: pro/common/partials/form/fields/options/class-mega-forms-field-conditional-logic.php:79
+msgid "Add rules group"
+msgstr "Regelgruppe hinzufügen"
+
+#: pro/common/partials/form/actions/options/class-mega-forms-action-conditional-logic.php:141
+#: pro/common/partials/form/fields/options/class-mega-forms-field-conditional-logic.php:137
+msgid "Or"
+msgstr "oder"
+
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:44
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:169
 msgid "Page 1"
 msgstr "Seite 1"
 
-#: pro/common/partials/form/containers/class-mega-forms-container-page.php:49
-#: pro/common/partials/form/containers/class-mega-forms-container-page.php:174
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:45
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:170
 msgid "Page 2"
 msgstr "Seite 2"
 
-#: pro/common/partials/form/containers/class-mega-forms-container-page.php:57
-#: pro/common/partials/form/containers/class-mega-forms-container-page.php:75
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:53
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:71
 msgid "Page "
 msgstr "Seite "
 
-#: pro/common/partials/form/containers/class-mega-forms-container-page.php:93
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:89
 msgid "Progress Indicator"
 msgstr "Fortschrittsindikator"
 
-#: pro/common/partials/form/containers/class-mega-forms-container-page.php:94
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:90
 msgid ""
 "Choose what type of visual progress indicator you would like to display."
 msgstr ""
 "Wähle aus, welche Art von visueller Fortschrittsanzeige du anzeigen möchtest."
 
-#: pro/common/partials/form/containers/class-mega-forms-container-page.php:97
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:93
 msgid "Progress Bar"
 msgstr "Fortschrittsbalken"
 
-#: pro/common/partials/form/containers/class-mega-forms-container-page.php:98
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:94
 msgid "Steps"
 msgstr "Schritte"
 
-#: pro/common/partials/form/containers/class-mega-forms-container-page.php:99
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:95
 msgid "None"
 msgstr "Keine"
 
-#: pro/common/partials/form/containers/class-mega-forms-container-page.php:105
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:101
 msgid "Page Names"
 msgstr "Namen der Seiten"
 
-#: pro/common/partials/form/containers/class-mega-forms-container-page.php:106
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:102
 msgid ""
 "Name each of the pages on your form. Page names are displayed with the steps "
 "progress indicator."
@@ -4620,86 +4829,86 @@ msgstr ""
 "Benenne jede der Seiten in deinem Formular. Seitennamen werden in der "
 "Fortschrittsanzeige angezeigt."
 
-#: pro/common/partials/form/containers/class-mega-forms-container-page.php:112
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:108
 msgid "Progress Indicator Position"
 msgstr "Position der Fortschrittsanzeige"
 
-#: pro/common/partials/form/containers/class-mega-forms-container-page.php:113
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:109
 msgid ""
 "Choose whether to display the progress indicator above or below the form."
 msgstr ""
 "Wähle aus, ob die Fortschrittsanzeige über oder unter dem Formular angezeigt "
 "werden soll."
 
-#: pro/common/partials/form/containers/class-mega-forms-container-page.php:116
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:112
 msgid "Top"
 msgstr "Oben"
 
-#: pro/common/partials/form/containers/class-mega-forms-container-page.php:117
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:113
 msgid "Bottom"
 msgstr "Unten"
 
-#: pro/common/partials/form/containers/class-mega-forms-container-page.php:126
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:122
 msgid "Last Page Prev Button"
 msgstr "Zurück-Schaltfläche (letzte Seite)"
 
-#: pro/common/partials/form/containers/class-mega-forms-container-page.php:127
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:123
 msgid "Last page previous button text."
 msgstr "Text für die Zurück-Schaltfläche (letzte Seite)"
 
-#: pro/common/partials/form/containers/class-mega-forms-container-page.php:140
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:136
 msgid "Next Button Text"
 msgstr "Text für die Weiter-Schaltfläche"
 
-#: pro/common/partials/form/containers/class-mega-forms-container-page.php:146
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:142
 msgid "Previous Button Text"
 msgstr "Text für die Zurück-Schaltfläche"
 
-#: pro/common/partials/form/containers/class-mega-forms-container-page.php:297
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:293
 msgid "Page Options"
 msgstr "Seitenoptionen"
 
-#: pro/common/partials/form/containers/class-mega-forms-container-page.php:297
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:293
 msgid "Manage page options."
 msgstr "Verwalten von Seitenoptionen."
 
-#: pro/common/partials/form/containers/class-mega-forms-container-page.php:420
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:416
 msgid "Previous"
 msgstr "Zurück"
 
-#: pro/common/partials/form/containers/class-mega-forms-container-page.php:430
+#: pro/common/partials/form/containers/class-mega-forms-container-page.php:426
 msgid "Next"
 msgstr "Weiter"
 
-#: pro/common/partials/form/fields/class-mega-forms-field-consent.php:42
+#: pro/common/partials/form/fields/class-mega-forms-field-consent.php:39
 msgid "Consent"
 msgstr "Einwilligung"
 
-#: pro/common/partials/form/fields/class-mega-forms-field-consent.php:85
+#: pro/common/partials/form/fields/class-mega-forms-field-consent.php:82
 msgid "Consent agreement"
 msgstr "Einwilligungsvereinbarung"
 
-#: pro/common/partials/form/fields/class-mega-forms-field-consent.php:86
+#: pro/common/partials/form/fields/class-mega-forms-field-consent.php:83
 msgid "Enter consent agreement text here."
 msgstr "Gib hier den Text der Einwilligungsvereinbarung ein."
 
-#: pro/common/partials/form/fields/class-mega-forms-field-consent.php:102
+#: pro/common/partials/form/fields/class-mega-forms-field-consent.php:99
 msgid "Consent Agreement Position"
 msgstr "Position der Einwilligungsvereinbarung"
 
-#: pro/common/partials/form/fields/class-mega-forms-field-consent.php:103
+#: pro/common/partials/form/fields/class-mega-forms-field-consent.php:100
 msgid "Specify the position of consent agreement."
 msgstr "Gib die Position der Einwilligungsvereinbarung an."
 
-#: pro/common/partials/form/fields/class-mega-forms-field-consent.php:130
+#: pro/common/partials/form/fields/class-mega-forms-field-consent.php:127
 msgid "Checkbox Label"
 msgstr "Checkbox-Bezeichnung"
 
-#: pro/common/partials/form/fields/class-mega-forms-field-consent.php:132
+#: pro/common/partials/form/fields/class-mega-forms-field-consent.php:129
 msgid "Text of the consent checkbox."
 msgstr "Text der Zustimmungs-Checkbox."
 
-#: pro/common/partials/form/fields/class-mega-forms-field-consent.php:163
+#: pro/common/partials/form/fields/class-mega-forms-field-consent.php:160
 msgid "I agree to the privacy policy."
 msgstr "Ich stimme der Datenschutzerklärung zu."
 
@@ -4842,14 +5051,10 @@ msgstr "Die Datei konnte nicht hochgeladen werden."
 msgid "The file upload failed."
 msgstr "Der Datei-Upload ist fehlgeschlagen."
 
-#: pro/common/partials/form/fields/options/class-mega-forms-field-conditional-logic.php:28
-msgid "Conditional Logic"
-msgstr "Bedingte Logik"
-
 #: pro/common/partials/form/fields/options/class-mega-forms-field-conditional-logic.php:29
 msgid ""
-"Create a set of rules to determine which if and when this field will be "
-"shown or hidden."
+"Create a set of rules to determine if and when this field will be shown or "
+"hidden."
 msgstr ""
 "Erstelle eine Reihe von Regeln, um festzulegen, ob und wann dieses Feld ein- "
 "oder ausgeblendet wird."
@@ -4857,14 +5062,6 @@ msgstr ""
 #: pro/common/partials/form/fields/options/class-mega-forms-field-conditional-logic.php:52
 msgid "Show this field if"
 msgstr "Zeige dieses Feld wenn"
-
-#: pro/common/partials/form/fields/options/class-mega-forms-field-conditional-logic.php:79
-msgid "Add rules group"
-msgstr "Regelgruppe hinzufügen"
-
-#: pro/common/partials/form/fields/options/class-mega-forms-field-conditional-logic.php:137
-msgid "Or"
-msgstr "oder"
 
 #. Plugin URI of the plugin/theme
 msgid "http://wpmegaforms.com/"
