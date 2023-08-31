@@ -1,19 +1,16 @@
 <?php
 
+
 /**
  * @link       https://wpali.com
  * @since      1.0.8
  *
- * @package    Mega_Forms
- * @subpackage Mega_Forms/common/partials/fields
  */
 
 /**
- * Consent field type class
+ * consent field type class
  *
- * @package    Mega_Forms
- * @subpackage Mega_Forms/common/partials/fields
- * @author     ALI KHALLAD <ali@wpali.com>
+ * @author     Ali Khallad <ali@wpali.com>
  */
 
 if (!defined('ABSPATH')) {

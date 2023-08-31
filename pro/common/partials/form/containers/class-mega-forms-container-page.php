@@ -4,16 +4,12 @@
  * @link       https://wpali.com
  * @since      1.0.7
  *
- * @package    Mega_Forms
- * @subpackage Mega_Forms/includes/partials/form/containers
  */
 
 /**
- * Text action type class
+ * form container type class
  *
- * @package    Mega_Forms
- * @subpackage Mega_Forms/includes/partials/form/containers
- * @author     ALI KHALLAD <ali@wpali.com>
+ * @author     Ali Khallad <ali@wpali.com>
  */
 
 if (!defined('ABSPATH')) {

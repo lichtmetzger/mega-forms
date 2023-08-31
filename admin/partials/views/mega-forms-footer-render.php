@@ -97,11 +97,11 @@ class MegaForms_Footer_Render
             <div id="mgform_modal_inner">
               <form method="post">
                 <span class="mf_clearfix"></span>
-                <div class="mfield left">
+                <div class="mfield mf_left">
                   <h3>{{data.title}}</h3>
                   <input id="new_mgform_title" data-hook="modal-title-input" type="text" name="name" value="" placeholder="{{data.label}}">
                 </div>
-                <div class="mfield right">
+                <div class="mfield mf_right">
                   <img class="mf_modal_logo" src="<?php echo MEGAFORMS_DIR_URL . 'admin/assets/images/logo-v1.svg' ?>" />
                 </div>
                 <span class="mf_clearfix"></span>
@@ -148,7 +148,7 @@ class MegaForms_Footer_Render
         <li data-type="{{data.type}}" data-is-static="1" data-id='{{data.field_id}}' class='single_field loader'>
           <img src='{{data.spinner}}' />
           <div class='field_controls'>
-            <div class='field_title left'>
+            <div class='field_title mf_left'>
               <span class='field-icon {{data.icon}}'></span>
               {{data.title}}
             </div>
@@ -164,7 +164,7 @@ class MegaForms_Footer_Render
         <li data-type="{{data.type}}" data-id='{{data.action_id}}' class='single_action loader'>
           <img src='{{data.spinner}}' />
           <div class='action_controls'>
-            <div class='action_title left'>
+            <div class='action_title mf_left'>
               {{data.title}}
             </div>
           </div>

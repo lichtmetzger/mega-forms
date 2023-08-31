@@ -5,7 +5,7 @@
  *
  * @package    Mega_Forms
  * @subpackage Mega_Forms/common/extender
- * @author     ALI KHALLAD <ali@wpali.com>
+ * @author     Ali Khallad <ali@wpali.com>
  */
 
 if (!defined('ABSPATH')) {
@@ -18,6 +18,10 @@ class MF_Extender
   private static $field_options = array();
   private static $action_options = array();
   private static $container_options = array();
+
+  /**********************************************************
+   ************************* FIELDS *************************
+   **********************************************************/
 
   /**
    * Register a new field.
@@ -58,4 +62,50 @@ class MF_Extender
   {
     return self::$field_options;
   }
+
+  /**********************************************************
+   ************************ ACTIONS *************************
+   **********************************************************/
+
+  /**
+   * Register a new action.
+   *
+   */
+  public static function register_action($action)
+  {
+    if ($action instanceof MF_Action) {
+      MF_Actions::register($action);
+    }
+  }
+  /**
+   * Register a new action option.
+   *
+   */
+  public static function register_action_option($option)
+  {
+    if ($option instanceof MF_Action_Option) {
+      self::$action_options[$option->type] = $option;
+    }
+  }
+  /**
+   * Get single custom action option.
+   *
+   */
+  public static function get_single_action_option($type)
+  {
+    if (isset(self::$action_options[$type])) {
+      return self::$action_options[$type];
+    }
+    return false;
+  }
+  /**
+   * Get all custom field options.
+   *
+   */
+  public static function get_action_options()
+  {
+    return self::$action_options;
+  }
 }
+
+

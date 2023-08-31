@@ -5,7 +5,7 @@
  *
  * @package    Mega_Forms
  * @subpackage Mega_Forms/common/partials/fields
- * @author     ALI KHALLAD <ali@wpali.com>
+ * @author     Ali Khallad <ali@wpali.com>
  */
 
 if (!defined('ABSPATH')) {

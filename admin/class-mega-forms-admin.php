@@ -13,7 +13,7 @@
  *
  * @package    Mega_Forms
  * @subpackage Mega_Forms/admin
- * @author     ALI KHALLAD <ali@wpali.com>
+ * @author     Ali Khallad <ali@wpali.com>
  */
 
 if (!defined('ABSPATH')) {
@@ -137,6 +137,7 @@ class Mega_Forms_Admin
 						'removeChoiceN' => __('This field requires at least one choice.', 'megaforms'),
 						'removeInputN' => __('This field can\'t be disabled.', 'megaforms'),
 						'removeConditionN' => __('The main conditional rule can\'t be removed.', 'megaforms'),
+						'removeCustomFieldN' => __('The main custom field inputs can\'t be removed.', 'megaforms'),
 						'RenameFormText' => __('Enter a new name for your form, and continue building!', 'megaforms'),
 						'formNameError' => __('Form name can\'t be empty!', 'megaforms'),
 						'embedFormText' => __('Please use this shortcode to display the form on a page or post.', 'megaforms'),
@@ -247,6 +248,15 @@ class Mega_Forms_Admin
 			__('Import / Export', 'megaforms'),
 			'manage_options',
 			'mega-forms-import-export',
+			array($this, 'megaforms_admin_page')
+		);
+
+		add_submenu_page(
+			'mega-forms',
+			__('Support', 'megaforms'),
+			__('Support', 'megaforms'),
+			'manage_options',
+			'mega-forms-help',
 			array($this, 'megaforms_admin_page')
 		);
 	}

@@ -9,7 +9,7 @@
 /**
  * Common functionality of the pro plugin.
  *
- * @author     ALI KHALLAD <ali@wpali.com>
+ * @author     Ali Khallad <ali@wpali.com>
  */
 
 if (!defined('ABSPATH')) {
@@ -210,7 +210,7 @@ class Mega_Forms_Common_Pro
 			$submitted_page = absint($page);
 			$loop_page = 1;
 			foreach ($object->form->containers['data'] as $data) {
-				// set `loop_page` on each page_break ( container type 'page' )
+				// set `loop_page` on each page_break ( where container type is 'page' )
 				if ('page' == $data['type']) {
 					$loop_page++;
 					continue;
@@ -245,6 +245,13 @@ class Mega_Forms_Common_Pro
 				}
 			}
 
+			# Filter whether to save entry after each page submission
+			$save_page = apply_filters('mf_save_paginated_form_pages', false);
+			if ($save_page) {
+				// An exception will be thrown if the form is not valid.
+				$object->validate_submitted_form();
+			}
+
 			# Validate page fields
 			$result = $object->validate_fields($page_fields);
 			if ($result['valid'] === false) {
@@ -252,6 +259,30 @@ class Mega_Forms_Common_Pro
 			} else {
 				$object->custom_submission_valid = true;  // Make sure to set the custom validation property to true.
 				$object->submission_values = $result['values']; // Make sure page submission values are stored in the object.
+				// Filter whether to save this page as an entry or not
+				if ($save_page) {
+					// Check if there is an existing entry for this submission
+					// We'll use safety token `_mf_s_token` to ensure non-duplicate token.
+					// The value of nonces can repeat for the same user, 
+					// while safety token is different on each page load.
+					$nonce = mfpost('_mf_nonce', $object->posted);
+					$wp_nonce = mfpost('_mf_extra_nonce', $object->posted);
+					$safety_token = mfpost('_mf_s_token', $object->posted);
+					$token_id = 'entry_' . $object->form->ID . '_' . wp_hash($nonce . '-' . $wp_nonce . '-' . $safety_token);
+					$entry_id = mf_session()->get($token_id);
+					// If there is an entry already, update it. 
+					// Otherwise, create a new one.
+					if ($entry_id) {
+						// Update the existing entry
+						$object->save_entry_changes($entry_id);
+					} else {
+						// Create a new entry and save the ID
+						$entry_id = $object->create_entry();
+						if ($entry_id) {
+							mf_session()->set($token_id, $entry_id);
+						}
+					}
+				}
 			}
 		}
 		/**
@@ -319,7 +350,7 @@ class Mega_Forms_Common_Pro
 	 *
 	 * @since    1.0.7
 	 */
-	public function mf_submit_success_response($success_args)
+	public function customize_ajax_success_response($success_args)
 	{
 		if (mfget('page', mf_submission()->form->containers['settings']) && in_array(mf_submission()->context, array('form', 'save'))) {
 			// Make sure to hide progress indicator when the last page of a paged form is submitted
@@ -327,5 +358,55 @@ class Mega_Forms_Common_Pro
 		}
 
 		return $success_args;
+	}
+	/**
+	 * Handle conditional logic on form actions
+	 *
+	 * @since    1.3.1
+	 */
+	public function handle_action_conditional_logic($exec, $action, $posted_values)
+	{
+		// Pull all the options assigned to the current action
+		$action_options = $action->get_action_options();
+		// Check if conditional logic is available for this action
+		if (in_array('conditional_logic', $action_options)) {
+			// Now check whether conditional logic is enabled, if yes, evaluate rules
+			// and continue with the execution if all rules are passed.
+			$cl_value = $action->get_setting_value('conditional_logic');
+			$is_enabled = mfget_bool_value(mfget('enable', $cl_value));
+			if ($is_enabled && isset($cl_value['rules'])) {
+				$conditional_logic_option = MF_Extender::get_single_action_option('conditional_logic');
+				return $conditional_logic_option->evaluate_rules(mfget('rules', $cl_value), $posted_values);
+			}
+		}
+		return $exec;
+	}
+	/**
+	 * Handle any processes that should run after entry creation
+	 *
+	 * @since    1.3.2
+	 */
+	public function handle_entry_processes($entry_id, $entry_meta, $submission_object)
+	{
+
+		// Handle processes that should run after the creation of a form related entry
+		// Note: entries can be also created as part of pages by returning true for
+		// the filter `mf_save_paginated_form_pages`.
+		if ($submission_object->context == 'form') {
+			// If there is a previosuly created entry as part of paged form, delete it.
+			// We do this because page associated entries are incomplete and doesn't have
+			// all the required fields.
+			$nonce = mfpost('_mf_nonce', $submission_object->posted);
+			$wp_nonce = mfpost('_mf_extra_nonce', $submission_object->posted);
+			$safety_token = mfpost('_mf_s_token', $submission_object->posted);
+			$token_id = 'entry_' . $submission_object->form->ID . '_' . wp_hash($nonce . '-' . $wp_nonce . '-' . $safety_token);
+			$older_entry_id = mf_session()->get($token_id);
+			// If there is an entry already, update it. 
+			// Otherwise, create a new one.
+			if ($older_entry_id) {
+				mf_api()->delete_entry($older_entry_id);
+				mf_api()->set_form_entry_count($submission_object->form->ID);
+			}
+		}
 	}
 }

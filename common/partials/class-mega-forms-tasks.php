@@ -14,8 +14,13 @@ if (!defined('ABSPATH')) {
 	exit; // Exit if accessed directly
 }
 
-require_once MEGAFORMS_COMMON_PATH . 'partials/libraries/wp-background-processing/' . 'wp-async-request.php';
-require_once MEGAFORMS_COMMON_PATH . 'partials/libraries/wp-background-processing/' . 'wp-background-process.php';
+if (!class_exists('WP_Async_Request')) {
+	require_once MEGAFORMS_COMMON_PATH . 'partials/libraries/wp-background-processing/' . 'wp-async-request.php';
+}
+
+if (!class_exists('WP_Background_Process')) {
+	require_once MEGAFORMS_COMMON_PATH . 'partials/libraries/wp-background-processing/' . 'wp-background-process.php';
+}
 
 class MF_Tasks extends WP_Background_Process
 {

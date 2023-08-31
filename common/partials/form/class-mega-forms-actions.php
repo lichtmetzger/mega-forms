@@ -13,7 +13,7 @@
  *
  * @package    Mega_Forms
  * @subpackage Mega_Forms/common/partials/form/actions
- * @author     ALI KHALLAD <ali@wpali.com>
+ * @author     Ali Khallad <ali@wpali.com>
  */
 
 if (!defined('ABSPATH')) {
@@ -98,7 +98,21 @@ class MF_Actions
 	}
 }
 
-require_once(MEGAFORMS_COMMON_PATH . 'partials/form/actions/class-mega-forms-action.php');
+/**
+ * Require the base classes
+ *
+ * @since    1.3.1
+ */
+require_once(MEGAFORMS_COMMON_PATH . 'partials/form/actions/base/class-mega-forms-action.php');
+foreach (glob(MEGAFORMS_COMMON_PATH . 'partials/form/actions/base/class-mega-forms-action-*.php') as $action_filename) {
+	require_once($action_filename);
+}
+
+/**
+ * Require available action
+ *
+ * @since    1.0.0
+ */
 foreach (glob(MEGAFORMS_COMMON_PATH . 'partials/form/actions/class-mega-forms-action-*.php') as $action_filename) {
 	require_once($action_filename);
 }

@@ -13,7 +13,7 @@
  *
  * @package    Mega_Forms
  * @subpackage Mega_Forms/common/partials/fields/base
- * @author     ALI KHALLAD <ali@wpali.com>
+ * @author     Ali Khallad <ali@wpali.com>
  */
 
 if (!defined('ABSPATH')) {
@@ -67,9 +67,9 @@ class MF_Field_Option
 	/**
 	 * Return the option markup.
 	 *
-	 * The returned array must include a list of supported fields, or/and excluded fields.
+	 * The returned array must include a list of supported fields, or excluded fields.
 	 * If a string is returned, then it's assumed that the display logic will be implemented manually.
-	 * If an array is returned, it must be in a specific format, it can hold only 1 of the main kays ('support', 'exclude').
+	 * If an array is returned, it must be in a specific format, it can hold only one of the following ('support', 'exclude').
 	 * Both of the keys ('support', 'exclude') can hold an array of field types to support or exclude from support.
 	 * When 'exclude' is set, all field types will be supported by default, except the ones provided in the 'exclude' list.
 	 * 
@@ -81,7 +81,7 @@ class MF_Field_Option
 	}
 	/**
 	 * Decide whether a custom option should display in the passed field on not
-	 * Note: this is only needed when 'get_option_display_logic' is returning a string
+	 * Note: this is only applicable when 'get_option_display_logic' is returning a string
 	 *
 	 */
 	public function handle_display_logic($display, $field)

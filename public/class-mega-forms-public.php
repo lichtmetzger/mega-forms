@@ -13,7 +13,7 @@
  *
  * @package    Mega_Forms
  * @subpackage Mega_Forms/public
- * @author     ALI KHALLAD <ali@wpali.com>
+ * @author     Ali Khallad <ali@wpali.com>
  */
 if (!defined('ABSPATH')) {
 	exit; // Exit if accessed directly

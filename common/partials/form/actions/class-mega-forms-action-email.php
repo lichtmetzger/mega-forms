@@ -13,7 +13,7 @@
  *
  * @package    Mega_Forms
  * @subpackage Mega_Forms/includes/partials/form/actions
- * @author     ALI KHALLAD <ali@wpali.com>
+ * @author     Ali Khallad <ali@wpali.com>
  */
 
 if (!defined('ABSPATH')) {
@@ -72,7 +72,7 @@ class MF_Action_Email extends MF_Action
 		if (empty($from_name)) {
 			$from_name = mfget_option('email_from_name', get_bloginfo('name'));
 		}
-		if (empty($from_email) || !is_email($from_email)) {
+		if (empty($from_email) || (!is_email($from_email) && strpos($from_email, '{mf:') !== false)) {
 			$from_email =  mfget_option('email_from_address', get_bloginfo('admin_email'));
 		}
 
@@ -279,9 +279,10 @@ class MF_Action_Email extends MF_Action
 	{
 
 		$sanitized = parent::sanitize_settings();
+		$from_email = $this->get_setting_value('from_email');
 
 		$sanitized['from_name'] = esc_attr($this->get_setting_value('from_name'));
-		$sanitized['from_email'] = sanitize_email($this->get_setting_value('from_email'));
+		$sanitized['from_email'] = strpos($from_email, '{mf:') !== false ? wp_strip_all_tags($from_email) : sanitize_email($from_email);
 		$sanitized['to'] = wp_strip_all_tags($this->get_setting_value('to'));
 		$sanitized['subject'] = sanitize_text_field($this->get_setting_value('subject'));
 		$sanitized['message'] = wp_kses_post($this->get_setting_value('message'));

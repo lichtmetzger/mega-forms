@@ -295,12 +295,14 @@ class MF_Form_View
     echo '<input type="hidden" name="_mf_form_id" value="' . esc_attr($this->form->ID) . '">';
     # Referer hidden field.
     echo '<input type="hidden" name="_mf_referrer" value="' . $form_referrer . '">';
-    # Unique form ID
+    # Unique form token
     echo '<input type="hidden" name="_mf_nonce" value="' . $form_token . '">';
     # WP Nonce
     echo '<input type="hidden" name="_mf_extra_nonce" value="' . wp_create_nonce($form_token) . '">';
     # Timestamp
     echo '<input type="hidden" name="_mf_t_token" value="' . base64_encode(json_encode(time() * $this->form->ID)) . '">';
+    # Safety/security unique token that changes on each page load
+    echo '<input type="hidden" name="_mf_s_token" value="' . sprintf( '%04x-%04x-%04x-%04x', crc32(microtime()), wp_rand(), mt_rand(0, 0xffff), mt_rand(0, 0x3fff) | 0x8000,) . '">';
 
     do_action('mf_after_hidden_inputs', $this->form);
 

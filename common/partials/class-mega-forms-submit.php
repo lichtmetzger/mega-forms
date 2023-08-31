@@ -143,6 +143,15 @@ class MF_Form_Submit
   public $is_spam = false;
 
   /**
+   * This will hold context of this submission 'form', 'entry', 'custom',..etc
+   *
+   * @since 1.3.0
+   *
+   * @var bool
+   */
+  public $context = '';
+
+  /**
    * This will hold the status of custom submissions ( submission with the context not set to 'form', 'entry' )
    *
    * @since 1.0.7
@@ -150,6 +159,7 @@ class MF_Form_Submit
    * @var bool
    */
   public $custom_submission_valid = false;
+
 
 
   /**
@@ -244,25 +254,29 @@ class MF_Form_Submit
   protected function process_submission()
   {
 
+    // Validation
     try {
-
       do_action('mf_submission_validation', $this);
-
-      // Validation
+      // Validate the form
       $this->validate_submitted_form();
+      // Validate the fields
       $this->validate_submitted_fields();
     } catch (Exception $e) {
-
       $this->message = $e->getMessage();
-
       return false;
     }
 
-    # Processing
-    $this->process_actions();
-    $this->create_entry();
+    // Processing
+    try {
+      $this->process_actions();
+      $this->create_entry();
+    } catch (Exception $e) {
+      $this->message = $e->getMessage();
+      return false;
+    }
 
-    # Set confirmation message as a fallback, and redirects if available
+
+    // Set confirmation message as a fallback, and redirects if available
     $confirmation_type = mfget('confirmation_type', $this->form->settings);
     $confirmation_message = mfget('confirmation_message', $this->form->settings);
     $this->message = !empty($confirmation_message) ? $confirmation_message : $this->get_validation_text('form_validation_success');
@@ -283,7 +297,8 @@ class MF_Form_Submit
         }
         break;
     }
-    # Set the rest
+
+    // Set the rest
     $this->success = true;
 
     do_action('mf_submission_completed', $this);
@@ -486,26 +501,64 @@ class MF_Form_Submit
     $actions = $this->form->actions;
 
     if (is_array($actions) && !empty($actions)) {
+      // Sort the actions array by priority 
+      // ( This is necessary to ensure `high priority tasks run first` )
+      usort($actions, function ($a, $b) {
+        // All of the code below can converted to 'return $a['priority'] <=> $b['priority'];'
+        // The reason we are using this long version is to maintain backward comptability
+        // since versions before 1.3.0 don't have the `priority` property
+        if (!isset($a['priority']) && !isset($b['priority'])) {
+          return 0;
+        } elseif (!isset($a['priority'])) {
+          return 1;
+        } elseif (!isset($b['priority'])) {
+          return -1;
+        } elseif ($a['priority'] == $b['priority']) {
+          return 0;
+        }
+        return $a['priority'] > $b['priority'] ? 1 : -1;
+      });
+
+      // Process the actions
       foreach ($actions as $action) {
+
         if (!mfget('enabled', $action, false)) {
           continue;
         }
 
         // Prepare action data before saving as a task ( avoid issues with merge-tags, current user data, current page, GET, POST data...etc )
         $mf_action = MF_Actions::get($action['type'], array('action' => $action));
-        $prepared_data = $mf_action->pre_process_action($this->submission_values);
-        // // Build the task array
-        $task = array(
-          'type' => 'form_action',
-          'data' => array(
-            'action' => $action,
-            'posted_data' => $this->submission_values,
-            'prepared_data' => $prepared_data,
-          ),
-        );
 
-        mf_tasks()->push_to_queue($task);
-        $count++;
+        // Filter whether this action should be processed or not
+        if (!apply_filters('mf_process_form_action', true, $mf_action, $this->submission_values)) {
+          continue;
+        }
+
+        $priority = $mf_action->get_priority();
+
+        if ($priority === 1) {
+          // If the action priority is high ( 1 ), we'll trigger it immediately
+          $prepared_data = $mf_action->pre_process_action($this->submission_values);
+          $mf_action->prepared_data = $prepared_data;
+          if ($mf_action->exec($this->submission_values) !== true) {
+            throw new Exception(__('Something went wrong processing this submission, please contact us if the problem persists', 'megaforms'));
+          }
+        } else {
+          // If the action priority is normal or low ( 2, 3), we'll save it as a background task
+          $prepared_data = $mf_action->pre_process_action($this->submission_values);
+          // // Build the task array
+          $task = array(
+            'type' => 'form_action',
+            'data' => array(
+              'action' => $action,
+              'posted_data' => $this->submission_values,
+              'prepared_data' => $prepared_data,
+            ),
+          );
+
+          mf_tasks()->push_to_queue($task);
+          $count++;
+        }
       }
     }
 
@@ -544,7 +597,8 @@ class MF_Form_Submit
       throw new Exception($this->get_validation_text('form_processing_entry_failed', __('We couldn\'t process your submission.', 'megaforms')));
     } else {
       // Perform any tasks that should run directly after entry creation.
-      do_action('mf_process_entry_actions', $entry_id, $entry_meta, $this->form, $this->submission_values);
+      do_action('mf_process_entry_actions', $entry_id, $entry_meta, $this);
+      return $entry_id;
     }
   }
   /**
@@ -593,10 +647,10 @@ class MF_Form_Submit
    * @since 1.0.7
    *
    */
-  public function save_entry_changes()
+  public function save_entry_changes($entry_id = 0)
   {
 
-    $entry_id = mfget('entry_id', $this->posted, false);
+    $entry_id = absint($entry_id) > 0 ? absint($entry_id) : mfget('entry_id', $this->posted, false);
     if ($entry_id) {
       // Save only raw sanitized values to entry meta
       $entry_meta = array_map(function ($item) {

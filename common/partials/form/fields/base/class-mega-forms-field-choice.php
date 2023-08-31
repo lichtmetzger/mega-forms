@@ -13,7 +13,7 @@
  *
  * @package    Mega_Forms
  * @subpackage Mega_Forms/common/partials/fields
- * @author     ALI KHALLAD <ali@wpali.com>
+ * @author     Ali Khallad <ali@wpali.com>
  */
 
 if (!defined('ABSPATH')) {
@@ -136,12 +136,12 @@ class MegaForms_Choice extends MF_Field
 
     $repeatable_inputs .= '<div class="mf-choices-list-actions">';
     # show values button
-    $repeatable_inputs .= '<span class="left">';
+    $repeatable_inputs .= '<span class="mf_left">';
     $repeatable_inputs .= get_mf_checkbox(array('id' => 'mf_enable_choices_values_' . $this->field_id, 'data-edit' => $toggle_values));
     $repeatable_inputs .= '<label for="mf_enable_choices_values_' . $this->field_id . '">show values</label>';
     $repeatable_inputs .= '</span>';
     # Bulk add button
-    // $repeatable_inputs .= '<span class="right">';
+    // $repeatable_inputs .= '<span class="mf_right">';
     // $repeatable_inputs .= '<a href="#" class="mf-toggle-bulk-add-modal" data-edit="'. $bulk_add .'">Bulk add</a>';
     // $repeatable_inputs .= '</span>';
 

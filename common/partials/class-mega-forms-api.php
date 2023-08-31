@@ -272,6 +272,9 @@ class MFAPI
     $format = array('%s');
     $result = $wpdb->update($table, $data, $where, $format);
 
+    // Clear cache
+    wp_cache_delete('mf_' . $form_id . '_get_form_meta', $key);
+
     if (!$result) {
       return false;
     }
@@ -497,8 +500,10 @@ class MFAPI
 
     global $wpdb;
     $form_table_name = $wpdb->prefix . 'mf_forms';
-
+    // Take the form out of trash
     $run_query = $wpdb->query($wpdb->prepare("UPDATE `$form_table_name` SET is_trash = 0 WHERE id = %d", $form_id));
+    // Clear the form cache
+    wp_cache_delete('mf_' . $form_id . '_get_form');
 
     return $run_query;
   }
@@ -550,8 +555,10 @@ class MFAPI
 
     global $wpdb;
     $table_name = $wpdb->prefix . 'mf_forms';
-
+    // Send the form to trash
     $run_query = $wpdb->query($wpdb->prepare("UPDATE `$table_name` SET is_trash = 1 WHERE id = %d", $form_id));
+    // Clear the form cache
+    wp_cache_delete('mf_' . $form_id . '_get_form');
 
     return $run_query;
   }
@@ -846,18 +853,21 @@ class MFAPI
    *
    * @since    1.0.0
    * @param string $form_name
-   * @param int $formID
+   * @param int $form_id
    * @return int
    */
-  public static function rename_form($form_name, $formID)
+  public static function rename_form($form_name, $form_id)
   {
 
     global $wpdb;
     $form_table_name = $wpdb->prefix . 'mf_forms';
     $form_title = stripslashes_deep($form_name);
     $date = date('m/d/Y h:i:s', time());
-
-    $rename = $wpdb->update($form_table_name, array('title' => $form_title, 'form_modified' => $date), array('id' => $formID,), array('%s', '%s'));
+    // Rename the form
+    $rename = $wpdb->update($form_table_name, array('title' => $form_title, 'form_modified' => $date), array('id' => $form_id,), array('%s', '%s'));
+    // Clear the form cache
+    wp_cache_delete('mf_' . $form_id . '_get_form');
+    wp_cache_delete('mf_' . $form_id . '_get_form_title');
 
     return $rename;
   }
@@ -912,9 +922,13 @@ class MFAPI
       $data['last_field_id'] = $last_field_id;
     }
 
+    // Save meta
     foreach ($data as $key => $val) {
       self::update_form_meta($form_id, $key, $val);
     }
+
+    // Clear meta cache
+    wp_cache_delete('mf_' . $form_id . '_get_bulk_form_meta');
 
     // Update modification date
     global $wpdb;
@@ -1205,9 +1219,10 @@ class MFAPI
 
     global $wpdb;
     $table_name = $wpdb->prefix . 'mf_entries';
-
+    // Take entry out of trash
     $restore = $wpdb->query($wpdb->prepare("UPDATE `$table_name` SET is_trash = 0  WHERE id = %d", $entry_id));
-
+    // Delete entry cache
+    wp_cache_delete('mf_' . $entry_id . 'get_entry');
     return $restore;
   }
 
@@ -1270,9 +1285,10 @@ class MFAPI
 
     global $wpdb;
     $table_name = $wpdb->prefix . 'mf_entries';
-
+    // Mark entry as trash
     $trash = $wpdb->query($wpdb->prepare("UPDATE `$table_name` SET is_trash = 1 WHERE id = %d", $entry_id));
-
+    // Delete entry cache
+    wp_cache_delete('mf_' . $entry_id . 'get_entry');
     return $trash;
   }
   /**

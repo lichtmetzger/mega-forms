@@ -13,7 +13,7 @@
  *
  * @package    Mega_Forms
  * @subpackage Mega_Forms/common/partials/fields
- * @author     ALI KHALLAD <ali@wpali.com>
+ * @author     Ali Khallad <ali@wpali.com>
  */
 
 if (!defined('ABSPATH')) {
@@ -61,7 +61,7 @@ class MegaForms_Address extends MF_Field
 		$sub_labels_pos    = $this->get_setting_value('field_sub_label_position');
 
 		$addressHTML = '';
-		$startDirection = 'left';
+		$startDirection = 'mf_left';
 		foreach ($addressComponents as $aKey => $aVal) {
 
 			$enabled = $aVal['enable'];
@@ -85,7 +85,7 @@ class MegaForms_Address extends MF_Field
 				if ('city' == $aKey || 'zip_code' == $aKey || 'state' == $aKey || 'country' == $aKey) {
 					$class .= ' mf_half ' . $startDirection;
 					if ($enabled) {
-						$startDirection = $startDirection == 'left' ? 'right' : 'left';
+						$startDirection = $startDirection == 'mf_left' ? 'mf_right' : 'mf_left';
 					}
 				} else {
 					$class .= ' mf_full';

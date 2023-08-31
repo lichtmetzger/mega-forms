@@ -19,7 +19,7 @@ class MF_Public_Ajax extends MF_Ajax
 
    public function submit_form()
    {
-      # Get data from tge request
+      # Get data from the request
       $has_json = $this->maybe_get_value('has_json');
       $maybe_decode = $has_json !== null ? $has_json : false;
       $form_id = $this->get_value('form_id');

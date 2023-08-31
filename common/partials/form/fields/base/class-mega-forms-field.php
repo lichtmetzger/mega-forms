@@ -13,7 +13,7 @@
  *
  * @package    Mega_Forms
  * @subpackage Mega_Forms/common/partials/fields/base
- * @author     ALI KHALLAD <ali@wpali.com>
+ * @author     Ali Khallad <ali@wpali.com>
  */
 
 if (!defined('ABSPATH')) {
@@ -440,7 +440,7 @@ class MF_Field
 		if ($this->is_editor) {
 
 			$field_wrapper .= '<div class="field_controls disable-sorting">
-  								<div class="controls right">
+  								<div class="controls mf_right">
   									<a href="#" class="field_control" data-action="duplicate"><span class="mega-icons-copy"></span></a>
   									<a href="#" class="field_control" data-action="delete"><span class="mega-icons-trash-o"></span></a>
   								</div>
@@ -479,13 +479,13 @@ class MF_Field
 		$html = '';
 		$html .= sprintf('<li id="mf_%1$d_field_%2$d_editor" data-type="%3$s" data-is-static="%4$d" data-id="%2$d" class="field_container single_field">', $this->form_id, $this->field_id, $this->type, $this->isStaticField);
 		$html .= sprintf('<div class="field_controls">
-								<div class="field_title left">
+								<div class="field_title mf_left">
 									<span>
   									<span class="field-icon %s"></span>
                     %s
                   </span>
 								</div>
-                <span class="field_form_id right">(ID: %d)</span>
+                <span class="field_form_id mf_right">(ID: %d)</span>
 								<div class="mf_clearfix"></div>
 							</div>', $icon, $title, $this->field_id);
 		$html .= $settings;
@@ -1288,7 +1288,6 @@ class MF_Field
 	 */
 	public function sanitize_settings()
 	{
-
 		$sanitized = array();
 		$sanitized['id'] = absint($this->field_id);
 		$sanitized['formId'] = absint($this->form_id);

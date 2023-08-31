@@ -13,7 +13,7 @@
  *
  * @package    Mega_Forms
  * @subpackage Mega_Forms/common/partials/form/containers
- * @author     ALI KHALLAD <ali@wpali.com>
+ * @author     Ali Khallad <ali@wpali.com>
  */
 
 if (!defined('ABSPATH')) {
@@ -315,7 +315,7 @@ class MF_Container
 				$controls = (array)$controls;
 			}
 
-			$html .= '<div class="' . $class . ' disable-sorting"><div class="controls right">';
+			$html .= '<div class="' . $class . ' disable-sorting"><div class="controls mf_right">';
 
 			if (in_array('trash', $controls)) {
 				$html .= '<a href="#" class="container_control" data-action="delete"' . mf_esc_attr('title', __('Delete', 'megaforms')) . '><span class="dashicons dashicons-trash"></span></a>';
@@ -348,7 +348,7 @@ class MF_Container
 		$container_settings = $this->get_container_settings();
 		if ($container_settings && isset($container_settings['options'])) {
 
-			$settings = is_array($container_settings['options']) && !empty($container_settings['options']) ? call_user_func_array('array_merge', $container_settings['options']) : array();
+			$settings = is_array($container_settings['options']) && !empty($container_settings['options']) ? call_user_func_array('array_merge', array_values($container_settings['options'])) : array();
 			$sanitized = array();
 			foreach ($settings as $key => $val) {
 				// Make sure switch/checkbox field values are also included

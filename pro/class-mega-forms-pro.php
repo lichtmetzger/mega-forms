@@ -10,7 +10,7 @@
  * The core pro plugin class.
  *
  * @since      1.0.8
- * @author     ALI KHALLAD <ali@wpali.com>
+ * @author     Ali Khallad <ali@wpali.com>
  */
 
 if (!defined('ABSPATH')) {
@@ -81,10 +81,16 @@ class Mega_Forms_Pro
 		$this->loader->add_action('mf_custom_submission_validation', $pro_common, 'validate_custom_submission');
 
 		# Customize the success response when a paged form is submitted
-		$this->loader->add_filter('mf_ajax_submit_success_response', $pro_common, 'mf_submit_success_response', 10);
+		$this->loader->add_filter('mf_ajax_submit_success_response', $pro_common, 'customize_ajax_success_response', 10);
 
 		# Run weekly tasks
 		$this->loader->add_action(MF_Crons::$cron_daily_hook, $pro_common, 'daily_cron_tasks');
+
+		# Handle actions conditional logic
+		$this->loader->add_filter('mf_process_form_action', $pro_common, 'handle_action_conditional_logic', 10, 3);
+
+		# Handle any actions or processes that should run after entry creation
+		$this->loader->add_action('mf_process_entry_actions', $pro_common, 'handle_entry_processes', 10, 3);
 	}
 
 	/**

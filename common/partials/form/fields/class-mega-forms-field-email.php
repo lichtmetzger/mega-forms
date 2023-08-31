@@ -13,7 +13,7 @@
  *
  * @package    Mega_Forms
  * @subpackage Mega_Forms/common/partials/fields
- * @author     ALI KHALLAD <ali@wpali.com>
+ * @author     Ali Khallad <ali@wpali.com>
  */
 
 if (!defined('ABSPATH')) {
@@ -84,10 +84,10 @@ class MegaForms_Email extends MF_Field
         $class .= 'mf_sub_' . $aKey;
         if ($aKey == 'email') {
           $class .= $field_size == 'full' ? ' mf_full' : ' mf_half';
-          $class .= ' left';
+          $class .= ' mf_left';
         } else {
           $class .= $field_size == 'full' ? ' mf_full' : ' mf_half';
-          $class .= ' right';
+          $class .= ' mf_right';
         }
         // Hide the field on the preview screen if not enabled
         if (!$enabled) {
@@ -294,7 +294,7 @@ class MegaForms_Email extends MF_Field
     // Regex check
     $email = $value['email'] ?? '';
     if (!empty($email)) {
-      if (preg_match('/@mail\.ru|@yandex\./isu', $email)) {
+      if (preg_match('/@mail\.ru|@yandex\.|course-fitness\.com|wowzilla\.ru/isu', $email)) {
         return true;
       }
     }

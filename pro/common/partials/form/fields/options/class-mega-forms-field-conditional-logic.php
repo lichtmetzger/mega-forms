@@ -8,7 +8,7 @@
 /**
  * Conditional logic field option
  *
- * @author     ALI KHALLAD <ali@wpali.com>
+ * @author     Ali Khallad <ali@wpali.com>
  */
 
 if (!defined('ABSPATH')) {
@@ -26,7 +26,7 @@ class MegaForms_Field_Conditional_Logic extends MF_Field_Option
 	{
 
 		$label = __('Conditional Logic', 'megaforms');
-		$desc = __('Create a set of rules to determine which if and when this field will be shown or hidden.', 'megaforms');
+		$desc = __('Create a set of rules to determine if and when this field will be shown or hidden.', 'megaforms');
 		$value = $field->get_setting_value($this->type);
 
 		$args['id'] = $field->get_field_key('options', $this->type);

@@ -18,6 +18,7 @@ class MegaForms_Entry_Render
 
   public $entry;
   public $form;
+  public $page;
 
   function __construct($page)
   {
@@ -31,7 +32,7 @@ class MegaForms_Entry_Render
     // Assign current page, id, entry data and form data
     $this->page = $page;
     $this->entry = mf_api()->get_entry($id, true);
-    $this->form = mfget_form($this->entry->form_id);
+    $this->form = $this->entry !== false ? mfget_form($this->entry->form_id) : false;
 
     // Mark the entry as read
     if (mfget('action') == 'read') {
@@ -89,12 +90,12 @@ class MegaForms_Entry_Render
         <div class="mf_clearfix"></div>
       </div>
       <ul id="poststuff" style="padding:0px;margin:0px;">
-        <li class="mf_clearfix no-margin"></li>
+        <li class="mf_clearfix mf-no-margin"></li>
         <li id="mf_entry_panel" class="mgform_panel active initializing" data-id="<?php echo $this->entry->id; ?>">
           <?php $this->display_entry_panels(); ?>
           <div id="saving" style="display: none;"></div>
         </li>
-        <li class="mf_clearfix no-margin"></li>
+        <li class="mf_clearfix mf-no-margin"></li>
       </ul>
 
     <?php
@@ -169,8 +170,8 @@ class MegaForms_Entry_Render
               <tr class="mf_entry_row_label <?php echo esc_attr($wrapper_classes); ?>">
                 <th>
                   <span class="mf_clearfix"></span>
-                  <span class="mf_entry_field_label left"><?php echo esc_html($label); ?></span>
-                  <span class="mf_entry_field_id right">(ID: <?php echo esc_html($fieldID); ?>)</span>
+                  <span class="mf_entry_field_label mf_left"><?php echo esc_html($label); ?></span>
+                  <span class="mf_entry_field_id mf_right">(ID: <?php echo esc_html($fieldID); ?>)</span>
                   <span class="mf_clearfix"></span>
                 </th>
               </tr>

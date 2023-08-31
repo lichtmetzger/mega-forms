@@ -90,9 +90,7 @@ class MegaForms_Form_Actions
 			'form_actions' => array(
 				'name'          => 'form_actions',
 				'label'         => __('Form Actions', 'megaforms'),
-				'actions'        => array(
-					// array( 'data-type' => 'email_notification' ),
-				),
+				'actions'        => array(),
 			),
 		));
 

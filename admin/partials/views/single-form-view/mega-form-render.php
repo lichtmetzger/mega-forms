@@ -79,7 +79,7 @@ class MegaForms_Form_Render
         <div class="mf_clearfix"></div>
       </div>
       <ul id="poststuff" style="padding:0px;margin:0px;">
-        <li class="mf_clearfix no-margin"></li>
+        <li class="mf_clearfix mf-no-margin"></li>
         <li id="form_field_panel" class="mgform_panel active">
           <?php
           $form_fields = new MegaForms_Form_Fields($this->form);
@@ -99,7 +99,7 @@ class MegaForms_Form_Render
           ?>
         </li>
         <div id="saving"></div>
-        <li class="mf_clearfix no-margin"></li>
+        <li class="mf_clearfix mf-no-margin"></li>
       </ul>
 
 <?php

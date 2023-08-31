@@ -9,7 +9,7 @@
 /**
  * The admin-specific functionality of the pro plugin.
  *
- * @author     ALI KHALLAD <ali@wpali.com>
+ * @author     Ali Khallad <ali@wpali.com>
  */
 
 if (!defined('ABSPATH')) {

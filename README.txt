@@ -1,11 +1,11 @@
 === Contact Form By Mega Forms - Drag and Drop Form Builder ===
 Contributors: alikhallad
 Donate link: https://alikhallad.com/donations/donation-form/
-Tags: drag and drop form builder, contact forms, form builder, form maker, contact form, forms, custom form, contact form plugin, wordpress form plugin, drag and drop form builder, message form, multi-step form, file upload forms
+Tags: drag and drop form builder, ajax forms, contact form recaptcha, multi step ajax form, file upload forms, contact form, forms, custom form, contact form plugin, wordpress form plugin, message form
 Requires at least: 5.6
-Tested up to: 6.1
-Stable tag: 1.2.9
-Requires PHP: 5.6
+Tested up to: 6.3
+Stable tag: 1.3.4
+Requires PHP: 7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,7 +13,7 @@ Contact form builder that allows you to create forms for any purpose. Drag & dro
 
 == Description ==
 
-Mega Forms is highly advanced contact form builder for WordPress, it comes with all the contact form features you will ever need, including AJAX submission, multi-page contact forms, secure file uploads, conditional logic, save and continue, and tons more. You can use Mega Forms to save time, grow customer interaction, and build better contact forms for any purpose.
+Mega Forms is highly advanced contact form builder for WordPress, it comes with all the contact form features you will ever need, including AJAX submission, multi-page contact forms, secure file uploads, conditional logic, save and continue, user creation, front end posting, and tons more. You can use Mega Forms to save time, grow customer interaction, and build better contact forms for any purpose.
 
 [Mega Forms](https://wpmegaforms.com/?utm_source=wprepo&utm_medium=link&utm_campaign=wp-repo) gives you a modern interface, easy customization, and the ability to build modern & professional forms thanks to our intuitive drag & drop visual editor.
 
@@ -43,18 +43,29 @@ Mega Forms comes with a visual editor and ton of other features:
 * Unlimited forms & form submission
 * Merge tags support
 * Multi-steps support
-* Conditional logic support
+* Conditional logic support ( for fields, form notifications and more )
+* Save And Continue Later support
+* Front end posting & User creation
 * Export and import forms
+* Export entries
 * Customizable templates
 * Full control ( styles, email templates, field templates and more )
 * Developer friendly
 * Highly effective Anti-spam system ( invisible to users )
+* reCaptcha support
+
+= Available Extensions ( third-party ) =
+
+The following extensions above are provided by third-party developers, we do not manage or support these extensions.
+
+* [Local captcha by MobiCMS](https://github.com/lichtmetzger/mega-forms-local-captcha): Integrates a local captcha by MobiCMS into Mega Forms.
+
 
 == Screenshots ==
 
 1. Mega Forms Drag & Drop forms builder
-2. Creating form
-3. Editing field
+2. Creating a form
+3. Editing a field
 4. Adding a container
 5. Columns
 6. Form settings
@@ -77,11 +88,15 @@ Yes, Mega Forms is completely responsive and will display forms properly on all 
 
 = Does It Include Spam Protection =
 
-Yes, we are using a combination of Honeypot & Timetrap to make great spambot-proof forms. We have implemented these thwarting techniques in a way that makes them very effective in detecting and blocking spam submissions without annoying the real users. On top of this, we've added an integration with Google reCaptcha in additional to internal spam filters for more security.
+Yes, we are using a combination of Honeypot & Timetrap to make great spambot-proof forms. We have implemented these thwarting techniques in a way that makes them very effective in detecting and blocking spam submissions without annoying the real users. On top of this, we've added an integration with Google reCaptcha in addition to internal spam filters for more security.
 
 = Can I Export & Import Forms =
 
 Yes, you can easily export and import forms via the dedicated export/import tool in the admin area.
+
+= Can I Export Entries/Submissions =
+
+Yes, you can easily export form entries using the dedicated export/import tool in the admin area.
 
 = What Field Types Does Mega Forms Offer =
 
@@ -101,6 +116,7 @@ Mega Forms comes with all the fields you need:
 - Date
 - Website
 - Hidden
+- Section
 - HTML ( HTML code )
 - Divider
 - Question
@@ -129,32 +145,36 @@ Mega Forms comes with the necessary actions by default:
 
 - Email Notification
 - WordPress Hook
-
+- User Registration
+- Post Submission ( Front End Posting )
 
 Here is a list of actions in progress:
 
 - Google Spreadsheet
 - Integrations ( MailChimp, ActiveCampaign, ConvertKit, AWeber, Campaign Monitor...etc )
 - Webhooks
-- Front End Posting
-- Register User
 
-
-= Is It Translation Ready =
+= Is it Translation Ready =
 
 Yes, Mega Forms has full translation and localization support via the 'megaforms' textdomain.
 
 
-= What Features Are Coming Next =
+= Can the Plugin Save Progress on Multi-Step Forms  =
+
+Yes, there is a feature on multi-step forms that will save the user progress even if they stop or do not complete the submission. To enable this feature, add the following line to your child theme's functions.php file:
+
+`add_filter('mf_save_paginated_form_pages', '__return_true');`
+
+Once enabled, the plugin will create an entry as soon as the user clicks the "Next" button on multi page forms, and it will update the entry each time the user proceeds to the next page. 
+
+= What Features are Coming Next =
 
 We are in the process of building more features, here is a list:
 
 - Form Chaining
-- Export Entries into CSV
 - Tons Of Integrations
 - Payments
 - PDF Copy
-- Save And Continue Later
 - Advanced Stats
 
 We don't promise all of this will be available soon, but we promise we'll do our best to ship these features as soon as we can.
@@ -283,3 +303,23 @@ We don't promise all of this will be available soon, but we promise we'll do our
 - Added "Google reCaptcha" feature for spam prevention.
 - Fixes to the spam feature on entries list
 - More spam filters for the "Paragraph" and "Name" fields
+= 1.3.0 =
+- Bug fixes ( styling, object cache..etc )
+- Added German/Deutsch translation ( credit: Danny Schmarsel )
+- Added a "User Registration" action to allow creating users via forms.
+- Added additional background filters to detect spam entries
+= 1.3.1 =
+- Bug fixes
+- Conditional logic for form actions ( send email, register users, or trigger hooks conditionally based on a field value or multiple field values )
+= 1.3.2 =
+- Update PHP dependencies
+- Fixed PHP 8.1 compatbility issue: an error appers when trying to save a form the uses a "page container" ( multi-step form ).
+- Added the ability to save each page values to an entry in multi-page forms before the user submits the form. This feature can be enabled by returning true on the filter `mf_save_paginated_form_pages`; eg: `add_filter('mf_save_paginated_form_pages', '__return_true');`.
+- Added additional filters to detect spam entries.
+= 1.3.3 =
+- Added "post submission" action. This will allow users to submit posts/pages or custom post types from the front end.
+- Bug fixes.
+- Styling fixes.
+= 1.3.4 =
+- Styling fixes.
+- Add a "row" container when a page is created for better user experience. 

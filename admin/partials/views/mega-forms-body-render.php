@@ -70,7 +70,9 @@ class MegaForms_Body_Render
           echo 'Addons';
           break;
         case "mf_help":
-          echo 'Help';
+          # Display main help page
+          require_once MEGAFORMS_ADMIN_PATH . 'partials/views/help-view/mega-help-render.php';
+          new MegaForms_Entries_Render($current_page);
           break;
       }
 
