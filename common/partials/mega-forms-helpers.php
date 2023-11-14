@@ -16,7 +16,7 @@ if (!function_exists('mf_dev_env')) :
 
   function mf_dev_env()
   {
-    return defined('MEGAFORMS_DEV');
+    return defined('MEGAFORMS_DEV') ? MEGAFORMS_DEV : false;
   }
 
 endif;

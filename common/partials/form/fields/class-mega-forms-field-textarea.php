@@ -230,28 +230,29 @@ class MegaForms_textarea extends MF_Field
 		// Additional combined check
 		$links_count = substr_count($value, "http");
 		$bitly_links_count = substr_count($value, "bit.ly");
-		if ($links_count > 0 || $bitly_links_count > 0) {
+		$www_links_count = substr_count($value, "www.");
+		if ($links_count > 0 || $bitly_links_count > 0 || $www_links_count > 0) {
 
 			// If there are links in the message, let's do another regex check, but for multiple words
 			$combined_patterns = array(
 				array(
-					'regexp' => '(check it out)|(click here)|(click the link)|(online casino)|(get yours here)|(get it today)|(make money here)|(get started here)|(hire us here)|(info service expiration)|(blast your ad)|(we run an instagram growth service)',
+					'regexp' => '(check it out)|(click here)|(click the link)|(click this link)|(online casino)|(get yours here)|(get it today)|(make money here)|(get started here)|(get started now)|(hire us here)|(info service expiration)|(blast your ad)|(we run an instagram growth service)|(elevate your online business)|(call for a free quote)|(opt out here)|(no obligaton free trial)|(to (?:stop|cease) receiving)',
 					'count' => 1,
 				),
 				array(
-					'regexp' => '(dear.*[.com|.net|.org|.co|.io]\steam|dear.*[.com|.net|.org|.co|.io]\sowner|dear owner)|(my name)',
+					'regexp' => '((?:hello|dear).*(?:\.com|\.net|\.org|\.io|\.co)\s(?:owner|webmaster|admin|team)|dear owner)|(my name|7-figure|bit.ly|tinyurl.com|cutt.ly|linktr.ee|shorturl.at)',
 					'count' => 2,
 				),
 				array(
-					'regexp' => '(your website|your business)|(ai)|(seo)|(engaging content)',
+					'regexp' => '(your website|your business)|(ai)|(seo)|(engaging content|content generation)',
 					'count' => 2,
 				),
 				array(
-					'regexp' => '(make money|need cash|make \$|it\'s here|cost per view)|(bit.ly|tinyurl.com|shorturl.at)|(chatgpt|ai|robot|chatbot|crypto)',
+					'regexp' => '(make money|need cash|make \$|it\'s here|cost per view|% off|check here|watch the video|watch video)|(bit.ly|tinyurl.com|cutt.ly|linktr.ee|shorturl.at|rokl.ink)|(seo|chatgpt|ai|robot|chatbot|crypto)',
 					'count' => 2,
 				),
 				array(
-					'regexp' => '(are you struggling|are you tired|sign up now)|(ai|proxy|seo)',
+					'regexp' => '(are you struggling|are you tired|sign up now|dofollow backlinks|link building|)|(ai|proxy|seo)',
 					'count' => 2,
 				),
 				array(

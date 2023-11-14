@@ -69,6 +69,7 @@ class MF_Files_API
    */
   public static function create_upload_dir()
   {
+
     $upload_dir = mf_files()->get_upload_dir();
     $upload_private_dir = $upload_dir . 'private/';
 
@@ -77,10 +78,30 @@ class MF_Files_API
       wp_mkdir_p($upload_private_dir);
     }
 
+    // Protect the private folder: TODO
+    // $server_software = isset($_SERVER['SERVER_SOFTWARE']) ? wp_unslash($_SERVER['SERVER_SOFTWARE']) : '';
+    // if (strpos(strtolower($server_software), 'nginx') !== false) {
+    //   // Server is running Nginx
+    //   // Add ngix config file if it's not already added
+    //   if (!file_exists($upload_private_dir . '/mf-nginx-config.conf')) {
+    //     file_put_contents(
+    //       $upload_private_dir . '/mf-nginx-config.conf',
+    //       'server { location ' . $upload_private_dir . ' { deny all; } }'
+    //     );
+
+    //     // Copy the Nginx config snippet to the sites-available directory
+    //     copy($upload_private_dir . '/mf-nginx-config.conf', '/etc/nginx/sites-enabled/' . wp_unslash($_SERVER['HTTP_HOST']) . '-mega-forms.conf');
+
+    //   }
+    // } else {
+
+    // Server is running Apache
     // Add .htaccess file if not already added
     if (!file_exists($upload_private_dir . '/.htaccess')) {
       mf_files()->add_htaccess_file($upload_private_dir, "deny from all");
     }
+
+    // }
 
     // Add index file if not already added
     if (!file_exists($upload_dir . '/index.html')) {

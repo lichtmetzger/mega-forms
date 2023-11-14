@@ -188,9 +188,9 @@ class MF_Container_Row extends MF_Container
 	{
 
 		$classes     = array(
+			'mf_col', # Main CSS Class added to all columns
 			'mf-' . $this->type . '-col',
 		);
-		$classes[]   = 'mf_col'; # Main CSS Class added to all columns
 
 		if ($this->is_editor) {
 			$classes[]   = 'mfcol_preview'; # Preview CSS Class added only on the editor view

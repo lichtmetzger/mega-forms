@@ -3,8 +3,8 @@ Contributors: alikhallad
 Donate link: https://alikhallad.com/donations/donation-form/
 Tags: drag and drop form builder, ajax forms, contact form recaptcha, multi step ajax form, file upload forms, contact form, forms, custom form, contact form plugin, wordpress form plugin, message form
 Requires at least: 5.6
-Tested up to: 6.3
-Stable tag: 1.3.4
+Tested up to: 6.4.1
+Stable tag: 1.3.7
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -323,3 +323,12 @@ We don't promise all of this will be available soon, but we promise we'll do our
 = 1.3.4 =
 - Styling fixes.
 - Add a "row" container when a page is created for better user experience. 
+= 1.3.5 =
+- Styling improvement
+- Update German/Deutsch translation files.
+= 1.3.6 =
+- Styling fixes
+- Added more spam filters for textarea field.
+= 1.3.7 =
+- Added more spam filters.
+- Bug fixes ( fix incompatibility issues with sessions and full-page caching )

@@ -184,12 +184,12 @@ class Mega_Forms_Common_Pro
 	public function validate_custom_submission($object)
 	{
 
-		# Only validate 'page', `save`, or `continue` submissions
+		// Only validate 'page', `save`, or `continue` submissions
 		if ($object->context !== 'page' && $object->context !== 'save' && $object->context !== 'continue') {
 			return;
 		}
 
-		# Check if form exists
+		// Check if form exists
 		if (!$object->form || empty($object->posted)) {
 			throw new Exception($object->get_validation_text('form_validation_invalid_submission'));
 		}
@@ -245,14 +245,14 @@ class Mega_Forms_Common_Pro
 				}
 			}
 
-			# Filter whether to save entry after each page submission
+			// Filter whether to save entry after each page submission
 			$save_page = apply_filters('mf_save_paginated_form_pages', false);
 			if ($save_page) {
 				// An exception will be thrown if the form is not valid.
 				$object->validate_submitted_form();
 			}
 
-			# Validate page fields
+			// Validate page fields
 			$result = $object->validate_fields($page_fields);
 			if ($result['valid'] === false) {
 				throw new Exception($object->get_validation_text('form_validation_errors'));

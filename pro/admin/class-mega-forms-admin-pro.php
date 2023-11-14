@@ -197,10 +197,11 @@ class Mega_Forms_Admin_Pro
 		$referrer = mfget_cleaned_url(mfpost('_mf_referrer'));
 		$submitNonce = mfpost('_mf_nonce');
 		$sessionNonce = mf_session()->get(get_mf_session_token_id($form_id, $referrer));
-		$verify_wp_nonce = wp_verify_nonce(mfpost('_mf_extra_nonce'), $sessionNonce);
+		$wp_nonce = mfpost('_mf_extra_nonce');
 
 		$result_updated = false;
-		if ($form_id > 0 && $submitNonce == $sessionNonce && $verify_wp_nonce !== false) {
+		if ($form_id > 0 && $submitNonce && $sessionNonce && $wp_nonce && $submitNonce == $sessionNonce && wp_verify_nonce($wp_nonce, $sessionNonce) !== false) {
+
 			$action = mfpost('type');
 			if ('upload' == $action) {
 				$field_id = absint(mfpost('_mf_field_id'));
@@ -225,6 +226,7 @@ class Mega_Forms_Admin_Pro
 					}
 				}
 			} else if ('delete' == $action) {
+
 				$hash = mfpost('hash');
 				if ($hash) {
 					$delete = mf_files()->delete_temp_file($form_id, $hash);

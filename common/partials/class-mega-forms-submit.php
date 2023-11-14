@@ -386,8 +386,8 @@ class MF_Form_Submit
     $sessionReferrer = mfget_cleaned_url(mf_session()->get(get_mf_session_referrer_id($this->form->ID, $submitReferrer)));
     $submitNonce = mfpost('_mf_nonce', $this->posted);
     $sessionNonce = mf_session()->get(get_mf_session_token_id($this->form->ID, $submitReferrer));
-    $bypassSessionErrors = apply_filters('mf_bypass_session_error', false, $submitReferrer, $sessionReferrer, $submitNonce, $sessionNonce);
 
+    $bypassSessionErrors = apply_filters('mf_bypass_session_error', false, $submitReferrer, $sessionReferrer, $submitNonce, $sessionNonce);
     if (!$submitNonce || !$sessionNonce || !$submitReferrer || !$sessionReferrer || $submitNonce !== $sessionNonce || $submitReferrer !== $sessionReferrer) {
       // Allow filtering the session exception error
       if (!$bypassSessionErrors) {
@@ -397,7 +397,7 @@ class MF_Form_Submit
 
     # Verify wp nonce
     $wp_nonce = mfpost('_mf_extra_nonce', $this->posted, false);
-    $verify_wp_nonce = wp_verify_nonce($wp_nonce, $sessionNonce);
+    $verify_wp_nonce = !empty($wp_nonce) && !empty($sessionNonce) ? wp_verify_nonce($wp_nonce, $sessionNonce) : false;
 
     if (!$verify_wp_nonce && !$bypassSessionErrors) {
       throw new Exception($this->get_validation_text('form_validation_wpnonce_error'));
@@ -479,6 +479,7 @@ class MF_Form_Submit
     if (!empty($submit_count)) {
       $user_submission_count = (int) ($user_submission) + 1;
     }
+    
     mf_session()->set($form_submitted_key, $user_submission_count);
 
     # Process field actions

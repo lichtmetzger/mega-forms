@@ -112,4 +112,44 @@ class MF_Public_Ajax extends MF_Ajax
          );
       }
    }
+
+   public function get_form_nonce_values()
+   {
+
+      $form_id = $this->get_value('form_id');
+
+      // Get referrer
+      $referrer = wp_doing_ajax() && wp_get_referer() ? esc_attr(wp_get_referer()) : esc_attr(wp_unslash($_SERVER['REQUEST_URI']));
+      // Clean URL, only keep request path
+      if(strpos($referrer, 'http') !== false){
+         $referrer_url = parse_url($referrer);
+         if( !empty($referrer_url['path']) ){
+            $referrer = $referrer_url['path'];
+         }else{
+            $referrer = '/';
+         }
+      }
+      $session_token_id = get_mf_session_token_id($form_id, $referrer);
+      $session_referrer_id = get_mf_session_referrer_id($form_id, $referrer);
+      $form_token = mf_session()->get($session_token_id);
+      $form_referrer = mf_session()->get($session_referrer_id);
+
+      if (empty($form_token) || empty($form_referrer)) {
+         $form_token  = esc_attr(wp_generate_uuid4());
+         $form_referrer  = $referrer;
+         mf_session()->set($session_token_id, $form_token);
+         mf_session()->set($session_referrer_id, $form_referrer);
+      }
+
+      if (!empty($form_token) && !empty($form_referrer)) {
+         $this->success('', array(
+            'form_token' => $form_token,
+            'form_referrer' => $form_referrer,
+            'wp_nonce' => wp_create_nonce($form_token),
+         ));
+      } else {
+         // throw an error with the error message.
+         throw new MF_Ajax_Exception(get_mf_submission_msg_html('error', __('There was an issue generating security tokens for this form.', 'megaforms')));
+      }
+   }
 }

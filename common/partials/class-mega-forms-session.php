@@ -2,6 +2,16 @@
 
 /**
  * Mega Forms Session Class
+ * 
+ * Note: to avoid caching issues and maintain consistency,
+ * it is highly recommended to use this class method only
+ * within the context of an AJAX or a POST request.
+ * 
+ * We have seen issues writing/reading cookies when full-page-caching
+ * is enabled on some hostings. We also seen issue with Varnish cache.
+ * That's why, to ensure consistency, only call method of this class
+ * when you're sure it'll write/read the correct data and not cached data.
+ * 
  *
  * @link       https://wpali.com
  * @since      1.0.0
@@ -94,13 +104,11 @@ class MF_Session
 
 	/**
 	 * The key for session cookie 
-	 * We are using the `wordpress_` prefix to ensure to cookie is ignored
-	 * by some caching plugins, and hosting providers (eg; WPEngine).
 	 *
 	 * @var string
 	 * @since 1.0.0
 	 */
-	protected $session_cookie_key = 'wordpress_mf';
+	protected $session_cookie_key = 'mf';
 	/**
 	 * The key for session cache
 	 *
@@ -135,6 +143,7 @@ class MF_Session
 
 		$cookiehash = (defined('COOKIEHASH')) ? COOKIEHASH : md5(home_url());
 
+		// Allow changing the session cookie name using constants
 		if (defined('MF_SESSION_NAME')) {
 			$this->session_cookie_key = MF_SESSION_NAME;
 		}
@@ -249,6 +258,7 @@ class MF_Session
 	public function setcookie($name, $value, $expire = 0, $secure = false, $httponly = false)
 	{
 		if (!headers_sent()) {
+			nocache_headers();
 			setcookie($name, $value, $expire, COOKIEPATH ? COOKIEPATH : '/', COOKIE_DOMAIN, $secure, $httponly);
 		} elseif (defined('WP_DEBUG') && WP_DEBUG) {
 			headers_sent($file, $line);
@@ -445,7 +455,7 @@ class MF_Session
 	/**
 	 * Returns the session.
 	 *
-	 * @param string $user_id Custo ID.
+	 * @param string $user_id Custom ID.
 	 * @param mixed  $default Default session value.
 	 * @return string|array
 	 */

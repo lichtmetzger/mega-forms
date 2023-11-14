@@ -276,29 +276,20 @@ class MF_Form_View
   public function form_hidden_inputs()
   {
 
-    # Generate a unique token for current form and save it to user session.
-    $referrer = wp_doing_ajax() && wp_get_referer() ? esc_attr(wp_get_referer()) : esc_attr(wp_unslash($_SERVER['REQUEST_URI']));
-    $session_token_id = get_mf_session_token_id($this->form->ID, $referrer);
-    $session_referrer_id = get_mf_session_referrer_id($this->form->ID, $referrer);
-    $form_token = mf_session()->get($session_token_id);
-    $form_referrer = mf_session()->get($session_referrer_id);
-
-    if (empty($form_token) || empty($form_referrer)) {
-      $form_token  = esc_attr(wp_generate_uuid4());
-      $form_referrer  = $referrer;
-      mf_session()->set($session_token_id, $form_token);
-      mf_session()->set($session_referrer_id, $form_referrer);
-    }
+    // Generate a unique token for current form and save it to user session.
+    // `_mf_nonce`, `form_referrer` and `_mf_extra_nonce` will be generated
+    // and added using AJAX to avoid caching implications with cookies, 
+    // since that's what we are using to store tokens in database sessions.
 
     ob_start();
     # Form ID
     echo '<input type="hidden" name="_mf_form_id" value="' . esc_attr($this->form->ID) . '">';
     # Referer hidden field.
-    echo '<input type="hidden" name="_mf_referrer" value="' . $form_referrer . '">';
+    echo '<input type="hidden" name="_mf_referrer" value="">';
     # Unique form token
-    echo '<input type="hidden" name="_mf_nonce" value="' . $form_token . '">';
+    echo '<input type="hidden" name="_mf_nonce" value="">';
     # WP Nonce
-    echo '<input type="hidden" name="_mf_extra_nonce" value="' . wp_create_nonce($form_token) . '">';
+    echo '<input type="hidden" name="_mf_extra_nonce" value="">';
     # Timestamp
     echo '<input type="hidden" name="_mf_t_token" value="' . base64_encode(json_encode(time() * $this->form->ID)) . '">';
     # Safety/security unique token that changes on each page load
