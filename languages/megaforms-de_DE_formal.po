@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mega Forms 1.2.9\n"
 "Report-Msgid-Bugs-To: https://wpmegaforms.com/support/\n"
-"POT-Creation-Date: 2023-08-29 15:59:54+00:00\n"
-"PO-Revision-Date: 2023-08-31 13:41+0200\n"
+"POT-Creation-Date: 2023-11-13 21:06:50+00:00\n"
+"PO-Revision-Date: 2023-11-14 10:31+0100\n"
 "Last-Translator: Danny Schmarsel <dsc@qbus.de>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -19,7 +19,7 @@ msgstr ""
 "esc_html_x:1,2c\n"
 "X-Poedit-Basepath: ..\n"
 "X-Textdomain-Support: yes\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.4.1\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: admin/class-mega-forms-admin.php:125
@@ -1535,9 +1535,9 @@ msgid ""
 "template-type=\"blank\" data-template-title=\"Blank Form\">blank form</a>."
 msgstr ""
 "Erstellen Sie ein Formular, indem Sie eine der vorgefertigten Vorlagen "
-"auswählen, oder beginnen Sie mit einem <a href=\"#\" data-hook=\"create-"
-"form\" data-template-parent=\"main\" data-template-type=\"blank\" data-"
-"template-title=\"Blank Form\">leeren Formular</a>."
+"auswählen, oder beginnen Sie mit einem <a href=\"#\" data-hook=\"create-form"
+"\" data-template-parent=\"main\" data-template-type=\"blank\" data-template-"
+"title=\"Blank Form\">leeren Formular</a>."
 
 #: common/partials/class-mega-forms-api.php:2181
 msgid "Blank Form"
@@ -1571,17 +1571,17 @@ msgstr "Einmal pro Woche"
 msgid "Once a month"
 msgstr "Einmal pro Monat"
 
-#: common/partials/class-mega-forms-files-api.php:397
+#: common/partials/class-mega-forms-files-api.php:418
 msgid "There was an problem while verifying your file."
 msgstr "Bei der Überprüfung Ihrer Datei trat ein Fehler auf."
 
-#: common/partials/class-mega-forms-files-api.php:400
+#: common/partials/class-mega-forms-files-api.php:421
 msgid "Sorry, this file extension is not permitted for security reasons."
 msgstr ""
 "Entschuldigung, aber diese Dateierweiterung ist aus Sicherheitsgründen nicht "
 "erlaubt."
 
-#: common/partials/class-mega-forms-files-api.php:403
+#: common/partials/class-mega-forms-files-api.php:424
 msgid "Sorry, this file type is not permitted for security reasons."
 msgstr ""
 "Entschuldigung, aber dieser Dateityp ist aus Sicherheitsgründen nicht "
@@ -1591,7 +1591,7 @@ msgstr ""
 msgid "Changes were successfully saved! Refreshing..."
 msgstr "Änderungen wurden erfolgreich gespeichert! Lade neu..."
 
-#: common/partials/class-mega-forms-submit.php:544
+#: common/partials/class-mega-forms-submit.php:545
 msgid ""
 "Something went wrong processing this submission, please contact us if the "
 "problem persists"
@@ -1599,7 +1599,7 @@ msgstr ""
 "Bei der Bearbeitung dieser Einsendung ist etwas schief gelaufen, bitte "
 "kontaktieren Sie uns wenn das Problem weiterhin besteht"
 
-#: common/partials/class-mega-forms-submit.php:597
+#: common/partials/class-mega-forms-submit.php:598
 msgid "We couldn't process your submission."
 msgstr "Wir konnten Ihre Einsendung nicht verarbeiten."
 
@@ -4546,15 +4546,15 @@ msgstr "Speichern und später fortfahren"
 msgid "Validation failed."
 msgstr "Überprüfung fehlgeschlagen."
 
-#: pro/admin/class-mega-forms-admin-pro.php:234
+#: pro/admin/class-mega-forms-admin-pro.php:236
 msgid "File deleted succesfully."
 msgstr "Datei erfolgreich gelöscht."
 
-#: pro/admin/class-mega-forms-admin-pro.php:238
+#: pro/admin/class-mega-forms-admin-pro.php:240
 msgid "File deletion failed."
 msgstr "Das Löschen der Datei ist fehlgeschlagen."
 
-#: pro/admin/class-mega-forms-admin-pro.php:245
+#: pro/admin/class-mega-forms-admin-pro.php:247
 msgid "Request failed."
 msgstr "Die Anfrage ist fehlgeschlagen."
 
@@ -5079,6 +5079,12 @@ msgstr ""
 #: pro/common/partials/form/fields/options/class-mega-forms-field-conditional-logic.php:52
 msgid "Show this field if"
 msgstr "Zeige dieses Feld wenn"
+
+#: public/partials/class-mega-forms-public-ajax.php:152
+msgid "There was an issue generating security tokens for this form."
+msgstr ""
+"Beim Generieren von Sicherheitstokens für dieses Formular ist ein Problem "
+"aufgetreten."
 
 #. Plugin URI of the plugin/theme
 msgid "http://wpmegaforms.com/"
